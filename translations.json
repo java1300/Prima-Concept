@@ -1,0 +1,178 @@
+{
+  "mk": {
+    "navbar": {
+      "brand": "PRIMA CONCEPT",
+      "home": "Почетна",
+      "products": "Производи",
+      "gallery": "Галерија",
+      "contact": "Контакт",
+      "request_quote": "Побарај Понуда"
+    },
+    "carousel": {
+      "slide1": {
+        "title": "НАЈКВАЛИТЕТНИ ЛАМИНАТИ ПОДОВИ",
+        "subtitle": "Пиргора во вашиот дом",
+        "button": "Види ги сите производи"
+      },
+      "slide2": {
+        "title": "ПРЕМИУМ ВИНИЛ ПОДОВИ",
+        "subtitle": "Елеганција и издржливост",
+        "button": "Види ги сите производи"
+      },
+      "slide3": {
+        "title": "МОДЕРНИ ТЕПИСИ",
+        "subtitle": "Топлина за вашиот простор",
+        "button": "Види ги сите производи"
+      }
+    },
+    "products": {
+      "search": "Пребарај",
+      "search_placeholder": "Пребарај производи...",
+      "categories": "Категории на производи",
+      "all_products": "Сите производи",
+      "laminate_filters": {
+        "collection": "Колекција",
+        "thickness": "Дебелина",
+        "all_collections": "Сите колекции",
+        "all_thicknesses": "Сите дебелини"
+      }
+    },
+    "product_page": {
+      "back": "Назад",
+      "request_info": "Побарај Инфо",
+      "sku": "SKU",
+      "thickness": "Дебелина",
+      "collection": "Колекција"
+    },
+    "about_us": {
+      "title": "За Нас",
+      "description": "Prima Concept е лидер во обезбедувањето на висококвалитетни подни облоги, вклучувајќи ламинати, винил подови и модерни теписи. Со страст за иновации и посветеност на задоволството на клиентите, ние нудиме решенија кои комбинираат стил, издржливост и достапност.",
+      "button": "Дознај Повеќе"
+    },
+    "featured_products": {
+      "title": "Избрани Производи",
+      "button": "Види ги сите производи"
+    },
+    "discover_products": {
+      "title": "Откријте Производи",
+      "laminate": "Ламинати",
+      "wall_profile": "Ѕидни Профили",
+      "lajsni": "Лајсни",
+      "to_category": "Кон Категорија"
+    },
+    "contact": {
+      "title": "Контакт",
+      "subtitle": "Контактирајте нè за повеќe информации или побарајте понуда.",
+      "working_hours": "Пон-Пет: 9:00-17:00, Саб: 10:00-14:00",
+      "form_title": "Испратете Ни Порака",
+      "form_name": "Име",
+      "form_email": "Е-пошта",
+      "form_message": "Порака",
+      "form_submit": "Испрати",
+      "form_note": "(Оваа форма е во изработка. За итни прашања, ве молиме контактирајте нè директно.)",
+      "map_title": "Најдете Нè",
+      "map_note": "Мапата е во изработка. Ве молиме користете ги адресите погоре за да нè лоцирате."
+    },
+    "footer": {
+      "locations": {
+        "kumanovo": "Куманово",
+        "kumanovo_address": "Ul, Zheleznichka, Kumanovo 1300",
+        "tetovo": "Тетово",
+        "tetovo_address": "Тетово, Uni Decor Ilindenska 180",
+        "opaje": "Oпаe",
+        "opaje_address": "Опаe"
+      },
+      "follow_us": {
+        "title": "Следете Нè"
+      }
+    }
+  },
+  "sq": {
+    "navbar": {
+      "brand": "PRIMA CONCEPT",
+      "home": "Ballina",
+      "products": "Produktet",
+      "gallery": "Galeria",
+      "contact": "Kontakti",
+      "request_quote": "Kërko Ofertë"
+    },
+    "carousel": {
+      "slide1": {
+        "title": "DYSHMETË E LAMINATIT ME CILËSI TË LARTË",
+        "subtitle": "Ngrohtësi në shtëpinë tuaj",
+        "button": "Shiko të gjitha produktet"
+      },
+      "slide2": {
+        "title": "DYSHME VINILI PREMIUM",
+        "subtitle": "Elegancë dhe qëndrueshmëri",
+        "button": "Shiko të gjitha produktet"
+      },
+      "slide3": {
+        "title": "QILIMA MODERN",
+        "subtitle": "Ngrohtësi për hapësirën tuaj",
+        "button": "Shiko të gjitha produktet"
+      }
+    },
+    "products": {
+      "search": "Kërko",
+      "search_placeholder": "Kërko produkte...",
+      "categories": "Kategoritë e Produkteve",
+      "all_products": "Të gjitha produktet",
+      "laminate_filters": {
+        "collection": "Koleksioni",
+        "thickness": "Trashësia",
+        "all_collections": "Të gjitha koleksionet",
+        "all_thicknesses": "Të gjitha trashësitë"
+      }
+    },
+    "product_page": {
+      "back": "Kthehu",
+      "request_info": "Kërko Informacion",
+      "sku": "SKU",
+      "thickness": "Trashësia",
+      "collection": "Koleksioni"
+    },
+    "about_us": {
+      "title": "Rreth Nesh",
+      "description": "Prima Concept është lider në ofrimin e dyshemeve me cilësi të lartë, duke përfshirë laminatet, dyshemetë vinil dhe qilimat modernë. Me pasion për inovacion dhe përkushtim ndaj kënaqësisë së klientëve, ne ofrojmë zgjidhje që kombinojnë stilin, qëndrueshmërinë dhe përballueshmërinë.",
+      "button": "Mëso Më Shumë"
+    },
+    "featured_products": {
+      "title": "Produkte të Zgjedhura",
+      "button": "Shiko të gjitha produktet"
+    },
+    "discover_products": {
+      "title": "Zbuloni Produktet",
+      "laminate": "Laminatet",
+      "wall_profile": "Profile Muri",
+      "lajsni": "Llajsne",
+      "to_category": "Drejt Kategorisë"
+    },
+    "contact": {
+      "title": "Kontakti",
+      "subtitle": "Na kontaktoni për më shumë informacion ose kërkoni një ofertë.",
+      "working_hours": "Hën-E Premte: 9:00-17:00, Sht: 10:00-14:00",
+      "form_title": "Na Dërgoni një Mesazh",
+      "form_name": "Emri",
+      "form_email": "E-posta",
+      "form_message": "Mesazhi",
+      "form_submit": "Dërgo",
+      "form_note": "(Ky formular është në ndërtim. Për pyetje urgjente, ju lutemi na kontaktoni direkt.)",
+      "map_title": "Na Gjeni",
+      "map_note": "Harta është në ndërtim. Ju lutemi përdorni adresat e mësipërme për të na lokalizuar."
+    },
+    "footer": {
+      "locations": {
+        "kumanovo": "Kumanovë",
+        "kumanovo_address": "Ul, Zheleznichka, Kumanovo 1300",
+        "tetovo": "Tetovë",
+        "tetovo_address": "Tetovë, Uni Decor Ilindenska 180",
+        "opaje": "Opajë",
+        "opaje_address": "Opajë"
+      },
+      "follow_us": {
+        "title": "Na Ndiqni"
+      }
+    }
+  }
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "sku": "PRIMA001",
+    "name": {
+      "mk": "Ламинат 8мм",
+      "sq": "Laminat 8mm"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "collection": {
+      "mk": "BELLO",
+      "sq": "BELLO"
+    },
+    "image": "img/laminate-8mm.webp",
+    "images": [
+      "img/laminate-8mm.webp",
+      "img/laminate2-8mm.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+  {
+    "sku": "PRIMA002",
+    "name": {
+      "mk": "Ламинат 10мм",
+      "sq": "Laminat 10mm"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "collection": {
+      "mk": "PERA",
+      "sq": "PERA"
+    },
+    "image": "img/laminate-10mm.webp",
+    "images": [
+      "img/laminate-10mm.webp",
+      "img/laminate2-10mm.webp"
+    ],
+    "description": {
+      "mk": "<p>Издржлив ламинат со дебелина од 10мм, совршен за комерцијални простории.</p>",
+      "sq": "<p>Laminat i qëndrueshëm me trashësi 10mm, i përsosur për hapësira komerciale.</p>"
+    }
+  },
+  {
+    "sku": "PRIMA0002",
+    "name": {
+      "mk": "Ламинат 12мм",
+      "sq": "Laminat 12mm"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "collection": {
+      "mk": "NONO",
+      "sq": "NONO"
+    },
+    "image": "img/laminate-12mm.webp",
+    "images": [
+      "img/laminate-12mm.webp",
+      "img/laminate2-12mm.webp"
+    ],
+    "description": {
+      "mk": "<p>Издржлив ламинат со дебелина од 12мм, совршен за комерцијални простории.</p>",
+      "sq": "<p>Laminat i qëndrueshëm me trashësi 12mm, i përsosur për hapësira komerciale.</p>"
+    }
+  },
+  {
+    "sku": "PRIMA003",
+    "name": {
+      "mk": "Лајсна PVC",
+      "sq": "Llajsne PVC"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+    "image": "img/lajsne1.webp",
+    "images": [
+      "img/lajsne1.webp"
+    ],
+    "description": {
+      "mk": "<p>PVC лајсна за завршна обработка на подови.</p>",
+      "sq": "<p>Llajsne PVC për përfundimin e dyshemeve.</p>"
+    }
+  },
+  {
+    "sku": "PRIMA004",
+    "name": {
+      "mk": "Изолација под ламинат",
+      "sq": "Izolim nën laminat"
+    },
+    "type": {
+      "mk": "Изолација",
+      "sq": "Izolimi"
+    },
+    "image": "img/izolacija1.jpg",
+    "images": [
+      "img/izolacija1.jpg"
+    ],
+    "description": {
+      "mk": "<p>Изолација за под ламинат, обезбедува топлинска и звучна изолација.</p>",
+      "sq": "<p>Izolim për nën laminat, siguron izolim termik dhe akustik.</p>"
+    }
+  },
+  {
+    "sku": "PRIMA005",
+    "name": {
+      "mk": "Ѕиден профил",
+      "sq": "Profil muri"
+    },
+    "type": {
+      "mk": "Ѕидни профили",
+      "sq": "Profile muri"
+    },
+    "image": "img/profil1.webp",
+    "images": [
+      "img/profil1.webp"
+    ],
+    "description": {
+      "mk": "<p>Ѕиден профил за монтажа на панели.</p>",
+      "sq": "<p>Profil muri për montimin e paneleve.</p>"
+    }
+  },
+  {
+    "sku": "PRIMA006",
+    "name": {
+      "mk": "Внатрешна врата",
+      "sq": "Derë e brendshme"
+    },
+    "type": {
+      "mk": "Врати",
+      "sq": "Dyert"
+    },
+    "image": "img/vrata1.webp",
+    "images": [
+      "img/vrata1.webp"
+    ],
+    "description": {
+      "mk": "<p>Внатрешна врата со модерен дизајн.</p>",
+      "sq": "<p>Derë e brendshme me dizajn modern.</p>"
+    }
+  }
+]
