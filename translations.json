@@ -10,18 +10,18 @@
     },
     "carousel": {
       "slide1": {
-        "title": "НАЈКВАЛИТЕТНИ ЛАМИНАТИ ПОДОВИ",
-        "subtitle": "Пиргора во вашиот дом",
+        "title": "Добредојдовте на нашата официјална страна.",
+        "subtitle": "Вашиот под. Нашата грижа.",
         "button": "Види ги сите производи"
       },
       "slide2": {
-        "title": "ПРЕМИУМ ВИНИЛ ПОДОВИ",
+        "title": "НАЈКВАЛИТЕТНИ ЛАМИНАТИ ПОДОВИ",
         "subtitle": "Елеганција и издржливост",
         "button": "Види ги сите производи"
       },
       "slide3": {
-        "title": "МОДЕРНИ ТЕПИСИ",
-        "subtitle": "Топлина за вашиот простор",
+        "title": "МОДЕРНИ ЛАЈСНИ",
+        "subtitle": "Детал што прави разлика",
         "button": "Види ги сите производи"
       }
     },
@@ -98,18 +98,18 @@
     },
     "carousel": {
       "slide1": {
-        "title": "DYSHMETË E LAMINATIT ME CILËSI TË LARTË",
-        "subtitle": "Ngrohtësi në shtëpinë tuaj",
+        "title": "Mirë se vini në faqen tonë zyrtare",
+        "subtitle": "Dyshemeja juaj. Kujdesi ynë",
         "button": "Shiko të gjitha produktet"
       },
       "slide2": {
-        "title": "DYSHME VINILI PREMIUM",
+        "title": "LAMINAT I CILËSISË MË TË MIRË",
         "subtitle": "Elegancë dhe qëndrueshmëri",
         "button": "Shiko të gjitha produktet"
       },
       "slide3": {
-        "title": "QILIMA MODERN",
-        "subtitle": "Ngrohtësi për hapësirën tuaj",
+        "title": "LLAJSNE MODERNE",
+        "subtitle": "Detaj që bën diferencën",
         "button": "Shiko të gjitha produktet"
       }
     },
