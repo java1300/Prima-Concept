@@ -127,6 +127,83 @@ h1, h2, h3, h4, h5, h6, .section-title, .footer-title, .category-title, .navbar-
     }
 }
 
+/* Extra Responsive Tuning for Phones Smaller Than 576px */
+@media (max-width: 575.98px) {
+    .navbar {
+        padding: 1rem 0.75rem;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+        word-break: break-word; /* Prevent overflow */
+    }
+    .navbar-toggler {
+        padding: 0.25rem 0.5rem;
+        font-size: 1rem;
+    }
+    .navbar-collapse {
+        padding: 0.5rem 0;
+    }
+    .nav-item {
+        padding: 6px 0;
+    }
+    .nav-link {
+        font-size: 1rem;
+    }
+    .btn-search {
+        width: 100%;
+        font-size: 1rem;
+        padding: 0.6rem 1rem;
+        margin-top: 1rem;
+    }
+    #languageSwitcher {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+}
+
+/* Narrow Screen Fixes for Devices Like Galaxy S8+ or A53 */
+@media (max-width: 400px) {
+    .navbar-brand {
+        font-size: 1.35rem;
+    }
+    .nav-link {
+        font-size: 0.95rem;
+    }
+    .btn-search {
+        font-size: 0.95rem;
+        padding: 0.5rem;
+    }
+    #languageSwitcher {
+        font-size: 0.9rem;
+    }
+}
+
+/* Medium Tablet Devices (like iPad Pro portrait mode and similar) */
+@media (max-width: 900px) {
+    .navbar {
+        padding: 1rem 1rem;
+    }
+    .navbar-brand {
+        font-size: 1.65rem;
+    }
+    .nav-item {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nav-link {
+        font-size: 1rem;
+        padding: 0.4rem 0;
+    }
+    .btn-search {
+        font-size: 1rem;
+        padding: 0.6rem 1.2rem;
+    }
+    #languageSwitcher {
+        font-size: 0.95rem;
+    }
+}
+
+
 /* Sidebar Styling (Unchanged) */
 .sidebar {
     background-color: #fff;
@@ -498,6 +575,13 @@ h1, h2, h3, h4, h5, h6, .section-title, .footer-title, .category-title, .navbar-
     transform: scale(1.2); /* Slight scale on hover */
 }
 
+/* Remove carousel arrows on devices smaller than laptops/desktops */
+@media (max-width: 991px) {
+    #homeCarousel .carousel-control-prev,
+    #homeCarousel .carousel-control-next {
+        display: none;
+    }
+}
 
 
 
@@ -703,6 +787,10 @@ body:has(#productList) {
     .product-page .product-title {
         font-size: 1.5rem;
     }
+
+    .product-page .product-attributes .category-badge{
+        margin: 0.3rem;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -723,6 +811,10 @@ body:has(#productList) {
     .product-page .btn-primary {
         padding: 8px 16px;
         font-size: 0.9rem;
+    }
+
+    .product-page .product-attributes .category-badge{
+        margin: 0.3rem;
     }
 }
 
@@ -1479,6 +1571,11 @@ html {
 .gallery-item:hover .gallery-img {
     transform: scale(1.07);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+#developer{
+    font-family: 'Montserrat', sans-serif;
+    color: #c8102e;
 }
 
 
