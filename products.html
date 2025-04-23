@@ -617,6 +617,8 @@
                         url.searchParams.set('page', currentPage);
                         window.history.pushState({}, '', url);
                         applyFilters();
+
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
                     }
                 });
 
