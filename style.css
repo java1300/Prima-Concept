@@ -86,129 +86,194 @@ h6,
 
 /* Desktop Navbar Styling (screen width > 991.98px) */
 @media (min-width: 992px) {
-  .nav-link:hover {
-    color: #e30613 !important; /* Red on hover for desktop */
-  }
-  .nav-link::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background-color: #000; /* Black underline */
-    bottom: -2px;
-    left: 0;
-    transition: width 0.3s ease;
-  }
-  .nav-link:hover::after {
-    width: 100%; /* Underline animates from left to right */
-  }
-  .nav-link.active::after {
-    width: 100%; /* Underline stays visible on active page */
-  }
-  .navbar-nav {
-    flex-grow: 0; /* Prevent the nav links from taking up too much space */
-  }
+    .nav-link:hover {
+        color: #e30613 !important; /* Red on hover for desktop */
+    }
+    .nav-link::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background-color: #000; /* Black underline */
+        bottom: -2px;
+        left: 0;
+        transition: width 0.3s ease;
+    }
+    .nav-link:hover::after {
+        width: 100%; /* Underline animates from left to right */
+    }
+    .nav-link.active::after {
+        width: 100%; /* Underline stays visible on active page */
+    }
+    .navbar-nav {
+        flex-grow: 0; /* Prevent the nav links from taking up too much space */
+    }
 }
 
 /* Mobile Responsiveness for Navbar (screen width <= 991.98px) */
 @media (max-width: 991.98px) {
-  .navbar-collapse {
-    padding: 10px 0; /* Add padding to the collapsed menu */
-  }
-  .nav-item {
-    padding-left: 0; /* Remove horizontal padding on mobile */
-    padding-right: 0;
-    padding-top: 8px; /* Add vertical spacing between links */
-    padding-bottom: 8px;
-  }
-  .nav-link {
-    font-size: 1.2rem; /* Slightly smaller font size for mobile */
-    text-align: left; /* Align links to the left in the collapsed menu */
-  }
-  .nav-link:hover {
-    color: #e30613 !important; /* Red font color on hover/tap for mobile */
-  }
-  .btn-search {
-    margin: 15px 0; /* Add spacing around the button on mobile */
-    width: 100%; /* Make the button full-width on mobile */
-    text-align: center;
-  }
+    .navbar-collapse {
+        padding: 10px 0; /* Add padding to the collapsed menu */
+    }
+    .nav-item {
+        padding-left: 0; /* Remove horizontal padding on mobile */
+        padding-right: 0;
+        padding-top: 8px; /* Add vertical spacing between links */
+        padding-bottom: 8px;
+    }
+    .nav-link {
+        font-size: 1.2rem; /* Slightly smaller font size for mobile */
+        text-align: left; /* Align links to the left in the collapsed menu */
+    }
+    .nav-link:hover {
+        color: #e30613 !important; /* Red font color on hover/tap for mobile */
+    }
+    .btn-search {
+        margin: 15px 0; /* Add spacing around the button on mobile */
+        width: 100%; /* Make the button full-width on mobile */
+        text-align: center;
+    }
 }
 
 /* Extra Responsive Tuning for Phones Smaller Than 576px */
 @media (max-width: 575.98px) {
-  .navbar {
-    padding: 1rem 0.75rem;
-  }
-  .navbar-brand {
-    font-size: 1.5rem;
-    word-break: break-word; /* Prevent overflow */
-  }
-  .navbar-toggler {
-    padding: 0.25rem 0.5rem;
-    font-size: 1rem;
-  }
-  .navbar-collapse {
-    padding: 0.5rem 0;
-  }
-  .nav-item {
-    padding: 6px 0;
-  }
-  .nav-link {
-    font-size: 1rem;
-  }
-  .btn-search {
-    width: 100%;
-    font-size: 1rem;
-    padding: 0.6rem 1rem;
-    margin-top: 1rem;
-  }
-  #languageSwitcher {
-    width: 100%;
-    margin-top: 0.5rem;
-  }
+    .navbar {
+        padding: 1rem 0.75rem;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+        word-break: break-word; /* Prevent overflow */
+    }
+    .navbar-toggler {
+        padding: 0.25rem 0.5rem;
+        font-size: 1rem;
+    }
+    .navbar-collapse {
+        padding: 0.5rem 0;
+    }
+    .nav-item {
+        padding: 6px 0;
+    }
+    .nav-link {
+        font-size: 1rem;
+    }
+    .btn-search {
+        width: 100%;
+        font-size: 1rem;
+        padding: 0.6rem 1rem;
+        margin-top: 1rem;
+    }
+    #languageSwitcher {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
 }
 
 /* Narrow Screen Fixes for Devices Like Galaxy S8+ or A53 */
 @media (max-width: 400px) {
-  .navbar-brand {
-    font-size: 1.35rem;
-  }
-  .nav-link {
-    font-size: 0.95rem;
-  }
-  .btn-search {
-    font-size: 0.95rem;
-    padding: 0.5rem;
-  }
-  #languageSwitcher {
-    font-size: 0.9rem;
-  }
+    .navbar-brand {
+        font-size: 1.35rem;
+    }
+    .nav-link {
+        font-size: 0.95rem;
+    }
+    .btn-search {
+        font-size: 0.95rem;
+        padding: 0.5rem;
+    }
+    #languageSwitcher {
+        font-size: 0.9rem;
+    }
 }
 
 /* Medium Tablet Devices (like iPad Pro portrait mode and similar) */
 @media (max-width: 900px) {
-  .navbar {
-    padding: 1rem 1rem;
-  }
-  .navbar-brand {
-    font-size: 1.65rem;
-  }
-  .nav-item {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .nav-link {
-    font-size: 1rem;
-    padding: 0.4rem 0;
-  }
-  .btn-search {
-    font-size: 1rem;
-    padding: 0.6rem 1.2rem;
-  }
-  #languageSwitcher {
-    font-size: 0.95rem;
-  }
+    .navbar {
+        padding: 1rem 1rem;
+    }
+    .navbar-brand {
+        font-size: 1.65rem;
+    }
+    .nav-item {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nav-link {
+        font-size: 1rem;
+        padding: 0.4rem 0;
+    }
+    .btn-search {
+        font-size: 1rem;
+        padding: 0.6rem 1.2rem;
+    }
+    #languageSwitcher {
+        font-size: 0.95rem;
+    }
+}
+
+/* Ultra-Wide Screens (screen width > 1200px) */
+@media (min-width: 1200px) {
+    .navbar {
+        padding: 1.5rem 2rem;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+    .nav-link {
+        font-size: 1.1rem;
+    }
+    .btn-search {
+        font-size: 1.1rem;
+        padding: 0.8rem 1.5rem;
+    }
+}
+
+/* Small Landscape Devices (e.g., iPhone SE landscape) */
+@media (max-width: 667px) and (orientation: landscape) {
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+    .navbar-brand {
+        font-size: 1.4rem;
+    }
+    .nav-link {
+        font-size: 0.9rem;
+    }
+    .btn-search {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* Adjustments for Galaxy S9+ and Similar Devices */
+@media (max-width: 360px) {
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+    .nav-link {
+        font-size: 0.9rem;
+    }
+    .btn-search {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+}
+
+/* Adjustments for Galaxy Z Fold 5 (Folded Mode) */
+@media (max-width: 280px) {
+    .navbar {
+        padding: 0.5rem;
+    }
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .nav-link {
+        font-size: 0.85rem;
+    }
+    .btn-search {
+        font-size: 0.85rem;
+        padding: 0.4rem;
+    }
 }
 
 /* Sidebar Styling (Unchanged) */
