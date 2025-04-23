@@ -1817,9 +1817,14 @@ html {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-#developer {
+#developer a{
   font-family: "Montserrat", sans-serif;
   color: #c8102e;
+    text-decoration: none;
+}
+
+#developer a:hover{
+    color: #2b6c93;
 }
 
 /* Pagination Styling */
