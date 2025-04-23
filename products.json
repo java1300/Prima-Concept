@@ -1093,7 +1093,677 @@
       "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
       "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
     }
+  },
+
+  {
+    "sku": "PRK601",
+    "name": {
+      "mk": "CONCEPT NEO Centro",
+      "sq": "CONCEPT NEO Centro"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "CONCEPT NEO",
+      "sq": "CONCEPT NEO"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/concept-neo-10mm/centro1.webp",
+    "images": [
+      "img/concept-neo-10mm/centro1.webp",
+      "img/concept-neo-10mm/centro2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK600",
+    "name": {
+      "mk": "CONCEPT NEO Casella",
+      "sq": "CONCEPT NEO Casella"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "CONCEPT NEO",
+      "sq": "CONCEPT NEO"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/concept-neo-10mm/casella1.webp",
+    "images": [
+      "img/concept-neo-10mm/casella1.webp",
+      "img/concept-neo-10mm/casella2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK604",
+    "name": {
+      "mk": "CONCEPT NEO Moderna",
+      "sq": "CONCEPT NEO Moderna"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "CONCEPT NEO",
+      "sq": "CONCEPT NEO"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/concept-neo-10mm/moderna1.webp",
+    "images": [
+      "img/concept-neo-10mm/moderna1.webp",
+      "img/concept-neo-10mm/moderna2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK602",
+    "name": {
+      "mk": "CONCEPT NEO Dorino",
+      "sq": "CONCEPT NEO Dorino"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "CONCEPT NEO",
+      "sq": "CONCEPT NEO"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/concept-neo-10mm/dorino1.webp",
+    "images": [
+      "img/concept-neo-10mm/dorino1.webp",
+      "img/concept-neo-10mm/dorino2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK606",
+    "name": {
+      "mk": "CONCEPT NEO Lima",
+      "sq": "CONCEPT NEO Lima"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "CONCEPT NEO",
+      "sq": "CONCEPT NEO"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/concept-neo-10mm/lima1.webp",
+    "images": [
+      "img/concept-neo-10mm/lima1.webp",
+      "img/concept-neo-10mm/lima2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK608",
+    "name": {
+      "mk": "CONCEPT NEO Portello",
+      "sq": "CONCEPT NEO Portello"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "CONCEPT NEO",
+      "sq": "CONCEPT NEO"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/concept-neo-10mm/portello1.webp",
+    "images": [
+      "img/concept-neo-10mm/portello1.webp",
+      "img/concept-neo-10mm/portello2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK609",
+    "name": {
+      "mk": "CONCEPT NEO Vieste",
+      "sq": "CONCEPT NEO Vieste"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "CONCEPT NEO",
+      "sq": "CONCEPT NEO"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/concept-neo-10mm/vieste1.webp",
+    "images": [
+      "img/concept-neo-10mm/vieste1.webp",
+      "img/concept-neo-10mm/vieste2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK1004",
+    "name": {
+      "mk": "MOOD XLarge Mare",
+      "sq": "MOOD XLarge Mare"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "MOOD XLarge",
+      "sq": "MOOD XLarge"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/mood-10mm/mare1.webp",
+    "images": [
+      "img/mood-10mm/mare1.webp",
+      "img/mood-10mm/mare2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK1001",
+    "name": {
+      "mk": "MOOD XLarge Marine",
+      "sq": "MOOD XLarge Marine"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "MOOD XLarge",
+      "sq": "MOOD XLarge"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/mood-10mm/marine1.webp",
+    "images": [
+      "img/mood-10mm/marine1.webp",
+      "img/mood-10mm/marine2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK1002",
+    "name": {
+      "mk": "MOOD XLarge Marvel",
+      "sq": "MOOD XLarge Marvel"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "MOOD XLarge",
+      "sq": "MOOD XLarge"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/mood-10mm/marvel1.webp",
+    "images": [
+      "img/mood-10mm/marvel1.webp",
+      "img/mood-10mm/marvel2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK1003",
+    "name": {
+      "mk": "MOOD XLarge Malta",
+      "sq": "MOOD XLarge Malta"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "MOOD XLarge",
+      "sq": "MOOD XLarge"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/mood-10mm/malta1.webp",
+    "images": [
+      "img/mood-10mm/malta1.webp",
+      "img/mood-10mm/malta2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+
+  {
+    "sku": "PRK1002",
+    "name": {
+      "mk": "MOOD XLarge Marvel",
+      "sq": "MOOD XLarge Marvel"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "MOOD XLarge",
+      "sq": "MOOD XLarge"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/mood-10mm/marvel1.webp",
+    "images": [
+      "img/mood-10mm/marvel1.webp",
+      "img/mood-10mm/marvel2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK911",
+    "name": {
+      "mk": "EFFECT PREMIUM Elbruz",
+      "sq": "EFFECT PREMIUM Elbruz"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "EFFECT PREMIUM",
+      "sq": "EFFECT PREMIUM"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/effect-premium-12mm/elbruz1.webp",
+    "images": [
+      "img/effect-premium-12mm/elbruz1.webp",
+      "img/effect-premium-12mm/elbruz2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK909",
+    "name": {
+      "mk": "EFFECT PREMIUM Rosso",
+      "sq": "EFFECT PREMIUM Rosso"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "EFFECT PREMIUM",
+      "sq": "EFFECT PREMIUM"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/effect-premium-12mm/rosso1.webp",
+    "images": [
+      "img/effect-premium-12mm/rosso1.webp",
+      "img/effect-premium-12mm/rosso2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+
+  {
+    "sku": "PRK903",
+    "name": {
+      "mk": "EFFECT PREMIUM Everest",
+      "sq": "EFFECT PREMIUM Everest"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "EFFECT PREMIUM",
+      "sq": "EFFECT PREMIUM"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/effect-premium-12mm/everest1.webp",
+    "images": [
+      "img/effect-premium-12mm/everest1.webp",
+      "img/effect-premium-12mm/everest2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK904",
+    "name": {
+      "mk": "EFFECT PREMIUM Alp",
+      "sq": "EFFECT PREMIUM Alp"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "EFFECT PREMIUM",
+      "sq": "EFFECT PREMIUM"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/effect-premium-12mm/alp1.webp",
+    "images": [
+      "img/effect-premium-12mm/alp1.webp",
+      "img/effect-premium-12mm/alp2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK902",
+    "name": {
+      "mk": "EFFECT PREMIUM Tibet",
+      "sq": "EFFECT PREMIUM Tibet"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "EFFECT PREMIUM",
+      "sq": "EFFECT PREMIUM"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/effect-premium-12mm/tibet1.webp",
+    "images": [
+      "img/effect-premium-12mm/tibet1.webp",
+      "img/effect-premium-12mm/tibet2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK907",
+    "name": {
+      "mk": "EFFECT PREMIUM Ural",
+      "sq": "EFFECT PREMIUM Ural"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "EFFECT PREMIUM",
+      "sq": "EFFECT PREMIUM"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/effect-premium-12mm/ural1.webp",
+    "images": [
+      "img/effect-premium-12mm/ural1.webp",
+      "img/effect-premium-12mm/ural2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK908",
+    "name": {
+      "mk": "EFFECT PREMIUM Altay",
+      "sq": "EFFECT PREMIUM Altay"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "EFFECT PREMIUM",
+      "sq": "EFFECT PREMIUM"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/effect-premium-12mm/altay1.webp",
+    "images": [
+      "img/effect-premium-12mm/altay1.webp",
+      "img/effect-premium-12mm/altay2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK906",
+    "name": {
+      "mk": "EFFECT PREMIUM Pamir",
+      "sq": "EFFECT PREMIUM Pamir"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "EFFECT PREMIUM",
+      "sq": "EFFECT PREMIUM"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/effect-premium-12mm/pamir1.webp",
+    "images": [
+      "img/effect-premium-12mm/pamir1.webp",
+      "img/effect-premium-12mm/pamir2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK921",
+    "name": {
+      "mk": "MARCO POLO PREMIUM Kaledonya",
+      "sq": "MARCO POLO PREMIUM Kaledonya"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "MARCO POLO PREMIUM",
+      "sq": "MARCO POLO PREMIUM"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/marco-polo-12mm/kaledonya1.webp",
+    "images": [
+      "img/effect-premium-12mm/kaledonya1.webp",
+      "img/effect-premium-12mm/kaledonya2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK915",
+    "name": {
+      "mk": "MARCO POLO PREMIUM Florida",
+      "sq": "MARCO POLO PREMIUM Florida"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "MARCO POLO PREMIUM",
+      "sq": "MARCO POLO PREMIUM"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/marco-polo-12mm/florida1.webp",
+    "images": [
+      "img/effect-premium-12mm/florida1.webp",
+      "img/effect-premium-12mm/florida2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "LB-2250",
+    "name": {
+      "mk": "LB-2250 Relax Green",
+      "sq": "LB-2250 Relax Green"
+    },
+    "type": {
+      "mk": "Ѕидни Профили",
+      "sq": "Profile Muri"
+    },
+
+    "image": "img/wall-profile/lb-2250-1.webp",
+    "images": [
+      "img/wall-profile/lb-2250-1.webp",
+      "img/wall-profile/lb-2250-2.webp"
+    ],
+
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "description": {
+      "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
+      "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
+    }
   }
+
+
+
 
 
 
