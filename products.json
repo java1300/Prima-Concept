@@ -368,7 +368,738 @@
       "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
       "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
     }
+  },
+
+  {
+    "sku": "PRK105",
+    "name": {
+      "mk": "BELLA NEO Frezya",
+      "sq": "BELLA NEO Frezya"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "BELLA",
+      "sq": "BELLA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/bella-8mm/frezya1.webp",
+    "images": [
+      "img/bella-8mm/frezya1.webp",
+      "img/bella-8mm/frezya2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK200",
+    "name": {
+      "mk": "NATURA SELECT Siraz Mese",
+      "sq": "NATURA SELECT Siraz Mese"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA SELECT",
+      "sq": "NATURA SELECT"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-select/mese1.webp",
+    "images": [
+      "img/natura-select/mese1.webp",
+      "img/natura-select/mese2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK208",
+    "name": {
+      "mk": "NATURA SELECT Olimpos Mese",
+      "sq": "NATURA SELECT Olimpos Mese"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA SELECT",
+      "sq": "NATURA SELECT"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-select/olimpos1.webp",
+    "images": [
+      "img/natura-select/olimpos1.webp",
+      "img/natura-select/olimpos2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK204",
+    "name": {
+      "mk": "NATURA SELECT Natura Mese",
+      "sq": "NATURA SELECT Natura Mese"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA SELECT",
+      "sq": "NATURA SELECT"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-select/natura1.webp",
+    "images": [
+      "img/natura-select/natura1.webp",
+      "img/natura-select/natura2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK004",
+    "name": {
+      "mk": "NATURA SELECT Pasifik Çam",
+      "sq": "NATURA SELECT Pasifik Çam"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA SELECT",
+      "sq": "NATURA SELECT"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-select/pasifik1.webp",
+    "images": [
+      "img/natura-select/pasifik1.webp",
+      "img/natura-select/pasifik2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK201",
+    "name": {
+      "mk": "NATURA SELECT Kanyon Mese",
+      "sq": "NATURA SELECT Kanyon Mese"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA SELECT",
+      "sq": "NATURA SELECT"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-select/kanyon1.webp",
+    "images": [
+      "img/natura-select/kanyon1.webp",
+      "img/natura-select/kanyon2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK203",
+    "name": {
+      "mk": "NATURA SELECT Gri Mese",
+      "sq": "NATURA SELECT Gri Mese"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA SELECT",
+      "sq": "NATURA SELECT"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-select/gri1.webp",
+    "images": [
+      "img/natura-select/gri1.webp",
+      "img/natura-select/gri2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK214",
+    "name": {
+      "mk": "NATURA SELECT Patara",
+      "sq": "NATURA SELECT Patara"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA SELECT",
+      "sq": "NATURA SELECT"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-select/patara1.webp",
+    "images": [
+      "img/natura-select/patara1.webp",
+      "img/natura-select/patara2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+  {
+    "sku": "PRK002",
+    "name": {
+      "mk": "NATURA SELECT Antalya Çam",
+      "sq": "NATURA SELECT Antalya Çam"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA SELECT",
+      "sq": "NATURA SELECT"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-select/antalya1.webp",
+    "images": [
+      "img/natura-select/antalya1.webp",
+      "img/natura-select/antalya2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+
+  {
+    "sku": "PRK006",
+    "name": {
+      "mk": "NATURA SELECT Kemer Çam",
+      "sq": "NATURA SELECT Kemer Çam"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA SELECT",
+      "sq": "NATURA SELECT"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-select/kemer1.webp",
+    "images": [
+      "img/natura-select/kemer1.webp",
+      "img/natura-select/kemer2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK227",
+    "name": {
+      "mk": "NATURA SELECT Sia Mese",
+      "sq": "NATURA SELECT Sia Mese"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA SELECT",
+      "sq": "NATURA SELECT"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-select/sia1.webp",
+    "images": [
+      "img/natura-select/sia1.webp",
+      "img/natura-select/sia2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK228",
+    "name": {
+      "mk": "NATURA SELECT Patricia",
+      "sq": "NATURA SELECT Patricia"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA SELECT",
+      "sq": "NATURA SELECT"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-select/patricia1.webp",
+    "images": [
+      "img/natura-select/patricia1.webp",
+      "img/natura-select/patricia2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK505",
+    "name": {
+      "mk": "NATURA LINE Tuna",
+      "sq": "NATURA LINE Tuna"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA LINE",
+      "sq": "NATURA LINE"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-line/tuna1.webp",
+    "images": [
+      "img/natura-line/tuna1.webp",
+      "img/natura-line/tuna2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK503",
+    "name": {
+      "mk": "NATURA LINE Volga",
+      "sq": "NATURA LINE Volga"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA LINE",
+      "sq": "NATURA LINE"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-line/volga1.webp",
+    "images": [
+      "img/natura-line/volga1.webp",
+      "img/natura-line/volga2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK502",
+    "name": {
+      "mk": "NATURA LINE Nil",
+      "sq": "NATURA LINE Nil"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA LINE",
+      "sq": "NATURA LINE"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-line/nil1.webp",
+    "images": [
+      "img/natura-line/nil1.webp",
+      "img/natura-line/nil2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK506",
+    "name": {
+      "mk": "NATURA LINE Meriç",
+      "sq": "NATURA LINE Meriç"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA LINE",
+      "sq": "NATURA LINE"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-line/meric1.webp",
+    "images": [
+      "img/natura-line/meric1.webp",
+      "img/natura-line/meric2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK504",
+    "name": {
+      "mk": "NATURA LINE Selge",
+      "sq": "NATURA LINE Selge"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA LINE",
+      "sq": "NATURA LINE"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-line/selge1.webp",
+    "images": [
+      "img/natura-line/selge1.webp",
+      "img/natura-line/selge2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK509",
+    "name": {
+      "mk": "NATURA LINE Rodos",
+      "sq": "NATURA LINE Rodos"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA LINE",
+      "sq": "NATURA LINE"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-line/rodos1.webp",
+    "images": [
+      "img/natura-line/rodos1.webp",
+      "img/natura-line/rodos2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK501",
+    "name": {
+      "mk": "NATURA LINE Trend Mese",
+      "sq": "NATURA LINE Trend Mese"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA LINE",
+      "sq": "NATURA LINE"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-line/trend1.webp",
+    "images": [
+      "img/natura-line/trend1.webp",
+      "img/natura-line/trend2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK507",
+    "name": {
+      "mk": "NATURA LINE Ilgaz Mese",
+      "sq": "NATURA LINE Ilgaz Mese"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA LINE",
+      "sq": "NATURA LINE"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-line/ilgas1.webp",
+    "images": [
+      "img/natura-line/ilgas1.webp",
+      "img/natura-line/ilgas2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK231",
+    "name": {
+      "mk": "NATURA LINE Lena",
+      "sq": "NATURA LINE Lena"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA LINE",
+      "sq": "NATURA LINE"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-line/lena1.webp",
+    "images": [
+      "img/natura-line/lena1.webp",
+      "img/natura-line/lena2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK1110",
+    "name": {
+      "mk": "LUNA Lena",
+      "sq": "LUNA Lena"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "LUNA",
+      "sq": "LUNA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/luna/verona1.webp",
+    "images": [
+      "img/luna/verona1.webp",
+      "img/luna/verona2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK105",
+    "name": {
+      "mk": "LUNA Frezya",
+      "sq": "LUNA Frezya"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "LUNA",
+      "sq": "LUNA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/luna/frezya1.webp",
+    "images": [
+      "img/luna/frezya1.webp",
+      "img/luna/frezya2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK112",
+    "name": {
+      "mk": "LUNA Lotus",
+      "sq": "LUNA Lotus"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "LUNA",
+      "sq": "LUNA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/luna/lotus1.webp",
+    "images": [
+      "img/luna/lotus1.webp",
+      "img/luna/lotus2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK223",
+    "name": {
+      "mk": "PRUVA Ales",
+      "sq": "PRUVA Ales"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "PRUVA",
+      "sq": "PRUVA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/pruva/ales1.webp",
+    "images": [
+      "img/pruva/ales1.webp",
+      "img/pruva/ales2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
   }
+
+
+
+
+
+
 
 
 ]
