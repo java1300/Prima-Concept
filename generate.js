@@ -17,10 +17,16 @@ document.addEventListener("DOMContentLoaded", function() {
     const imageWrapper = document.querySelector('.main-image-wrapper');
     const thumbnails = document.querySelectorAll('.product-thumbnail');
     
+    // Add fullscreen button overlay
+    addFullscreenButton();
+    
     // Initialize zoom functionality
     setupZoomFunctionality();
     
-    // Setup image switching functionality
+    // Set up lightbox functionality
+    setupLightbox();
+    
+    // Setup image switching functionality with animations
     thumbnails.forEach(thumbnail => {
         thumbnail.addEventListener('click', function() {
             // Remove active class from all thumbnails
@@ -35,51 +41,420 @@ document.addEventListener("DOMContentLoaded", function() {
             // Add loading class to indicate image is loading
             imageWrapper.classList.add('loading');
             
-            // Change the main image source
-            mainImage.src = newImageSrc;
+            // Add fade-out effect to current image
+            mainImage.style.opacity = '0.3';
             
-            // Remove loading class once the image has loaded
-            mainImage.addEventListener('load', function onceLoaded() {
-                imageWrapper.classList.remove('loading');
-                mainImage.removeEventListener('load', onceLoaded);
-            });
+            // Change the main image source after a small delay
+            setTimeout(() => {
+                mainImage.src = newImageSrc;
+                
+                // Add slide-in animation class
+                mainImage.classList.add('animate');
+                
+                // Remove loading class and restore opacity once the image has loaded
+                mainImage.addEventListener('load', function onceLoaded() {
+                    mainImage.style.opacity = '1';
+                    imageWrapper.classList.remove('loading');
+                    setTimeout(() => {
+                        mainImage.classList.remove('animate');
+                    }, 600);
+                    mainImage.removeEventListener('load', onceLoaded);
+                });
+            }, 200);
         });
     });
     
-    // Set up zoom functionality for all images
+    // Add a dedicated fullscreen button to the image wrapper
+    function addFullscreenButton() {
+        const fullscreenBtn = document.createElement('button');
+        fullscreenBtn.className = 'fullscreen-button';
+        fullscreenBtn.innerHTML = '<i class="bi bi-arrows-fullscreen"></i>';
+        fullscreenBtn.setAttribute('aria-label', 'View fullscreen');
+        fullscreenBtn.setAttribute('title', 'View fullscreen');
+        
+        // Add the button to the image wrapper
+        imageWrapper.appendChild(fullscreenBtn);
+        
+        // Add click event to open lightbox
+        fullscreenBtn.addEventListener('click', function(e) {
+            e.stopPropagation(); // Prevent event bubbling to the image wrapper
+            
+            // Find the current index from the active thumbnail
+            const activeThumb = document.querySelector('.product-thumbnail.active');
+            const index = activeThumb ? parseInt(activeThumb.getAttribute('data-index'), 10) : 0;
+            openLightbox(index);
+        });
+    }
+    
+    // Set up enhanced zoom functionality
     function setupZoomFunctionality() {
-        // Zoom magnification factor
-        const zoomLevel = 1.5;
+        // Zoom magnification factor - reduced for better usability
+        const zoomLevel = 1.8;
         
-        // Add mouse events to the image wrapper
-        imageWrapper.addEventListener('mouseenter', function() {
-            mainImage.classList.add('zoomed');
+        // Flag to track if we're in zoom mode
+        let isZoomed = false;
+        
+        // Add zoom toggle button for mobile
+        const zoomToggleBtn = document.createElement('button');
+        zoomToggleBtn.className = 'zoom-toggle-button';
+        zoomToggleBtn.innerHTML = '<i class="bi bi-zoom-in"></i>';
+        zoomToggleBtn.setAttribute('aria-label', 'Toggle zoom');
+        zoomToggleBtn.setAttribute('title', 'Toggle zoom');
+        imageWrapper.appendChild(zoomToggleBtn);
+        
+        // Toggle zoom on button click (helpful for mobile)
+        zoomToggleBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            toggleZoom();
         });
         
-        imageWrapper.addEventListener('mouseleave', function() {
-            mainImage.classList.remove('zoomed');
-            mainImage.style.transform = 'scale(1)';
-            mainImage.style.transformOrigin = '50% 50%';
-        });
+        // Function to toggle zoom
+        function toggleZoom() {
+            isZoomed = !isZoomed;
+            
+            if (isZoomed) {
+                mainImage.classList.add('zoomed');
+                mainImage.style.transform = 'scale(' + zoomLevel + ')';
+                mainImage.style.transformOrigin = '50% 50%';
+                imageWrapper.style.cursor = 'zoom-out';
+                zoomToggleBtn.innerHTML = '<i class="bi bi-zoom-out"></i>';
+            } else {
+                mainImage.classList.remove('zoomed');
+                mainImage.style.transform = 'scale(1)';
+                mainImage.style.transformOrigin = '50% 50%';
+                imageWrapper.style.cursor = 'zoom-in';
+                zoomToggleBtn.innerHTML = '<i class="bi bi-zoom-in"></i>';
+            }
+        }
         
-        imageWrapper.addEventListener('mousemove', function(e) {
-            if (!mainImage.classList.contains('zoomed')) return;
+        // Add mouse events only for non-touch devices
+        if (!isTouchDevice()) {
+            // Desktop hover behavior
+            imageWrapper.addEventListener('mouseenter', function() {
+                if (!isZoomed) {
+                    imageWrapper.style.cursor = 'zoom-in';
+                }
+            });
             
-            // Get cursor position relative to the image container
-            const rect = imageWrapper.getBoundingClientRect();
-            const mouseX = e.clientX - rect.left;
-            const mouseY = e.clientY - rect.top;
+            imageWrapper.addEventListener('mouseleave', function() {
+                if (isZoomed) {
+                    // Auto-disable zoom on mouse leave for better UX
+                    isZoomed = false;
+                    mainImage.classList.remove('zoomed');
+                    mainImage.style.transform = 'scale(1)';
+                    mainImage.style.transformOrigin = '50% 50%';
+                    zoomToggleBtn.innerHTML = '<i class="bi bi-zoom-in"></i>';
+                }
+                imageWrapper.style.cursor = 'default';
+            });
             
-            // Calculate the transform origin - this is the key to making the zoom follow the cursor
-            const originX = (mouseX / rect.width) * 100;
-            const originY = (mouseY / rect.height) * 100;
+            imageWrapper.addEventListener('mousemove', function(e) {
+                if (!isZoomed) return;
+                
+                // Get cursor position relative to the image container
+                const rect = imageWrapper.getBoundingClientRect();
+                const mouseX = e.clientX - rect.left;
+                const mouseY = e.clientY - rect.top;
+                
+                // Calculate the transform origin
+                const originX = (mouseX / rect.width) * 100;
+                const originY = (mouseY / rect.height) * 100;
+                
+                // Set the transform origin to the mouse position
+                mainImage.style.transformOrigin = originX + '% ' + originY + '%';
+            });
             
-            // Set the transform origin to the mouse position
-            mainImage.style.transformOrigin = originX + '% ' + originY + '%';
+            // Click to toggle zoom on desktop
+            imageWrapper.addEventListener('click', function(e) {
+                // Don't toggle zoom if clicking on buttons
+                if (e.target.closest('.fullscreen-button') || e.target.closest('.zoom-toggle-button')) {
+                    return;
+                }
+                toggleZoom();
+            });
+        } else {
+            // For touch devices, make buttons more prominent
+            zoomToggleBtn.classList.add('touch-device');
+            document.querySelector('.fullscreen-button').classList.add('touch-device');
+        }
+        
+        // Detect if device is touch-enabled
+        function isTouchDevice() {
+            return (('ontouchstart' in window) ||
+                (navigator.maxTouchPoints > 0) ||
+                (navigator.msMaxTouchPoints > 0));
+        }
+    }
+    
+    // Set up lightbox functionality
+    function setupLightbox() {
+        // Create lightbox elements if they don't exist
+        if (!document.getElementById('product-lightbox')) {
+            const lightbox = document.createElement('div');
+            lightbox.id = 'product-lightbox';
+            lightbox.className = 'product-lightbox';
+            lightbox.innerHTML = \`
+                <div class="lightbox-overlay"></div>
+                <div class="lightbox-container">
+                    <button class="lightbox-close">&times;</button>
+                    <img class="lightbox-image" src="" alt="Product Image Full Size">
+                    <div class="lightbox-nav">
+                        <button class="lightbox-prev">&lt;</button>
+                        <button class="lightbox-next">&gt;</button>
+                    </div>
+                </div>
+            \`;
             
-            // Apply the transform - only scaling
-            mainImage.style.transform = 'scale(' + zoomLevel + ')';
-        });
+            // Create and append lightbox styles
+            const style = document.createElement('style');
+            style.textContent = \`
+                .product-lightbox {
+                    display: none;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 9999;
+                }
+                .lightbox-overlay {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.9);
+                    cursor: pointer;
+                }
+                .lightbox-container {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    max-width: 90%;
+                    max-height: 90%;
+                }
+                .lightbox-image {
+                    max-width: 100%;
+                    max-height: 90vh;
+                    object-fit: contain;
+                    border: 3px solid white;
+                    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+                }
+                .lightbox-close {
+                    position: absolute;
+                    top: -40px;
+                    right: -40px;
+                    width: 40px;
+                    height: 40px;
+                    font-size: 30px;
+                    color: white;
+                    background: transparent;
+                    border: none;
+                    cursor: pointer;
+                }
+                .lightbox-nav {
+                    position: absolute;
+                    bottom: -50px;
+                    left: 0;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    gap: 20px;
+                }
+                .lightbox-prev, .lightbox-next {
+                    width: 40px;
+                    height: 40px;
+                    color: white;
+                    background: rgba(255, 255, 255, 0.1);
+                    border: 1px solid rgba(255, 255, 255, 0.3);
+                    border-radius: 50%;
+                    font-size: 20px;
+                    cursor: pointer;
+                    transition: all 0.2s ease;
+                }
+                .lightbox-prev:hover, .lightbox-next:hover {
+                    background: rgba(255, 255, 255, 0.2);
+                }
+                .lightbox-fade-in {
+                    animation: lightboxFadeIn 0.3s ease forwards;
+                }
+                @keyframes lightboxFadeIn {
+                    from { opacity: 0; }
+                    to { opacity: 1; }
+                }
+                .product-main-image.animate {
+                    animation: fadeInSlide 0.6s ease-out;
+                }
+                @keyframes fadeInSlide {
+                    from { opacity: 0.3; transform: translateX(-10px); }
+                    to { opacity: 1; transform: translateX(0); }
+                }
+                .fullscreen-button {
+                    position: absolute;
+                    bottom: 10px;
+                    right: 10px;
+                    width: 40px;
+                    height: 40px;
+                    background: rgba(255, 255, 255, 0.8);
+                    border: none;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    opacity: 0.7;
+                    transition: opacity 0.2s ease;
+                    z-index: 10;
+                }
+                .fullscreen-button:hover {
+                    opacity: 1;
+                }
+                .zoom-toggle-button {
+                    position: absolute;
+                    bottom: 10px;
+                    left: 10px;
+                    width: 40px;
+                    height: 40px;
+                    background: rgba(255, 255, 255, 0.8);
+                    border: none;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    opacity: 0.7;
+                    transition: opacity 0.2s ease;
+                    z-index: 10;
+                }
+                .zoom-toggle-button:hover {
+                    opacity: 1;
+                }
+                /* Larger buttons for touch devices */
+                .fullscreen-button.touch-device,
+                .zoom-toggle-button.touch-device {
+                    width: 50px;
+                    height: 50px;
+                    font-size: 1.2rem;
+                    opacity: 0.9;
+                }
+                /* For mobile screens */
+                @media (max-width: 768px) {
+                    .lightbox-close {
+                        top: 10px;
+                        right: 10px;
+                    }
+                    .fullscreen-button,
+                    .zoom-toggle-button {
+                        width: 45px;
+                        height: 45px;
+                    }
+                }
+            \`;
+            
+            document.head.appendChild(style);
+            document.body.appendChild(lightbox);
+            
+            // Set up lightbox functionality
+            const lightboxElement = document.getElementById('product-lightbox');
+            const lightboxImage = lightboxElement.querySelector('.lightbox-image');
+            const closeButton = lightboxElement.querySelector('.lightbox-close');
+            const overlay = lightboxElement.querySelector('.lightbox-overlay');
+            const prevButton = lightboxElement.querySelector('.lightbox-prev');
+            const nextButton = lightboxElement.querySelector('.lightbox-next');
+            
+            let currentIndex = 0;
+            const images = Array.from(thumbnails).map(thumb => thumb.getAttribute('src'));
+            
+            // Make openLightbox function available globally
+            window.openLightbox = function(index) {
+                currentIndex = index;
+                lightboxImage.src = images[currentIndex];
+                lightboxElement.style.display = 'block';
+                lightboxElement.classList.add('lightbox-fade-in');
+                document.body.style.overflow = 'hidden'; // Prevent scrolling
+            }
+            
+            // Function to close lightbox
+            function closeLightbox() {
+                lightboxElement.style.display = 'none';
+                lightboxElement.classList.remove('lightbox-fade-in');
+                document.body.style.overflow = ''; // Restore scrolling
+            }
+            
+            // Function to navigate to previous image
+            function prevImage() {
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+                lightboxImage.src = images[currentIndex];
+            }
+            
+            // Function to navigate to next image
+            function nextImage() {
+                currentIndex = (currentIndex + 1) % images.length;
+                lightboxImage.src = images[currentIndex];
+            }
+            
+            // Set up event listeners
+            closeButton.addEventListener('click', closeLightbox);
+            overlay.addEventListener('click', closeLightbox);
+            prevButton.addEventListener('click', prevImage);
+            nextButton.addEventListener('click', nextImage);
+            
+            // Enable swipe navigation for touch devices
+            let touchStartX = 0;
+            let touchEndX = 0;
+            
+            lightboxElement.addEventListener('touchstart', function(e) {
+                touchStartX = e.changedTouches[0].screenX;
+            }, false);
+            
+            lightboxElement.addEventListener('touchend', function(e) {
+                touchEndX = e.changedTouches[0].screenX;
+                handleSwipe();
+            }, false);
+            
+            function handleSwipe() {
+                if (touchEndX < touchStartX - 50) {
+                    // Swipe left - next image
+                    nextImage();
+                }
+                if (touchEndX > touchStartX + 50) {
+                    // Swipe right - previous image
+                    prevImage();
+                }
+            }
+            
+            // Enable keyboard navigation
+            document.addEventListener('keydown', function(e) {
+                if (lightboxElement.style.display === 'block') {
+                    if (e.key === 'Escape') closeLightbox();
+                    if (e.key === 'ArrowLeft') prevImage();
+                    if (e.key === 'ArrowRight') nextImage();
+                }
+            });
+        }
+    }
+    
+    // Add a scroll animation for the description
+    const productDescription = document.querySelector('.product-description');
+    
+    // Check if IntersectionObserver is supported
+    if ('IntersectionObserver' in window && productDescription) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.2 });
+        
+        // Set initial state and observe
+        productDescription.style.opacity = '0';
+        productDescription.style.transform = 'translateY(20px)';
+        productDescription.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        observer.observe(productDescription);
     }
 });
 `;
@@ -178,44 +553,64 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
             </ol>
         </nav>
 
-        <div class="product-page">
-            <div class="product-container">
-                <div class="product-images-section">
-                    <div class="product-images-container">
-                        <div class="main-image-wrapper">
-                            <img src="../${product.images[0]}" class="product-main-image" 
-                                alt="${product.name.mk}" loading="lazy" onerror="this.src='../img/placeholder.jpg'">
-                        </div>
-                        ${product.images.length > 1 ? `
-                        <div class="product-thumbnails mt-3">
-                            ${product.images.map((image, index) => `
-                                <img src="../${image}" class="product-thumbnail ${index === 0 ? 'active' : ''}" 
-                                    alt="${product.name.mk} - Image ${index + 1}" data-index="${index}" loading="lazy" 
-                                    onerror="this.src='../img/placeholder.jpg'">
-                            `).join('')}
-                        </div>` : ''}
-                    </div>
+        <!-- Update this portion in your generate.js file where the product HTML is built -->
+
+<div class="product-page">
+    <div class="product-container">
+        <!-- Product Images Section -->
+        <div class="product-images-section">
+            <div class="product-images-container">
+                <div class="main-image-wrapper">
+                    <img src="../${product.images[0]}" class="product-main-image" 
+                         alt="${product.name.mk}" loading="lazy" onerror="this.src='../img/placeholder.jpg'">
                 </div>
-                <div class="product-details">
-                    <div class="product-details-header">
-                        <h1 class="product-title">${product.name.mk}</h1>
-                        <div class="product-sku">SKU: ${product.sku}</div>
-                        <div class="product-attributes mt-3">
-                            <span class="category-badge">${product.type.mk}</span>
-                            ${product.thickness ? `<span class="category-badge">Дебелина: ${product.thickness.mk}</span>` : ''}
-                            ${product.collection ? `<span class="category-badge">Колекција: ${product.collection.mk}</span>` : ''}
-                        </div>
-                        <div class="product-description mt-4">
-                            ${product.description.mk}
-                        </div>
-                        <div class="product-actions mt-4">
-                            <a href="../products.html" class="btn-back">Назад</a>
-                            <a href="../contact.html" class="btn-primary">Побарај Инфо</a>
-                        </div>
-                    </div>
+                ${product.images.length > 1 ? `
+                <div class="product-thumbnails mt-3">
+                    ${product.images.map((image, index) => `
+                        <img src="../${image}" class="product-thumbnail ${index === 0 ? 'active' : ''}" 
+                             alt="${product.name.mk} - Image ${index + 1}" data-index="${index}" loading="lazy" 
+                             onerror="this.src='../img/placeholder.jpg'">
+                    `).join('')}
+                </div>` : ''}
+            </div>
+        </div>
+        
+        <!-- Product Details -->
+        <div class="product-details">
+            <div class="product-details-header">
+                <h1 class="product-title">${product.name.mk}</h1>
+                <div class="product-sku">SKU: ${product.sku}</div>
+                
+                <div class="product-attributes mt-3">
+                    <span class="category-badge">
+                        <i class="bi bi-tag-fill me-2" style="font-size: 0.8rem;"></i>${product.type.mk}
+                    </span>
+                    ${product.thickness ? `
+                    <span class="category-badge">
+                        <i class="bi bi-rulers me-2" style="font-size: 0.8rem;"></i>Дебелина: ${product.thickness.mk}
+                    </span>` : ''}
+                    ${product.collection ? `
+                    <span class="category-badge">
+                        <i class="bi bi-collection-fill me-2" style="font-size: 0.8rem;"></i>Колекција: ${product.collection.mk}
+                    </span>` : ''}
+                </div>
+                
+                <div class="product-description mt-4">
+                    ${product.description.mk}
+                </div>
+                
+                <div class="product-actions mt-4">
+                    <a href="../products.html" class="btn-back">
+                        <i class="bi bi-arrow-left me-2"></i>Назад
+                    </a>
+                    <a href="../contact.html" class="btn-primary">
+                        <i class="bi bi-envelope me-2"></i>Побарај Инфо
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
+</div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
