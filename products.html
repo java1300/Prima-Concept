@@ -91,13 +91,17 @@
                 </div>
             </div>
             <div id="productList" class="row product-grid"></div>
+            <!-- Pagination Controls -->
+            <nav aria-label="Product pagination" class="mt-4">
+                <ul class="pagination justify-content-center" id="paginationControls"></ul>
+            </nav>
         </div>
     </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-    // Updated script for products.html with mobile sidebar and improved multilingual support
+    // Updated script for products.html with mobile sidebar, multilingual support, and pagination
     document.addEventListener('DOMContentLoaded', () => {
         let currentLang = localStorage.getItem('language') || 'mk';
         // Set language switcher value
@@ -130,8 +134,9 @@
         const urlParams = new URLSearchParams(window.location.search);
         const categoryParam = urlParams.get('category');
         const searchParam = urlParams.get('search');
+        let currentPage = parseInt(urlParams.get('page')) || 1;
 
-        console.log("URL parameters:", { categoryParam, searchParam });
+        console.log("URL parameters:", { categoryParam, searchParam, currentPage });
 
         Promise.all([
             fetch('products.json').then(res => res.json()),
@@ -165,6 +170,7 @@
                 const laminateFilters = document.getElementById('laminateFilters');
                 const collectionFilter = document.getElementById('collectionFilter');
                 const thicknessFilter = document.getElementById('thicknessFilter');
+                const paginationControls = document.getElementById('paginationControls');
 
                 // Define laminate category names in different languages
                 const laminateCategoryNames = {
@@ -174,30 +180,102 @@
 
                 console.log("Laminate category names:", laminateCategoryNames);
 
-                const renderProducts = (filteredProducts) => {
+                const productsPerPage = 12;
+
+                const renderProducts = (filteredProducts, page = 1) => {
                     productList.innerHTML = '';
-                    console.log(`Rendering ${filteredProducts.length} products`);
-                    filteredProducts.forEach((product) => {
+                    const start = (page - 1) * productsPerPage;
+                    const end = start + productsPerPage;
+                    const paginatedProducts = filteredProducts.slice(start, end);
+
+                    console.log(`Rendering ${paginatedProducts.length} products for page ${page}`);
+
+                    paginatedProducts.forEach((product) => {
                         const productLink = `products/product-${product.sku.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase()}.html`;
                         const card = document.createElement('div');
                         card.className = 'col-lg-4 col-md-6 col-6 mb-4';
                         card.innerHTML = `
-                    <div class="product-card">
-                      <div class="image-container">
-                        <img src="${product.image}" alt="${product.name[currentLang]}" loading="lazy" onerror="this.src='img/placeholder.jpg'">
-                        <div class="product-icons">
-                          <a href="${productLink}" class="product-icon arrow-icon">
-                            <i class="fas fa-arrow-right"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="card-body">
-                        <a href="${productLink}" class="card-title">${product.name[currentLang]}</a>
-                      </div>
-                    </div>
-                  `;
+                            <div class="product-card">
+                                <div class="image-container">
+                                    <img src="${product.image}" alt="${product.name[currentLang]}" loading="lazy" onerror="this.src='img/placeholder.jpg'">
+                                    <div class="product-icons">
+                                        <a href="${productLink}" class="product-icon arrow-icon">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <a href="${productLink}" class="card-title">${product.name[currentLang]}</a>
+                                </div>
+                            </div>
+                        `;
                         productList.appendChild(card);
                     });
+
+                    renderPagination(filteredProducts, page);
+                };
+
+                const renderPagination = (filteredProducts, currentPage) => {
+                    paginationControls.innerHTML = '';
+                    const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
+
+                    if (totalPages <= 1) return;
+
+                    // Previous button with left arrow icon
+                    const prevItem = document.createElement('li');
+                    prevItem.className = `page-item ${currentPage === 1 ? 'disabled' : ''}`;
+                    prevItem.innerHTML = `<a class="page-link" href="#" data-page="${currentPage - 1}" aria-label="Previous"><i class="bi bi-arrow-left"></i></a>`;
+                    paginationControls.appendChild(prevItem);
+
+                    // Page numbers
+                    const maxVisiblePages = 5;
+                    let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+                    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+
+                    if (endPage - startPage + 1 < maxVisiblePages) {
+                        startPage = Math.max(1, endPage - maxVisiblePages + 1);
+                    }
+
+                    if (startPage > 1) {
+                        const firstPage = document.createElement('li');
+                        firstPage.className = 'page-item';
+                        firstPage.innerHTML = `<a class="page-link" href="#" data-page="1">1</a>`;
+                        paginationControls.appendChild(firstPage);
+
+                        if (startPage > 2) {
+                            const ellipsis = document.createElement('li');
+                            ellipsis.className = 'page-item disabled';
+                            ellipsis.innerHTML = `<span class="page-link">...</span>`;
+                            paginationControls.appendChild(ellipsis);
+                        }
+                    }
+
+                    for (let i = startPage; i <= endPage; i++) {
+                        const pageItem = document.createElement('li');
+                        pageItem.className = `page-item ${i === currentPage ? 'active' : ''}`;
+                        pageItem.innerHTML = `<a class="page-link" href="#" data-page="${i}">${i}</a>`;
+                        paginationControls.appendChild(pageItem);
+                    }
+
+                    if (endPage < totalPages) {
+                        if (endPage < totalPages - 1) {
+                            const ellipsis = document.createElement('li');
+                            ellipsis.className = 'page-item disabled';
+                            ellipsis.innerHTML = `<span class="page-link">...</span>`;
+                            paginationControls.appendChild(ellipsis);
+                        }
+
+                        const lastPage = document.createElement('li');
+                        lastPage.className = 'page-item';
+                        lastPage.innerHTML = `<a class="page-link" href="#" data-page="${totalPages}">${totalPages}</a>`;
+                        paginationControls.appendChild(lastPage);
+                    }
+
+                    // Next button with right arrow icon
+                    const nextItem = document.createElement('li');
+                    nextItem.className = `page-item ${currentPage === totalPages ? 'disabled' : ''}`;
+                    nextItem.innerHTML = `<a class="page-link" href="#" data-page="${currentPage + 1}" aria-label="Next"><i class="bi bi-arrow-right"></i></a>`;
+                    paginationControls.appendChild(nextItem);
                 };
 
                 const updateStaticContent = () => {
@@ -228,15 +306,15 @@
 
                     const allCount = products.length;
                     categoryList.innerHTML = `
-                  <li>
-                    <a href="#" class="category-link active" data-category="all">${translations[currentLang].products.all_products} (${allCount})</a>
-                  </li>
-                  ${categories.map(type => `
-                    <li>
-                      <a href="#" class="category-link" data-category="${type}">${type} (${products.filter(p => p.type[currentLang] === type).length})</a>
-                    </li>
-                  `).join('')}
-                `;
+                        <li>
+                            <a href="#" class="category-link active" data-category="all">${translations[currentLang].products.all_products} (${allCount})</a>
+                        </li>
+                        ${categories.map(type => `
+                            <li>
+                                <a href="#" class="category-link" data-category="${type}">${type} (${products.filter(p => p.type[currentLang] === type).length})</a>
+                            </li>
+                        `).join('')}
+                    `;
 
                     console.log("Categories rendered in DOM");
 
@@ -430,7 +508,7 @@
                         console.log(`Filtered to ${filteredProducts.length} products after search`);
                     }
 
-                    renderProducts(filteredProducts);
+                    renderProducts(filteredProducts, currentPage);
                 };
 
                 // Set search value if provided in URL
@@ -480,6 +558,7 @@
                         links.forEach(link => link.classList.remove('active'));
                         e.target.classList.add('active');
 
+                        currentPage = 1; // Reset to first page on category change
                         const url = new URL(window.location);
                         if (category === 'all') {
                             url.searchParams.delete('category');
@@ -487,6 +566,7 @@
                             url.searchParams.set('category', category);
                         }
                         url.searchParams.delete('search');
+                        url.searchParams.set('page', currentPage);
                         window.history.pushState({}, '', url);
                         console.log("URL updated:", url.toString());
 
@@ -496,6 +576,7 @@
 
                 // Search filter
                 searchInput.addEventListener('input', () => {
+                    currentPage = 1; // Reset to first page on search
                     const url = new URL(window.location);
                     const searchTerm = searchInput.value;
                     if (searchTerm.length > 2) {
@@ -503,14 +584,41 @@
                     } else if (searchTerm.length === 0) {
                         url.searchParams.delete('search');
                     }
+                    url.searchParams.set('page', currentPage);
                     window.history.pushState({}, '', url);
                     console.log("Search term updated:", searchTerm);
                     applyFilters();
                 });
 
                 // Dropdown filter events
-                collectionFilter.addEventListener('change', applyFilters);
-                thicknessFilter.addEventListener('change', applyFilters);
+                collectionFilter.addEventListener('change', () => {
+                    currentPage = 1; // Reset to first page on filter change
+                    const url = new URL(window.location);
+                    url.searchParams.set('page', currentPage);
+                    window.history.pushState({}, '', url);
+                    applyFilters();
+                });
+                thicknessFilter.addEventListener('change', () => {
+                    currentPage = 1; // Reset to first page on filter change
+                    const url = new URL(window.location);
+                    url.searchParams.set('page', currentPage);
+                    window.history.pushState({}, '', url);
+                    applyFilters();
+                });
+
+                // Pagination click handler
+                paginationControls.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    if (e.target.closest('.page-link') && !e.target.closest('.page-item').classList.contains('disabled')) {
+                        const pageLink = e.target.closest('.page-link');
+                        currentPage = parseInt(pageLink.dataset.page);
+                        console.log(`Page changed to: ${currentPage}`);
+                        const url = new URL(window.location);
+                        url.searchParams.set('page', currentPage);
+                        window.history.pushState({}, '', url);
+                        applyFilters();
+                    }
+                });
 
                 // Window resize handler for sidebar content visibility
                 window.addEventListener('resize', () => {
@@ -656,11 +764,9 @@
 
         <!-- Copyright -->
         <div class="footer-copyright text-center">
-            <p>&copy; 2025 Prima Concept. All rights Reserved.</p>
+            <p>&copy; 2025 Prima Concept. All Rights Reserved.</p>
             <p>Developed by <span id="developer"><b>Xhavid Mamuti</b></span></p>
         </div>
     </div>
-</footer>
-
+ </footer>
 </body>
-</html>
