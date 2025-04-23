@@ -1,9 +1,9 @@
 [
   {
-    "sku": "PRIMA001",
+    "sku": "PRK807",
     "name": {
-      "mk": "Ламинат 8мм",
-      "sq": "Laminat 8mm"
+      "mk": "CORVINA Astera",
+      "sq": "CORVINA Astera"
     },
     "type": {
       "mk": "Ламинати",
@@ -14,13 +14,13 @@
       "sq": "8mm"
     },
     "collection": {
-      "mk": "BELLO",
-      "sq": "BELLO"
+      "mk": "CORVINA",
+      "sq": "CORVINA"
     },
-    "image": "img/laminate-8mm.webp",
+    "image": "img/corvina-8mm/astera1.webp",
     "images": [
-      "img/laminate-8mm.webp",
-      "img/laminate2-8mm.webp"
+      "img/corvina-8mm/astera1.webp",
+      "img/corvina-8mm/astera2.webp"
     ],
     "description": {
       "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
@@ -28,135 +28,347 @@
     }
   },
   {
-    "sku": "PRIMA002",
+    "sku": "PRK801",
     "name": {
-      "mk": "Ламинат 10мм",
-      "sq": "Laminat 10mm"
+      "mk": "CORVINA Anita",
+      "sq": "CORVINA Anita"
     },
     "type": {
       "mk": "Ламинати",
       "sq": "Laminatet"
     },
     "thickness": {
-      "mk": "10mm",
-      "sq": "10mm"
+      "mk": "8mm",
+      "sq": "8mm"
     },
     "collection": {
-      "mk": "PERA",
-      "sq": "PERA"
+      "mk": "CORVINA",
+      "sq": "CORVINA"
     },
-    "image": "img/laminate-10mm.webp",
+    "image": "img/corvina-8mm/anita1.webp",
     "images": [
-      "img/laminate-10mm.webp",
-      "img/laminate2-10mm.webp"
+      "img/corvina-8mm/anita1.webp",
+      "img/corvina-8mm/anita2.webp"
     ],
     "description": {
-      "mk": "<p>Издржлив ламинат со дебелина од 10мм, совршен за комерцијални простории.</p>",
-      "sq": "<p>Laminat i qëndrueshëm me trashësi 10mm, i përsosur për hapësira komerciale.</p>"
+      "mk": "<p>Издржлив ламинат со дебелина од 8мм, совршен за комерцијални простории.</p>",
+      "sq": "<p>Laminat i qëndrueshëm me trashësi 8mm, i përsosur për hapësira komerciale.</p>"
     }
   },
   {
-    "sku": "PRIMA0002",
+    "sku": "PRK808",
     "name": {
-      "mk": "Ламинат 12мм",
-      "sq": "Laminat 12mm"
+      "mk": "CORVINA Vega",
+      "sq": "CORVINA Vega"
     },
     "type": {
       "mk": "Ламинати",
       "sq": "Laminatet"
     },
     "thickness": {
-      "mk": "12mm",
-      "sq": "12mm"
+      "mk": "8mm",
+      "sq": "8mm"
     },
     "collection": {
-      "mk": "NONO",
-      "sq": "NONO"
+      "mk": "CORVINA",
+      "sq": "CORVINA"
     },
-    "image": "img/laminate-12mm.webp",
+    "image": "img/corvina-8mm/vega1.webp",
     "images": [
-      "img/laminate-12mm.webp",
-      "img/laminate2-12mm.webp"
+      "img/corvina-8mm/vega1.webp",
+      "img/corvina-8mm/vega2.webp"
     ],
     "description": {
-      "mk": "<p>Издржлив ламинат со дебелина од 12мм, совршен за комерцијални простории.</p>",
-      "sq": "<p>Laminat i qëndrueshëm me trashësi 12mm, i përsosur për hapësira komerciale.</p>"
+      "mk": "<p>Издржлив ламинат со дебелина од 8мм, совршен за комерцијални простории.</p>",
+      "sq": "<p>Laminat i qëndrueshëm me trashësi 8mm, i përsosur për hapësira komerciale.</p>"
     }
   },
   {
-    "sku": "PRIMA003",
+    "sku": "PRK803",
     "name": {
-      "mk": "Лајсна PVC",
-      "sq": "Llajsne PVC"
+      "mk": "CORVINA Pigato",
+      "sq": "CORVINA Pigato"
     },
     "type": {
-      "mk": "Лајсни",
-      "sq": "Llajsne"
+      "mk": "Ламинати",
+      "sq": "Laminatet"
     },
-    "image": "img/lajsne1.webp",
+    "collection": {
+      "mk": "CORVINA",
+      "sq": "CORVINA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/corvina-8mm/pigato1.webp",
     "images": [
-      "img/lajsne1.webp"
+      "img/corvina-8mm/pigato1.webp",
+      "img/corvina-8mm/pigato2.webp"
     ],
     "description": {
-      "mk": "<p>PVC лајсна за завршна обработка на подови.</p>",
-      "sq": "<p>Llajsne PVC për përfundimin e dyshemeve.</p>"
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
     }
   },
   {
-    "sku": "PRIMA004",
+    "sku": "PRK805",
     "name": {
-      "mk": "Изолација под ламинат",
-      "sq": "Izolim nën laminat"
+      "mk": "CORVINA Molette",
+      "sq": "CORVINA Molette"
     },
     "type": {
-      "mk": "Изолација",
-      "sq": "Izolimi"
+      "mk": "Ламинати",
+      "sq": "Laminatet"
     },
-    "image": "img/izolacija1.jpg",
+    "collection": {
+      "mk": "CORVINA",
+      "sq": "CORVINA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/corvina-8mm/molete1.webp",
     "images": [
-      "img/izolacija1.jpg"
+      "img/corvina-8mm/molete1.webp",
+      "img/corvina-8mm/molete2.webp"
     ],
     "description": {
-      "mk": "<p>Изолација за под ламинат, обезбедува топлинска и звучна изолација.</p>",
-      "sq": "<p>Izolim për nën laminat, siguron izolim termik dhe akustik.</p>"
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
     }
   },
   {
-    "sku": "PRIMA005",
+    "sku": "PRK108",
     "name": {
-      "mk": "Ѕиден профил",
-      "sq": "Profil muri"
+      "mk": "BELLA NEO Defne",
+      "sq": "BELLA NEO Defne"
     },
     "type": {
-      "mk": "Ѕидни профили",
-      "sq": "Profile muri"
+      "mk": "Ламинати",
+      "sq": "Laminatet"
     },
-    "image": "img/profil1.webp",
+    "collection": {
+      "mk": "BELLA",
+      "sq": "BELLA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/bella-8mm/defne1.webp",
     "images": [
-      "img/profil1.webp"
+      "img/bella-8mm/defne1.webp",
+      "img/bella-8mm/defne2.webp"
     ],
     "description": {
-      "mk": "<p>Ѕиден профил за монтажа на панели.</p>",
-      "sq": "<p>Profil muri për montimin e paneleve.</p>"
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
     }
   },
   {
-    "sku": "PRIMA006",
+    "sku": "PRK109",
     "name": {
-      "mk": "Внатрешна врата",
-      "sq": "Derë e brendshme"
+      "mk": "BELLA NEO Gardenya",
+      "sq": "BELLA NEO Gardenya"
     },
     "type": {
-      "mk": "Врати",
-      "sq": "Dyert"
+      "mk": "Ламинати",
+      "sq": "Laminatet"
     },
-    "image": "img/vrata1.webp",
+    "collection": {
+      "mk": "BELLA",
+      "sq": "BELLA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/bella-8mm/gardenya1.webp",
     "images": [
-      "img/vrata1.webp"
+      "img/bella-8mm/gardenya1.webp",
+      "img/bella-8mm/gardenya2.webp"
     ],
     "description": {
-      "mk": "<p>Внатрешна врата со модерен дизајн.</p>",
-      "sq": "<p>Derë e brendshme me dizajn modern.</p>"
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK112",
+    "name": {
+      "mk": "BELLA NEO Lotus",
+      "sq": "BELLA NEO Lotus"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "BELLA",
+      "sq": "BELLA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/bella-8mm/lotus1.webp",
+    "images": [
+      "img/bella-8mm/lotus1.webp",
+      "img/bella-8mm/lotus2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK1110",
+    "name": {
+      "mk": "BELLA NEO Verona",
+      "sq": "BELLA NEO Verona"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "BELLA",
+      "sq": "BELLA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/bella-8mm/verona1.webp",
+    "images": [
+      "img/bella-8mm/verona1.webp",
+      "img/bella-8mm/verona1.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK101",
+    "name": {
+      "mk": "BELLA NEO Lilyum",
+      "sq": "BELLA NEO Lilyum"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "BELLA",
+      "sq": "BELLA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/bella-8mm/lilyum1.webp",
+    "images": [
+      "img/bella-8mm/lilyum1.webp",
+      "img/bella-8mm/lilyum1.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK102",
+    "name": {
+      "mk": "BELLA NEO Anemon",
+      "sq": "BELLA NEO Anemon"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "BELLA",
+      "sq": "BELLA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/bella-8mm/anemon1.webp",
+    "images": [
+      "img/bella-8mm/anemon1.webp",
+      "img/bella-8mm/anemon2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK104",
+    "name": {
+      "mk": "BELLA NEO Vegas",
+      "sq": "BELLA NEO Vegas"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "BELLA",
+      "sq": "BELLA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/bella-8mm/vegas1.webp",
+    "images": [
+      "img/bella-8mm/vegas1.webp",
+      "img/bella-8mm/vegas2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    }
+  },
+
+  {
+    "sku": "PRK104",
+    "name": {
+      "mk": "BELLA NEO Manolya",
+      "sq": "BELLA NEO Manolya"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "BELLA",
+      "sq": "BELLA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/bella-8mm/manolya1.webp",
+    "images": [
+      "img/bella-8mm/manolya1.webp",
+      "img/bella-8mm/manolya2.webp"
+    ],
+    "description": {
+      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
+      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
     }
   }
+
+
 ]
