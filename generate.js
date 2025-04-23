@@ -356,7 +356,8 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
             updateProductContent(e.detail.language);
         });
     </script>
-    <footer class="footer py-5">
+    <!-- Footer -->
+<footer class="footer py-5">
     <div class="container">
         <div class="row">
             <!-- Kumanovo Column -->
@@ -420,10 +421,10 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                 <h5 class="footer-title" data-translate="footer.follow_us.title">Следете Нè</h5>
                 <div class="social-icons">
-                    <a href="https://www.facebook.com/" target="_blank" class="social-icon">
+                    <a href="https://www.facebook.com/primalaminat?mibextid=LQQJ4d&mibextid=LQQJ4d" target="_blank" class="social-icon">
                         <i class="bi bi-facebook"></i>
                     </a>
-                    <a href="https://www.instagram.com/" target="_blank" class="social-icon">
+                    <a href="https://www.instagram.com/prima_laminate?igsh=MWNscjJuMmN4bThueQ==" target="_blank" class="social-icon">
                         <i class="bi bi-instagram"></i>
                     </a>
                 </div>
@@ -435,6 +436,7 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
         <!-- Copyright -->
         <div class="footer-copyright text-center">
             <p>&copy; 2025 Prima Concept. All Rights Reserved.</p>
+            <p>Developed by <span id="developer"><a href="mailto:javamamuti23@gmail.com"><b>Xhavid Mamuti</b></a></span></p>
         </div>
     </div>
 </footer>
