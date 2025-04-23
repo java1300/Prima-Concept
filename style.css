@@ -1821,3 +1821,161 @@ html {
   font-family: "Montserrat", sans-serif;
   color: #c8102e;
 }
+
+/* Pagination Styling */
+.pagination {
+    margin-top: 2rem;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-item {
+    margin: 0 0.3rem;
+}
+
+.page-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 50%; /* Makes the page numbers circular */
+    width: 2.5rem; /* Fixed width for consistent circle size */
+    height: 2.5rem; /* Fixed height for consistent circle size */
+    line-height: 1.5rem; /* Centers text vertically */
+    text-align: center; /* Centers text horizontally */
+    padding: 0; /* Remove default padding to fit circle */
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-link:hover {
+    color: #fff;
+    background-color: #000; /* Black background on hover */
+    border-color: #000; /* Black border on hover */
+}
+
+.page-item.active .page-link {
+    color: #fff;
+    background-color: #000; /* Primary color for active state, adjust to match theme */
+    border-color: #000;
+    font-weight: 600;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+    cursor: not-allowed;
+}
+
+/* Hide Previous button completely when disabled (on page 1) */
+.page-item.disabled:first-child {
+    display: none;
+}
+
+/* Styling for Previous and Next buttons with arrow icons */
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+    border-radius: 50%; /* Rectangular shape for Previous/Next */
+    width: 2.5rem; /* Match circle width for consistency */
+    height: 2.5rem; /* Match circle height */
+    padding: 0; /* Center icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-item:first-child .page-link i,
+.page-item:last-child .page-link i {
+    font-size: 1.2rem; /* Size of arrow icons */
+    color: #333; /* Match page number text color */
+}
+
+.page-item:first-child .page-link:hover i,
+.page-item:last-child .page-link:hover i {
+    color: #fff; /* White icon on hover */
+}
+
+.page-item.disabled:last-child .page-link {
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+}
+
+.page-item.disabled:last-child .page-link i {
+    color: #6c757d; /* Muted color for disabled state */
+    opacity: 0.5; /* Slight fade for disabled right arrow */
+}
+
+/* Styling for ellipsis in pagination */
+.page-item.disabled .page-link:not(.page-item:first-child .page-link):not(.page-item:last-child .page-link) {
+    background-color: transparent;
+    border: none;
+    color: #6c757d;
+    cursor: default;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .page-link {
+        font-size: 0.875rem;
+        width: 2rem;
+        height: 2rem;
+        line-height: 1.25rem;
+    }
+
+    .page-item:first-child .page-link,
+    .page-item:last-child .page-link {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .page-item:first-child .page-link i,
+    .page-item:last-child .page-link i {
+        font-size: 1rem; /* Smaller icons on mobile */
+    }
+
+    .pagination {
+        flex-wrap: wrap;
+    }
+
+    .page-item {
+        margin: 0.2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .pagination {
+        margin-top: 3rem;
+    }
+
+    .page-link {
+        font-size: 1.1rem;
+        width: 2.75rem;
+        height: 2.75rem;
+        line-height: 1.75rem;
+    }
+
+    .page-item:first-child .page-link,
+    .page-item:last-child .page-link {
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+
+    .page-item:first-child .page-link i,
+    .page-item:last-child .page-link i {
+        font-size: 1.3rem; /* Slightly larger icons on desktop */
+    }
+}
+
+/* Ensure pagination aligns with the product grid */
+.product-grid + nav {
+    margin-bottom: 2rem;
+}
