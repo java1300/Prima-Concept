@@ -1136,6 +1136,61 @@ body:has(#productList) {
   }
 }
 
+/*lightbox responsive */
+
+/* Hide zoom button on mobile/tablet devices */
+@media (max-width: 991px) {
+  .zoom-toggle-button {
+    display: none !important;
+  }
+
+  /* Make fullscreen button smaller on mobile/tablet */
+  .fullscreen-button {
+    width: 35px !important;
+    height: 35px !important;
+    bottom: 8px !important;
+    right: 8px !important;
+    font-size: 0.9rem !important;
+  }
+
+  /* Ensure lightbox image takes full viewport width */
+  .lightbox-image {
+    max-width: 100vw !important;
+    width: 100% !important;
+    max-height: 80vh !important;
+    border: none !important;
+  }
+
+  /* Adjust lightbox container for mobile */
+  .lightbox-container {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 10px !important;
+  }
+
+  /* Make lightbox nav buttons more accessible on mobile */
+  .lightbox-nav {
+    bottom: -45px !important;
+  }
+
+  /* Adjust lightbox close button position for mobile */
+  .lightbox-close {
+    top: -30px !important;
+    right: 0 !important;
+  }
+}
+
+/* Additional tweaks for very small screens */
+@media (max-width: 480px) {
+  .fullscreen-button {
+    width: 30px !important;
+    height: 30px !important;
+    bottom: 5px !important;
+    right: 5px !important;
+    font-size: 0.8rem !important;
+  }
+}
+
 /* Mobile Sidebar Filter Button with Smooth Animations */
 @media (max-width: 767.98px) {
   .sidebar {
