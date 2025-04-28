@@ -18,41 +18,18 @@
       "sq": "CORVINA"
     },
     "image": "img/corvina-8mm/astera1.webp",
-    "images": [
-      "img/corvina-8mm/astera1.webp",
-      "img/corvina-8mm/astera2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
-    }
-  },
-  {
-    "sku": "PRK801",
-    "name": {
-      "mk": "CORVINA Anita",
-      "sq": "CORVINA Anita"
+    "images": ["img/corvina-8mm/astera1.webp", "img/corvina-8mm/astera2.webp"],
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
     },
-    "type": {
-      "mk": "Ламинати",
-      "sq": "Laminatet"
+    "package": {
+      "mk": "10 Парчиња / 2.292 м² / 14.038 кг",
+      "sq": "10 Copë / 2,292 m² / 14,038 kg"
     },
-    "thickness": {
-      "mk": "8mm",
-      "sq": "8mm"
-    },
-    "collection": {
-      "mk": "CORVINA",
-      "sq": "CORVINA"
-    },
-    "image": "img/corvina-8mm/anita1.webp",
-    "images": [
-      "img/corvina-8mm/anita1.webp",
-      "img/corvina-8mm/anita2.webp"
-    ],
-    "description": {
-      "mk": "<p>Издржлив ламинат со дебелина од 8мм, совршен за комерцијални простории.</p>",
-      "sq": "<p>Laminat i qëndrueshëm me trashësi 8mm, i përsosur për hapësira komerciale.</p>"
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
   {
@@ -73,14 +50,22 @@
       "mk": "CORVINA",
       "sq": "CORVINA"
     },
+
     "image": "img/corvina-8mm/vega1.webp",
-    "images": [
-      "img/corvina-8mm/vega1.webp",
-      "img/corvina-8mm/vega2.webp"
-    ],
-    "description": {
-      "mk": "<p>Издржлив ламинат со дебелина од 8мм, совршен за комерцијални простории.</p>",
-      "sq": "<p>Laminat i qëndrueshëm me trashësi 8mm, i përsosur për hapësira komerciale.</p>"
+    "images": ["img/corvina-8mm/vega1.webp", "img/corvina-8mm/vega2.webp"],
+    "package": {
+      "mk": "10 Парчиња / 2.292 м² / 14.038 кг",
+      "sq": "10 Copë / 2,292 m² / 14,038 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
   {
@@ -102,13 +87,20 @@
       "sq": "8mm"
     },
     "image": "img/corvina-8mm/pigato1.webp",
-    "images": [
-      "img/corvina-8mm/pigato1.webp",
-      "img/corvina-8mm/pigato2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/corvina-8mm/pigato1.webp", "img/corvina-8mm/pigato2.webp"],
+    "package": {
+      "mk": "10 Парчиња / 2.292 м² / 14.038 кг",
+      "sq": "10 Copë / 2,292 m² / 14,038 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
   {
@@ -130,13 +122,20 @@
       "sq": "8mm"
     },
     "image": "img/corvina-8mm/molete1.webp",
-    "images": [
-      "img/corvina-8mm/molete1.webp",
-      "img/corvina-8mm/molete2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/corvina-8mm/molete1.webp", "img/corvina-8mm/molete2.webp"],
+    "package": {
+      "mk": "10 Парчиња / 2.292 м² / 14.038 кг",
+      "sq": "10 Copë / 2,292 m² / 14,038 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
   {
@@ -158,13 +157,20 @@
       "sq": "8mm"
     },
     "image": "img/bella-8mm/defne1.webp",
-    "images": [
-      "img/bella-8mm/defne1.webp",
-      "img/bella-8mm/defne2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/bella-8mm/defne1.webp", "img/bella-8mm/defne2.webp"],
+    "package": {
+      "mk": "10 Парчиња / 2.292 м² / 14.038 кг",
+      "sq": "10 Copë / 2,292 m² / 14,038 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
   {
@@ -186,13 +192,20 @@
       "sq": "8mm"
     },
     "image": "img/bella-8mm/gardenya1.webp",
-    "images": [
-      "img/bella-8mm/gardenya1.webp",
-      "img/bella-8mm/gardenya2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/bella-8mm/gardenya1.webp", "img/bella-8mm/gardenya2.webp"],
+    "package": {
+      "mk": "10 Парчиња / 2.292 м² / 14.038 кг",
+      "sq": "10 Copë / 2,292 m² / 14,038 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
 
@@ -215,13 +228,20 @@
       "sq": "8mm"
     },
     "image": "img/bella-8mm/lotus1.webp",
-    "images": [
-      "img/bella-8mm/lotus1.webp",
-      "img/bella-8mm/lotus2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/bella-8mm/lotus1.webp", "img/bella-8mm/lotus2.webp"],
+    "package": {
+      "mk": "10 Парчиња / 2.292 м² / 14.038 кг",
+      "sq": "10 Copë / 2,292 m² / 14,038 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
 
@@ -244,13 +264,20 @@
       "sq": "8mm"
     },
     "image": "img/bella-8mm/verona1.webp",
-    "images": [
-      "img/bella-8mm/verona1.webp",
-      "img/bella-8mm/verona2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/bella-8mm/verona1.webp", "img/bella-8mm/verona2.webp"],
+    "package": {
+      "mk": "10 Парчиња / 2.292 м² / 14.038 кг",
+      "sq": "10 Copë / 2,292 m² / 14,038 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
 
@@ -273,13 +300,20 @@
       "sq": "8mm"
     },
     "image": "img/bella-8mm/lilyum1.webp",
-    "images": [
-      "img/bella-8mm/lilyum1.webp",
-      "img/bella-8mm/lilyum2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/bella-8mm/lilyum1.webp", "img/bella-8mm/lilyum2.webp"],
+    "package": {
+      "mk": "10 Парчиња / 2.292 м² / 14.038 кг",
+      "sq": "10 Copë / 2,292 m² / 14,038 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
 
@@ -302,13 +336,20 @@
       "sq": "8mm"
     },
     "image": "img/bella-8mm/anemon1.webp",
-    "images": [
-      "img/bella-8mm/anemon1.webp",
-      "img/bella-8mm/anemon2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/bella-8mm/anemon1.webp", "img/bella-8mm/anemon2.webp"],
+    "package": {
+      "mk": "10 Парчиња / 2.292 м² / 14.038 кг",
+      "sq": "10 Copë / 2,292 m² / 14,038 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
 
@@ -331,13 +372,20 @@
       "sq": "8mm"
     },
     "image": "img/bella-8mm/vegas1.webp",
-    "images": [
-      "img/bella-8mm/vegas1.webp",
-      "img/bella-8mm/vegas2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/bella-8mm/vegas1.webp", "img/bella-8mm/vegas2.webp"],
+    "package": {
+      "mk": "10 Парчиња / 2.292 м² / 14.038 кг",
+      "sq": "10 Copë / 2,292 m² / 14,038 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
 
@@ -360,13 +408,20 @@
       "sq": "8mm"
     },
     "image": "img/bella-8mm/manolya1.webp",
-    "images": [
-      "img/bella-8mm/manolya1.webp",
-      "img/bella-8mm/manolya2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/bella-8mm/manolya1.webp", "img/bella-8mm/manolya2.webp"],
+    "package": {
+      "mk": "10 Парчиња / 2.292 м² / 14.038 кг",
+      "sq": "10 Copë / 2,292 m² / 14,038 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
 
@@ -389,13 +444,20 @@
       "sq": "8mm"
     },
     "image": "img/bella-8mm/frezya1.webp",
-    "images": [
-      "img/bella-8mm/frezya1.webp",
-      "img/bella-8mm/frezya2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/bella-8mm/frezya1.webp", "img/bella-8mm/frezya2.webp"],
+    "package": {
+      "mk": "10 Парчиња / 2.292 м² / 14.038 кг",
+      "sq": "10 Copë / 2,292 m² / 14,038 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
 
@@ -418,13 +480,20 @@
       "sq": "8mm"
     },
     "image": "img/natura-select/mese1.webp",
-    "images": [
-      "img/natura-select/mese1.webp",
-      "img/natura-select/mese2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/natura-select/mese1.webp", "img/natura-select/mese2.webp"],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -451,9 +520,19 @@
       "img/natura-select/olimpos1.webp",
       "img/natura-select/olimpos2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -480,9 +559,19 @@
       "img/natura-select/natura1.webp",
       "img/natura-select/natura2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -509,9 +598,19 @@
       "img/natura-select/pasifik1.webp",
       "img/natura-select/pasifik2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -538,9 +637,19 @@
       "img/natura-select/kanyon1.webp",
       "img/natura-select/kanyon2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -563,13 +672,20 @@
       "sq": "8mm"
     },
     "image": "img/natura-select/gri1.webp",
-    "images": [
-      "img/natura-select/gri1.webp",
-      "img/natura-select/gri2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/natura-select/gri1.webp", "img/natura-select/gri2.webp"],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -596,9 +712,19 @@
       "img/natura-select/patara1.webp",
       "img/natura-select/patara2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
   {
@@ -624,12 +750,21 @@
       "img/natura-select/antalya1.webp",
       "img/natura-select/antalya2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
-
 
   {
     "sku": "PRK006",
@@ -654,9 +789,19 @@
       "img/natura-select/kemer1.webp",
       "img/natura-select/kemer2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -679,13 +824,20 @@
       "sq": "8mm"
     },
     "image": "img/natura-select/sia1.webp",
-    "images": [
-      "img/natura-select/sia1.webp",
-      "img/natura-select/sia2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/natura-select/sia1.webp", "img/natura-select/sia2.webp"],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -712,9 +864,19 @@
       "img/natura-select/patricia1.webp",
       "img/natura-select/patricia2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -737,13 +899,20 @@
       "sq": "8mm"
     },
     "image": "img/natura-line/tuna1.webp",
-    "images": [
-      "img/natura-line/tuna1.webp",
-      "img/natura-line/tuna2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/natura-line/tuna1.webp", "img/natura-line/tuna2.webp"],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -766,13 +935,20 @@
       "sq": "8mm"
     },
     "image": "img/natura-line/volga1.webp",
-    "images": [
-      "img/natura-line/volga1.webp",
-      "img/natura-line/volga2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/natura-line/volga1.webp", "img/natura-line/volga2.webp"],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -795,13 +971,20 @@
       "sq": "8mm"
     },
     "image": "img/natura-line/nil1.webp",
-    "images": [
-      "img/natura-line/nil1.webp",
-      "img/natura-line/nil2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/natura-line/nil1.webp", "img/natura-line/nil2.webp"],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -824,13 +1007,20 @@
       "sq": "8mm"
     },
     "image": "img/natura-line/meric1.webp",
-    "images": [
-      "img/natura-line/meric1.webp",
-      "img/natura-line/meric2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/natura-line/meric1.webp", "img/natura-line/meric2.webp"],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -853,13 +1043,20 @@
       "sq": "8mm"
     },
     "image": "img/natura-line/selge1.webp",
-    "images": [
-      "img/natura-line/selge1.webp",
-      "img/natura-line/selge2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/natura-line/selge1.webp", "img/natura-line/selge2.webp"],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -882,13 +1079,20 @@
       "sq": "8mm"
     },
     "image": "img/natura-line/rodos1.webp",
-    "images": [
-      "img/natura-line/rodos1.webp",
-      "img/natura-line/rodos2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/natura-line/rodos1.webp", "img/natura-line/rodos2.webp"],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -911,13 +1115,20 @@
       "sq": "8mm"
     },
     "image": "img/natura-line/trend1.webp",
-    "images": [
-      "img/natura-line/trend1.webp",
-      "img/natura-line/trend2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/natura-line/trend1.webp", "img/natura-line/trend2.webp"],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -940,13 +1151,20 @@
       "sq": "8mm"
     },
     "image": "img/natura-line/ilgas1.webp",
-    "images": [
-      "img/natura-line/ilgas1.webp",
-      "img/natura-line/ilgas2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/natura-line/ilgas1.webp", "img/natura-line/ilgas2.webp"],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -969,21 +1187,28 @@
       "sq": "8mm"
     },
     "image": "img/natura-line/lena1.webp",
-    "images": [
-      "img/natura-line/lena1.webp",
-      "img/natura-line/lena2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/natura-line/lena1.webp", "img/natura-line/lena2.webp"],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
   {
     "sku": "PRK1110",
     "name": {
-      "mk": "LUNA Lena",
-      "sq": "LUNA Lena"
+      "mk": "LUNA Verona",
+      "sq": "LUNA Verona"
     },
     "type": {
       "mk": "Ламинати",
@@ -998,13 +1223,20 @@
       "sq": "8mm"
     },
     "image": "img/luna/verona1.webp",
-    "images": [
-      "img/luna/verona1.webp",
-      "img/luna/verona2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/luna/verona1.webp", "img/luna/verona2.webp"],
+    "package": {
+      "mk": "10 Парчиња / 2,292 м² / 16,50 кг",
+      "sq": "10 Copë / 2,292 m² / 16,50 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
 
@@ -1027,13 +1259,20 @@
       "sq": "8mm"
     },
     "image": "img/luna/frezya1.webp",
-    "images": [
-      "img/luna/frezya1.webp",
-      "img/luna/frezya2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/luna/frezya1.webp", "img/luna/frezya2.webp"],
+    "package": {
+      "mk": "10 Парчиња / 2,292 м² / 16,50 кг",
+      "sq": "10 Copë / 2,292 m² / 16,50 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
 
@@ -1056,13 +1295,20 @@
       "sq": "8mm"
     },
     "image": "img/luna/lotus1.webp",
-    "images": [
-      "img/luna/lotus1.webp",
-      "img/luna/lotus2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/luna/lotus1.webp", "img/luna/lotus2.webp"],
+    "package": {
+      "mk": "10 Парчиња / 2,292 м² / 16,50 кг",
+      "sq": "10 Copë / 2,292 m² / 16,50 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
 
@@ -1085,15 +1331,23 @@
       "sq": "8mm"
     },
     "image": "img/pruva/ales1.webp",
-    "images": [
-      "img/pruva/ales1.webp",
-      "img/pruva/ales2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 8мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 8mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/pruva/ales1.webp", "img/pruva/ales2.webp"],
+    "package": {
+      "mk": "6 Парчиња / 2,3544 м² / 16,8 кг",
+      "sq": "6 Copë / 2,3544 m² / 16,8 kg"
+    },
+
+    "dimensions": {
+      "mk": "327 mm x 1200 mm",
+      "sq": "327 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
+
 
   {
     "sku": "PRK601",
@@ -1118,9 +1372,19 @@
       "img/concept-neo-10mm/centro1.webp",
       "img/concept-neo-10mm/centro2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,4770 м² / 13,30 кг",
+      "sq": "8 Copë / 1,4770 m² / 13,30 kg"
+    },
+
+    "dimensions": {
+      "mk": "154,5 mm x 1195 mm",
+      "sq": "154,5 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -1147,9 +1411,19 @@
       "img/concept-neo-10mm/casella1.webp",
       "img/concept-neo-10mm/casella2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,4770 м² / 13,30 кг",
+      "sq": "8 Copë / 1,4770 m² / 13,30 kg"
+    },
+
+    "dimensions": {
+      "mk": "154,5 mm x 1195 mm",
+      "sq": "154,5 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -1176,9 +1450,19 @@
       "img/concept-neo-10mm/moderna1.webp",
       "img/concept-neo-10mm/moderna2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,4770 м² / 13,30 кг",
+      "sq": "8 Copë / 1,4770 m² / 13,30 kg"
+    },
+
+    "dimensions": {
+      "mk": "154,5 mm x 1195 mm",
+      "sq": "154,5 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -1205,9 +1489,19 @@
       "img/concept-neo-10mm/dorino1.webp",
       "img/concept-neo-10mm/dorino2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,4770 м² / 13,30 кг",
+      "sq": "8 Copë / 1,4770 m² / 13,30 kg"
+    },
+
+    "dimensions": {
+      "mk": "154,5 mm x 1195 mm",
+      "sq": "154,5 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -1234,9 +1528,19 @@
       "img/concept-neo-10mm/lima1.webp",
       "img/concept-neo-10mm/lima2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,4770 м² / 13,30 кг",
+      "sq": "8 Copë / 1,4770 m² / 13,30 kg"
+    },
+
+    "dimensions": {
+      "mk": "154,5 mm x 1195 mm",
+      "sq": "154,5 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -1263,9 +1567,19 @@
       "img/concept-neo-10mm/portello1.webp",
       "img/concept-neo-10mm/portello2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,4770 м² / 13,30 кг",
+      "sq": "8 Copë / 1,4770 m² / 13,30 kg"
+    },
+
+    "dimensions": {
+      "mk": "154,5 mm x 1195 mm",
+      "sq": "154,5 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -1292,9 +1606,19 @@
       "img/concept-neo-10mm/vieste1.webp",
       "img/concept-neo-10mm/vieste2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,4770 м² / 13,30 кг",
+      "sq": "8 Copë / 1,4770 m² / 13,30 kg"
+    },
+
+    "dimensions": {
+      "mk": "154,5 mm x 1195 mm",
+      "sq": "154,5 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -1317,13 +1641,20 @@
       "sq": "10mm"
     },
     "image": "img/mood-10mm/mare1.webp",
-    "images": [
-      "img/mood-10mm/mare1.webp",
-      "img/mood-10mm/mare2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/mood-10mm/mare1.webp", "img/mood-10mm/mare2.webp"],
+    "package": {
+      "mk": "5 Парчиња / 1,9418 м² / 17,50 кг",
+      "sq": "5 Copë / 1,9418 m² / 17,50 kg"
+    },
+
+    "dimensions": {
+      "mk": "325 mm x 1195 mm",
+      "sq": "325 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -1346,13 +1677,20 @@
       "sq": "10mm"
     },
     "image": "img/mood-10mm/marine1.webp",
-    "images": [
-      "img/mood-10mm/marine1.webp",
-      "img/mood-10mm/marine2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/mood-10mm/marine1.webp", "img/mood-10mm/marine2.webp"],
+    "package": {
+      "mk": "5 Парчиња / 1,9418 м² / 17,50 кг",
+      "sq": "5 Copë / 1,9418 m² / 17,50 kg"
+    },
+
+    "dimensions": {
+      "mk": "325 mm x 1195 mm",
+      "sq": "325 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -1375,13 +1713,20 @@
       "sq": "10mm"
     },
     "image": "img/mood-10mm/marvel1.webp",
-    "images": [
-      "img/mood-10mm/marvel1.webp",
-      "img/mood-10mm/marvel2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/mood-10mm/marvel1.webp", "img/mood-10mm/marvel2.webp"],
+    "package": {
+      "mk": "5 Парчиња / 1,9418 м² / 17,50 кг",
+      "sq": "5 Copë / 1,9418 m² / 17,50 kg"
+    },
+
+    "dimensions": {
+      "mk": "325 mm x 1195 mm",
+      "sq": "325 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -1404,16 +1749,22 @@
       "sq": "10mm"
     },
     "image": "img/mood-10mm/malta1.webp",
-    "images": [
-      "img/mood-10mm/malta1.webp",
-      "img/mood-10mm/malta2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/mood-10mm/malta1.webp", "img/mood-10mm/malta2.webp"],
+    "package": {
+      "mk": "5 Парчиња / 1,9418 м² / 17,50 кг",
+      "sq": "5 Copë / 1,9418 m² / 17,50 kg"
+    },
+
+    "dimensions": {
+      "mk": "325 mm x 1195 mm",
+      "sq": "325 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
-
 
   {
     "sku": "PRK1002",
@@ -1434,13 +1785,314 @@
       "sq": "10mm"
     },
     "image": "img/mood-10mm/marvel1.webp",
-    "images": [
-      "img/mood-10mm/marvel1.webp",
-      "img/mood-10mm/marvel2.webp"
-    ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 10мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 10mm, ideal për të gjitha hapësirat.</p>"
+    "images": ["img/mood-10mm/marvel1.webp", "img/mood-10mm/marvel2.webp"],
+    "package": {
+      "mk": "5 Парчиња / 1,9418 м² / 17,50 кг",
+      "sq": "5 Copë / 1,9418 m² / 17,50 kg"
+    },
+
+    "dimensions": {
+      "mk": "325 mm x 1195 mm",
+      "sq": "325 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+    }
+  },
+  {
+    "sku": "8155",
+    "name": {
+      "mk": "KRONO ORIGINAL Appalachian Hickory",
+      "sq": "KRONO ORIGINAL Appalachian Hickory"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "KRONO ORIGINAL",
+      "sq": "KRONO ORIGINAL"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/krono-original-10mm/8155.webp",
+    "images": ["img/krono-original-10mm/8155.webp",
+      "img/krono-original-10mm/8155-2.webp"],
+    "package": {
+      "mk": "7 Парчиња",
+      "sq": "7 Copë"
+    },
+
+    "dimensions": {
+      "mk": "195 mm x 1288 mm",
+      "sq": "195 mm x 1288 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Спална соба, Коридор, Кујна, Дневна соба, Канцеларија, Продавница",
+      "sq": "AC5-33: Dhomë gjumi, Korridor, Kuzhinë, Dhomë ndenjeje, Zyrë, Dyqan"
+    }
+  },
+
+  {
+    "sku": "8156",
+    "name": {
+      "mk": "KRONO ORIGINAL Red River Hickory",
+      "sq": "KRONO ORIGINAL Red River Hickory"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "KRONO ORIGINAL",
+      "sq": "KRONO ORIGINAL"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/krono-original-10mm/8156.webp",
+    "images": ["img/krono-original-10mm/8156.webp",
+      "img/krono-original-10mm/8156-2.webp"],
+    "package": {
+      "mk": "7 Парчиња",
+      "sq": "7 Copë"
+    },
+
+    "dimensions": {
+      "mk": "195 mm x 1288 mm",
+      "sq": "195 mm x 1288 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Спална соба, Коридор, Кујна, Дневна соба, Канцеларија, Продавница",
+      "sq": "AC5-33: Dhomë gjumi, Korridor, Kuzhinë, Dhomë ndenjeje, Zyrë, Dyqan"
+    }
+  },
+
+  {
+    "sku": "K413",
+    "name": {
+      "mk": "KRONO ORIGINAL Blackwater Oak",
+      "sq": "KRONO ORIGINAL Blackwater Oak"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "KRONO ORIGINAL",
+      "sq": "KRONO ORIGINAL"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/krono-original-10mm/k413.webp",
+    "images": ["img/krono-original-10mm/k413.webp",
+      "img/krono-original-10mm/k413-2.webp"],
+    "package": {
+      "mk": "7 Парчиња",
+      "sq": "7 Copë"
+    },
+
+    "dimensions": {
+      "mk": "195 mm x 1288 mm",
+      "sq": "195 mm x 1288 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Спална соба, Коридор, Кујна, Дневна соба, Канцеларија, Продавница",
+      "sq": "AC5-33: Dhomë gjumi, Korridor, Kuzhinë, Dhomë ndenjeje, Zyrë, Dyqan"
+    }
+  },
+
+  {
+    "sku": "K478",
+    "name": {
+      "mk": "KRONO ORIGINAL Mushroom Carpenter Oak",
+      "sq": "KRONO ORIGINAL Mushroom Carpenter Oak"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "KRONO ORIGINAL",
+      "sq": "KRONO ORIGINAL"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/krono-original-10mm/k478.webp",
+    "images": ["img/krono-original-10mm/k478.webp",
+      "img/krono-original-10mm/k478-2.webp"],
+    "package": {
+      "mk": "7 Парчиња",
+      "sq": "7 Copë"
+    },
+
+    "dimensions": {
+      "mk": "195 mm x 1288 mm",
+      "sq": "195 mm x 1288 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Спална соба, Коридор, Кујна, Дневна соба, Канцеларија, Продавница",
+      "sq": "AC5-33: Dhomë gjumi, Korridor, Kuzhinë, Dhomë ndenjeje, Zyrë, Dyqan"
+    }
+  },
+  {
+    "sku": "K475",
+    "name": {
+      "mk": "KRONO ORIGINAL Virgin Scandi Larch",
+      "sq": "KRONO ORIGINAL Virgin Scandi Larch"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "KRONO ORIGINAL",
+      "sq": "KRONO ORIGINAL"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/krono-original-10mm/k475.webp",
+    "images": ["img/krono-original-10mm/k475.webp",
+      "img/krono-original-10mm/k475-2.webp"],
+    "package": {
+      "mk": "7 Парчиња",
+      "sq": "7 Copë"
+    },
+
+    "dimensions": {
+      "mk": "195 mm x 1288 mm",
+      "sq": "195 mm x 1288 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Спална соба, Коридор, Кујна, Дневна соба, Канцеларија, Продавница",
+      "sq": "AC5-33: Dhomë gjumi, Korridor, Kuzhinë, Dhomë ndenjeje, Zyrë, Dyqan"
+    }
+  },
+
+  {
+    "sku": "K285",
+    "name": {
+      "mk": "KRONO ORIGINAL Haybridge Oak",
+      "sq": "KRONO ORIGINAL Haybridge Oak"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "KRONO ORIGINAL",
+      "sq": "KRONO ORIGINAL"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/krono-original-12mm/k285.webp",
+    "images": ["img/krono-original-12mm/k285.webp",
+      "img/krono-original-12mm/k285-2.webp"],
+    "package": {
+      "mk": "7 Парчиња",
+      "sq": "7 Copë"
+    },
+
+    "dimensions": {
+      "mk": "195 mm x 1288 mm",
+      "sq": "195 mm x 1288 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Спална соба, Кујна, Дневна соба, Канцеларија",
+      "sq": "AC5-33: Dhomë gjumi, Kuzhinë, Dhomë ndenjeje, Zyrë"
+    }
+  },
+
+  {
+    "sku": "K476",
+    "name": {
+      "mk": "KRONO ORIGINAL Inca Carpenter Oak",
+      "sq": "KRONO ORIGINAL Inca Carpenter Oak"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "KRONO ORIGINAL",
+      "sq": "KRONO ORIGINAL"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/krono-original-12mm/k476.webp",
+    "images": ["img/krono-original-12mm/k476.webp",
+      "img/krono-original-12mm/k476-2.webp"],
+    "package": {
+      "mk": "7 Парчиња",
+      "sq": "7 Copë"
+    },
+
+    "dimensions": {
+      "mk": "195 mm x 1288 mm",
+      "sq": "195 mm x 1288 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Спална соба, Коридор, Кујна, Дневна соба, Канцеларија",
+      "sq": "AC5-33: Dhomë gjumi, Korridor, Kuzhinë, Dhomë ndenjeje, Zyrë"
+    }
+  },
+
+  {
+    "sku": "K450",
+    "name": {
+      "mk": "KRONO ORIGINAL Firebrand Oak",
+      "sq": "KRONO ORIGINAL Firebrand Oak"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "KRONO ORIGINAL",
+      "sq": "KRONO ORIGINAL"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/krono-original-12mm/k450.webp",
+    "images": ["img/krono-original-12mm/k450.webp",
+      "img/krono-original-12mm/k476-2.webp"],
+    "package": {
+      "mk": "7 Парчиња",
+      "sq": "7 Copë"
+    },
+
+    "dimensions": {
+      "mk": "195 mm x 1288 mm",
+      "sq": "195 mm x 1288 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Спална соба, Коридор, Кујна, Дневна соба, Канцеларија",
+      "sq": "AC5-33: Dhomë gjumi, Korridor, Kuzhinë, Dhomë ndenjeje, Zyrë"
     }
   },
 
@@ -1467,9 +2119,19 @@
       "img/effect-premium-12mm/elbruz1.webp",
       "img/effect-premium-12mm/elbruz2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "6 Парчиња / 1,3551 м² / 14,60 кг",
+      "sq": "6 Copë / 1,3551 m² / 14,60 kg"
+    },
+
+    "dimensions": {
+      "mk": "189 mm x 1195 mm",
+      "sq": "189 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Интензивна употреба на простор",
+      "sq": "AC5-33: Përdorim intensiv i hapësirës"
     }
   },
 
@@ -1496,12 +2158,21 @@
       "img/effect-premium-12mm/rosso1.webp",
       "img/effect-premium-12mm/rosso2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "6 Парчиња / 1,3551 м² / 14,60 кг",
+      "sq": "6 Copë / 1,3551 m² / 14,60 kg"
+    },
+
+    "dimensions": {
+      "mk": "189 mm x 1195 mm",
+      "sq": "189 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Интензивна употреба на простор",
+      "sq": "AC5-33: Përdorim intensiv i hapësirës"
     }
   },
-
 
   {
     "sku": "PRK903",
@@ -1526,9 +2197,19 @@
       "img/effect-premium-12mm/everest1.webp",
       "img/effect-premium-12mm/everest2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "6 Парчиња / 1,3551 м² / 14,60 кг",
+      "sq": "6 Copë / 1,3551 m² / 14,60 kg"
+    },
+
+    "dimensions": {
+      "mk": "189 mm x 1195 mm",
+      "sq": "189 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Интензивна употреба на простор",
+      "sq": "AC5-33: Përdorim intensiv i hapësirës"
     }
   },
 
@@ -1555,9 +2236,19 @@
       "img/effect-premium-12mm/alp1.webp",
       "img/effect-premium-12mm/alp2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "6 Парчиња / 1,3551 м² / 14,60 кг",
+      "sq": "6 Copë / 1,3551 m² / 14,60 kg"
+    },
+
+    "dimensions": {
+      "mk": "189 mm x 1195 mm",
+      "sq": "189 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Интензивна употреба на простор",
+      "sq": "AC5-33: Përdorim intensiv i hapësirës"
     }
   },
 
@@ -1584,9 +2275,19 @@
       "img/effect-premium-12mm/tibet1.webp",
       "img/effect-premium-12mm/tibet2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "6 Парчиња / 1,3551 м² / 14,60 кг",
+      "sq": "6 Copë / 1,3551 m² / 14,60 kg"
+    },
+
+    "dimensions": {
+      "mk": "189 mm x 1195 mm",
+      "sq": "189 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Интензивна употреба на простор",
+      "sq": "AC5-33: Përdorim intensiv i hapësirës"
     }
   },
 
@@ -1613,9 +2314,19 @@
       "img/effect-premium-12mm/ural1.webp",
       "img/effect-premium-12mm/ural2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "6 Парчиња / 1,3551 м² / 14,60 кг",
+      "sq": "6 Copë / 1,3551 m² / 14,60 kg"
+    },
+
+    "dimensions": {
+      "mk": "189 mm x 1195 mm",
+      "sq": "189 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Интензивна употреба на простор",
+      "sq": "AC5-33: Përdorim intensiv i hapësirës"
     }
   },
 
@@ -1642,9 +2353,19 @@
       "img/effect-premium-12mm/altay1.webp",
       "img/effect-premium-12mm/altay2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "6 Парчиња / 1,3551 м² / 14,60 кг",
+      "sq": "6 Copë / 1,3551 m² / 14,60 kg"
+    },
+
+    "dimensions": {
+      "mk": "189 mm x 1195 mm",
+      "sq": "189 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Интензивна употреба на простор",
+      "sq": "AC5-33: Përdorim intensiv i hapësirës"
     }
   },
 
@@ -1671,9 +2392,19 @@
       "img/effect-premium-12mm/pamir1.webp",
       "img/effect-premium-12mm/pamir2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "6 Парчиња / 1,3551 м² / 14,60 кг",
+      "sq": "6 Copë / 1,3551 m² / 14,60 kg"
+    },
+
+    "dimensions": {
+      "mk": "189 mm x 1195 mm",
+      "sq": "189 mm x 1195 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Интензивна употреба на простор",
+      "sq": "AC5-33: Përdorim intensiv i hapësirës"
     }
   },
 
@@ -1697,12 +2428,22 @@
     },
     "image": "img/marco-polo-12mm/kaledonya1.webp",
     "images": [
-      "img/effect-premium-12mm/kaledonya1.webp",
-      "img/effect-premium-12mm/kaledonya2.webp"
+      "img/marco-polo-12mm/kaledonya1.webp",
+      "img/marco-polo-12mm/kaledonya2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -1726,12 +2467,136 @@
     },
     "image": "img/marco-polo-12mm/florida1.webp",
     "images": [
-      "img/effect-premium-12mm/florida1.webp",
-      "img/effect-premium-12mm/florida2.webp"
+      "img/marco-polo-12mm/florida1.webp",
+      "img/marco-polo-12mm/florida2.webp"
     ],
-    "description": {
-      "mk": "<p>Висококвалитетен ламинат со дебелина од 12мм, идеален за сите простории.</p>",
-      "sq": "<p>Laminat me cilësi të lartë me trashësi 12mm, ideal për të gjitha hapësirat.</p>"
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+    }
+  },
+
+  {
+    "sku": "1842-4",
+    "name": {
+      "mk": "PIANO 1842-4",
+      "sq": "PIANO 1842-4"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "PIANO",
+      "sq": "PIANO"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/piano/1842-4.webp",
+    "images": [
+      "img/piano/1842-4.webp"
+    ],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+    }
+  },
+
+  {
+    "sku": "11911",
+    "name": {
+      "mk": "PIANO 11911",
+      "sq": "PIANO 11911"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "PIANO",
+      "sq": "PIANO"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/piano/11911.webp",
+    "images": [
+      "img/piano/11911.webp"
+    ],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+    }
+  },
+
+  {
+    "sku": "11909",
+    "name": {
+      "mk": "PIANO 11909",
+      "sq": "PIANO 11909"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "PIANO",
+      "sq": "PIANO"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/piano/11909.webp",
+    "images": [
+      "img/piano/11909.webp"
+    ],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
     }
   },
 
@@ -1746,30 +2611,167 @@
       "sq": "Profile Muri"
     },
 
-    "image": "img/wall-profile/lb-2250-1.webp",
+    "image": "img/wall-profile/lb-2250.webp",
     "images": [
-      "img/wall-profile/lb-2250-1.webp",
-      "img/wall-profile/lb-2250-2.webp"
+      "img/wall-profile/lb-2250.webp"
+    ],
+    "description": {
+      "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
+      "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
+    }
+  },
+
+  {
+    "sku": "LB-3371",
+    "name": {
+      "mk": "LB-3371 Wenge",
+      "sq": "LB-3371 Wenge"
+    },
+    "type": {
+      "mk": "Ѕидни Профили",
+      "sq": "Profile Muri"
+    },
+
+    "image": "img/wall-profile/lb-3371-wenge.webp",
+    "images": [
+      "img/wall-profile/lb-3371-wenge.webp"
     ],
 
-    "thickness": {
-      "mk": "12mm",
-      "sq": "12mm"
+    "description": {
+      "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
+      "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
+    }
+  },
+
+  {
+    "sku": "LB-3371 ",
+    "name": {
+      "mk": "LB-3371 AKRA OAK",
+      "sq": "LB-3371 AKRA OAK"
     },
+    "type": {
+      "mk": "Ѕидни Профили",
+      "sq": "Profile Muri"
+    },
+
+    "image": "img/wall-profile/lb-3371-akraoak.webp",
+    "images": [
+      "img/wall-profile/lb-3371-akraoak.webp"
+    ],
+
+    "description": {
+      "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
+      "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
+    }
+  },
+
+  {
+    "sku": "LB-3371  ",
+    "name": {
+      "mk": "LB-3371 Teak",
+      "sq": "LB-3371 Teak"
+    },
+    "type": {
+      "mk": "Ѕидни Профили",
+      "sq": "Profile Muri"
+    },
+
+    "image": "img/wall-profile/lb-3371-teak.webp",
+    "images": [
+      "img/wall-profile/lb-3371-teak.webp"
+    ],
+
+    "description": {
+      "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
+      "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
+    }
+  },
+
+  {
+    "sku": "LB-3371   ",
+    "name": {
+      "mk": "LB-3371 Storm Grey",
+      "sq": "LB-3371 Storm Grey"
+    },
+    "type": {
+      "mk": "Ѕидни Профили",
+      "sq": "Profile Muri"
+    },
+
+    "image": "img/wall-profile/lb-3371-stormgrey.webp",
+    "images": [
+      "img/wall-profile/lb-3371-stormgrey.webp"
+    ],
+
+    "description": {
+      "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
+      "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
+    }
+  },
+
+  {
+    "sku": "LB-2220",
+    "name": {
+      "mk": "LB-2220 Light Walnut",
+      "sq": "LB-2220 Light Walnut"
+    },
+    "type": {
+      "mk": "Ѕидни Профили",
+      "sq": "Profile Muri"
+    },
+
+    "image": "img/wall-profile/lb-2220-lightwalnut.webp",
+    "images": [
+      "img/wall-profile/lb-2220-lightwalnut.webp"
+    ],
+
+    "description": {
+      "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
+      "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
+    }
+  },
+
+  {
+    "sku": "LB-3771",
+    "name": {
+      "mk": "LB-3771 Bianco",
+      "sq": "LB-3771 Bianco"
+    },
+    "type": {
+      "mk": "Ѕидни Профили",
+      "sq": "Profile Muri"
+    },
+
+    "image": "img/wall-profile/lb-3771-bianco.webp",
+    "images": [
+      "img/wall-profile/lb-3771-bianco.webp"
+    ],
+
+    "description": {
+      "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
+      "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
+    }
+  },
+
+  {
+    "sku": "LB-3771 ",
+    "name": {
+      "mk": "LB-3771 Orlando Oak",
+      "sq": "LB-3771 Orlando Oak"
+    },
+    "type": {
+      "mk": "Ѕидни Профили",
+      "sq": "Profile Muri"
+    },
+
+    "image": "img/wall-profile/lb-3771-orlando.webp",
+    "images": [
+      "img/wall-profile/lb-3771-orlando.webp"
+    ],
+
     "description": {
       "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
       "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
     }
   }
-
-
-
-
-
-
-
-
-
-
-
 ]
