@@ -16,7 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const mainImage = document.querySelector('.product-main-image');
     const imageWrapper = document.querySelector('.main-image-wrapper');
     const thumbnails = document.querySelectorAll('.product-thumbnail');
-    
+    const hasMultipleImages = thumbnails.length > 0;
+
     // Add fullscreen button overlay
     addFullscreenButton();
     
@@ -78,11 +79,10 @@ document.addEventListener("DOMContentLoaded", function() {
         // Add click event to open lightbox
         fullscreenBtn.addEventListener('click', function(e) {
             e.stopPropagation(); // Prevent event bubbling to the image wrapper
-            
-            // Find the current index from the active thumbnail
-            const activeThumb = document.querySelector('.product-thumbnail.active');
-            const index = activeThumb ? parseInt(activeThumb.getAttribute('data-index'), 10) : 0;
-            openLightbox(index);
+            // Use the main image source if no thumbnails exist
+            const index = hasMultipleImages ? 
+                (document.querySelector('.product-thumbnail.active')?.getAttribute('data-index') || 0) : 0;
+            openLightbox(parseInt(index, 10));
         });
     }
     
@@ -175,7 +175,7 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             // For touch devices, make buttons more prominent
             zoomToggleBtn.classList.add('touch-device');
-            document.querySelector('.fullscreen-button').classList.add('touch-device');
+            document.querySelector('.fullscreen-button')?.classList.add('touch-device');
         }
         
         // Detect if device is touch-enabled
@@ -198,10 +198,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div class="lightbox-container">
                     <button class="lightbox-close">&times;</button>
                     <img class="lightbox-image" src="" alt="Product Image Full Size">
-                    <div class="lightbox-nav">
-                        <button class="lightbox-prev">&lt;</button>
-                        <button class="lightbox-next">&gt;</button>
-                    </div>
+                    \${hasMultipleImages ? '<div class="lightbox-nav"><button class="lightbox-prev">&lt;</button><button class="lightbox-next">&gt;</button></div>' : ''}
                 </div>
             \`;
             
@@ -363,12 +360,12 @@ document.addEventListener("DOMContentLoaded", function() {
             const prevButton = lightboxElement.querySelector('.lightbox-prev');
             const nextButton = lightboxElement.querySelector('.lightbox-next');
             
+            const images = hasMultipleImages ? Array.from(thumbnails).map(thumb => thumb.getAttribute('src')) : [mainImage.getAttribute('src')];
             let currentIndex = 0;
-            const images = Array.from(thumbnails).map(thumb => thumb.getAttribute('src'));
             
             // Make openLightbox function available globally
             window.openLightbox = function(index) {
-                currentIndex = index;
+                currentIndex = index % images.length;
                 lightboxImage.src = images[currentIndex];
                 lightboxElement.style.display = 'block';
                 lightboxElement.classList.add('lightbox-fade-in');
@@ -382,25 +379,31 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.body.style.overflow = ''; // Restore scrolling
             }
             
-            // Function to navigate to previous image
+            // Function to navigate to previous image (only if multiple images)
             function prevImage() {
-                currentIndex = (currentIndex - 1 + images.length) % images.length;
-                lightboxImage.src = images[currentIndex];
+                if (hasMultipleImages) {
+                    currentIndex = (currentIndex - 1 + images.length) % images.length;
+                    lightboxImage.src = images[currentIndex];
+                }
             }
             
-            // Function to navigate to next image
+            // Function to navigate to next image (only if multiple images)
             function nextImage() {
-                currentIndex = (currentIndex + 1) % images.length;
-                lightboxImage.src = images[currentIndex];
+                if (hasMultipleImages) {
+                    currentIndex = (currentIndex + 1) % images.length;
+                    lightboxImage.src = images[currentIndex];
+                }
             }
             
             // Set up event listeners
             closeButton.addEventListener('click', closeLightbox);
             overlay.addEventListener('click', closeLightbox);
-            prevButton.addEventListener('click', prevImage);
-            nextButton.addEventListener('click', nextImage);
+            if (hasMultipleImages && prevButton && nextButton) {
+                prevButton.addEventListener('click', prevImage);
+                nextButton.addEventListener('click', nextImage);
+            }
             
-            // Enable swipe navigation for touch devices
+            // Enable swipe navigation for touch devices (only if multiple images)
             let touchStartX = 0;
             let touchEndX = 0;
             
@@ -414,6 +417,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }, false);
             
             function handleSwipe() {
+                if (!hasMultipleImages) return;
                 if (touchEndX < touchStartX - 50) {
                     // Swipe left - next image
                     nextImage();
@@ -424,12 +428,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
             
-            // Enable keyboard navigation
+            // Enable keyboard navigation (only if multiple images)
             document.addEventListener('keydown', function(e) {
                 if (lightboxElement.style.display === 'block') {
                     if (e.key === 'Escape') closeLightbox();
-                    if (e.key === 'ArrowLeft') prevImage();
-                    if (e.key === 'ArrowRight') nextImage();
+                    if (hasMultipleImages) {
+                        if (e.key === 'ArrowLeft') prevImage();
+                        if (e.key === 'ArrowRight') nextImage();
+                    }
                 }
             });
         }
@@ -496,6 +502,13 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
             overflow: hidden;
             position: relative;
         }
+        .product-description p {
+            margin: 0.5rem 0;
+        }
+        .product-description strong {
+            color: #333;
+            margin-right: 0.5rem;
+        }
     </style>
     <script>
   // This script runs immediately before any content is rendered
@@ -537,7 +550,7 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
                     <option value="mk" selected>МК</option>
                     <option value="sq">SQ</option>
                 </select>
-                <a href="../contact.html" class="btn btn-search">Побарај Понуда</a>
+                <a href="../contact.html" class="btn btn-search">Побарай Понуда</a>
             </div>
         </div>
     </div>
@@ -553,64 +566,64 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
             </ol>
         </nav>
 
-        <!-- Update this portion in your generate.js file where the product HTML is built -->
-
-<div class="product-page">
-    <div class="product-container">
-        <!-- Product Images Section -->
-        <div class="product-images-section">
-            <div class="product-images-container">
-                <div class="main-image-wrapper">
-                    <img src="../${product.images[0]}" class="product-main-image" 
-                         alt="${product.name.mk}" loading="lazy" onerror="this.src='../img/placeholder.jpg'">
+        <div class="product-page">
+            <div class="product-container">
+                <!-- Product Images Section -->
+                <div class="product-images-section">
+                    <div class="product-images-container">
+                        <div class="main-image-wrapper">
+                            <img src="../${product.image}" class="product-main-image" 
+                                 alt="${product.name.mk}" loading="lazy" onerror="this.src='../img/placeholder.jpg'">
+                        </div>
+                        ${product.images && product.images.length > 1 ? `
+                        <div class="product-thumbnails mt-3">
+                            ${product.images.map((image, index) => `
+                                <img src="../${image}" class="product-thumbnail ${index === 0 ? 'active' : ''}" 
+                                     alt="${product.name.mk} - Image ${index + 1}" data-index="${index}" loading="lazy" 
+                                     onerror="this.src='../img/placeholder.jpg'">
+                            `).join('')}
+                        </div>` : ''}
+                    </div>
                 </div>
-                ${product.images.length > 1 ? `
-                <div class="product-thumbnails mt-3">
-                    ${product.images.map((image, index) => `
-                        <img src="../${image}" class="product-thumbnail ${index === 0 ? 'active' : ''}" 
-                             alt="${product.name.mk} - Image ${index + 1}" data-index="${index}" loading="lazy" 
-                             onerror="this.src='../img/placeholder.jpg'">
-                    `).join('')}
-                </div>` : ''}
+                
+                <!-- Product Details -->
+                <div class="product-details">
+                    <div class="product-details-header">
+                        <h1 class="product-title">${product.name.mk}</h1>
+                        <div class="product-sku">SKU: ${product.sku}</div>
+                        
+                        <div class="product-attributes mt-3">
+                            <span class="category-badge">
+                                <i class="bi bi-tag-fill me-2" style="font-size: 0.8rem;"></i>${product.type.mk}
+                            </span>
+                            ${product.thickness ? `
+                            <span class="category-badge">
+                                <i class="bi bi-rulers me-2" style="font-size: 0.8rem;"></i>Дебелина: ${product.thickness.mk}
+                            </span>` : ''}
+                            ${product.collection ? `
+                            <span class="category-badge">
+                                <i class="bi bi-collection-fill me-2" style="font-size: 0.8rem;"></i>Колекција: ${product.collection.mk}
+                            </span>` : ''}
+                        </div>
+                        
+                        <div class="product-description mt-4">
+                            ${product.dimensions ? `<p><strong>Димензии:</strong> ${product.dimensions.mk}</p>` : ''}
+                            ${product.package ? `<p><strong>Пакет:</strong> ${product.package.mk}</p>` : ''}
+                            ${product.surface_resistance ? `<p><strong>Отпорност на површина:</strong> ${product.surface_resistance.mk}</p>` : ''}
+                        </div>
+                        
+                        <div class="product-actions mt-4">
+                            <a href="../products.html" class="btn-back">
+                                <i class="bi bi-arrow-left me-2"></i>Назад
+                            </a>
+                            <a href="../contact.html" class="btn-primary">
+                                <i class="bi bi-envelope me-2"></i>Побарай Инфо
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        
-        <!-- Product Details -->
-        <div class="product-details">
-            <div class="product-details-header">
-                <h1 class="product-title">${product.name.mk}</h1>
-                <div class="product-sku">SKU: ${product.sku}</div>
-                
-                <div class="product-attributes mt-3">
-                    <span class="category-badge">
-                        <i class="bi bi-tag-fill me-2" style="font-size: 0.8rem;"></i>${product.type.mk}
-                    </span>
-                    ${product.thickness ? `
-                    <span class="category-badge">
-                        <i class="bi bi-rulers me-2" style="font-size: 0.8rem;"></i>Дебелина: ${product.thickness.mk}
-                    </span>` : ''}
-                    ${product.collection ? `
-                    <span class="category-badge">
-                        <i class="bi bi-collection-fill me-2" style="font-size: 0.8rem;"></i>Колекција: ${product.collection.mk}
-                    </span>` : ''}
-                </div>
-                
-                <div class="product-description mt-4">
-                    ${product.description.mk}
-                </div>
-                
-                <div class="product-actions mt-4">
-                    <a href="../products.html" class="btn-back">
-                        <i class="bi bi-arrow-left me-2"></i>Назад
-                    </a>
-                    <a href="../contact.html" class="btn-primary">
-                        <i class="bi bi-envelope me-2"></i>Побарај Инфо
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -711,7 +724,11 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
                     document.title = \`\${productData.name[lang]} - Prima Concept\`;
                     document.querySelector('.product-title').textContent = productData.name[lang];
                     document.querySelector('.product-sku').textContent = 'SKU: ' + productData.sku;
-                    document.querySelector('.product-description').innerHTML = productData.description[lang];
+                    document.querySelector('.product-description').innerHTML = \`
+                        \${productData.dimensions ? \`<p><strong>\${translations[lang].product_page.dimensions || 'Димензии'}:</strong> \${productData.dimensions[lang]}</p>\` : ''}
+                        \${productData.package ? \`<p><strong>\${translations[lang].product_page.package || 'Пакет'}:</strong> \${productData.package[lang]}</p>\` : ''}
+                        \${productData.surface_resistance ? \`<p><strong>\${translations[lang].product_page.surface_resistance || 'Отпорност на површина'}:</strong> \${productData.surface_resistance[lang]}</p>\` : ''}
+                    \`;
                     document.querySelectorAll('.category-badge')[0].textContent = productData.type[lang];
                     if (productData.thickness) {
                         document.querySelectorAll('.category-badge')[1].textContent = \`\${translations[lang].product_page.thickness}: \${productData.thickness[lang]}\`;
@@ -780,7 +797,7 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
                 <ul class="footer-contact-list">
                     <li>
                         <i class="bi bi-geo-alt-fill"></i>
-                        <span data-translate="footer.locations.tetovo_address">Тетово, Address</span>
+                        <span data-translate="footer.locations.tetovo_address">Тетово, Uni Decor Ilindenska 180</span>
                     </li>
                     <li>
                         <i class="bi bi-telephone-fill"></i>
@@ -799,7 +816,7 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
                 <ul class="footer-contact-list">
                     <li>
                         <i class="bi bi-geo-alt-fill"></i>
-                        <span data-translate="footer.locations.opaje_address">Opaje, Address</span>
+                        <span data-translate="footer.locations.opaje_address">Opaje</span>
                     </li>
                     <li>
                         <i class="bi bi-telephone-fill"></i>
@@ -831,7 +848,7 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
         <!-- Copyright -->
         <div class="footer-copyright text-center">
             <p>&copy; 2025 Prima Concept. All Rights Reserved.</p>
-            <p>Developed by <span id="developer"><a href="mailto:javamamuti23@gmail.com"><b>Xhavid Mamuti</b></a></span></p>
+            <p>Developed by <span id="developer"><a href="https://java1300.github.io/Landing-Page/" target="_blank"><b>Xhavid Mamuti</b></a></span></p>
         </div>
     </div>
 </footer>
