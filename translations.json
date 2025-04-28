@@ -38,6 +38,9 @@
       }
     },
     "product_page": {
+      "dimensions": "Димензии",
+      "package": "Пакет",
+      "surface_resistance": "Отпорност на површина",
       "back": "Назад",
       "request_info": "Побарај Инфо",
       "sku": "SKU",
@@ -63,7 +66,7 @@
     "contact": {
       "title": "Контакт",
       "subtitle": "Контактирајте нè за повеќe информации или побарајте понуда.",
-      "working_hours": "Пон-Пет: 9:00-17:00, Саб: 10:00-14:00",
+      "working_hours": "Пон-Пет: 9:00-17:30, Саб: 9:00-14:00",
       "form_title": "Испратете Ни Порака",
       "form_name": "Име",
       "form_email": "Е-пошта",
@@ -86,6 +89,8 @@
         "title": "Следете Нè"
       }
     }
+
+
   },
   "sq": {
     "navbar": {
@@ -126,6 +131,9 @@
       }
     },
     "product_page": {
+      "dimensions": "Dimensionet",
+      "package": "Paketimi",
+      "surface_resistance": "Rezistenca e Sipërfaqes",
       "back": "Kthehu",
       "request_info": "Kërko Informacion",
       "sku": "SKU",
@@ -151,7 +159,7 @@
     "contact": {
       "title": "Kontakti",
       "subtitle": "Na kontaktoni për më shumë informacion ose kërkoni një ofertë.",
-      "working_hours": "Hën-E Premte: 9:00-17:00, Sht: 10:00-14:00",
+      "working_hours": "E Hënë-E Premte: 9:00-17:30, E Shtunë: 9:00-14:00",
       "form_title": "Na Dërgoni një Mesazh",
       "form_name": "Emri",
       "form_email": "E-posta",
