@@ -881,6 +881,45 @@
   },
 
   {
+    "sku": "nq",
+    "name": {
+      "mk": "NATURA SELECT NIKSAR WALNUT",
+      "sq": "NATURA SELECT NIKSAR WALNUT"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "NATURA SELECT",
+      "sq": "NATURA SELECT"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/natura-select/niksar1.webp",
+    "images": [
+      "img/natura-select/niksar1.webp",
+      "img/natura-select/niksar2.webp"
+    ],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+    }
+  },
+
+  {
     "sku": "PRK505",
     "name": {
       "mk": "NATURA LINE Tuna",
@@ -2504,8 +2543,10 @@
       "mk": "12mm",
       "sq": "12mm"
     },
-    "image": "img/piano/1842-4.webp",
+    "image": "img/piano/1842d.webp",
     "images": [
+
+     "img/piano/1842d.webp",
       "img/piano/1842-4.webp"
     ],
     "package": {
@@ -2542,9 +2583,11 @@
       "mk": "12mm",
       "sq": "12mm"
     },
-    "image": "img/piano/11911.webp",
+    "image": "img/piano/11911p.webp",
     "images": [
-      "img/piano/11911.webp"
+      "img/piano/11911p.webp",
+      "img/piano/11911d.webp"
+
     ],
     "package": {
       "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
@@ -2580,9 +2623,210 @@
       "mk": "12mm",
       "sq": "12mm"
     },
-    "image": "img/piano/11909.webp",
+    "image": "img/piano/11909d.webp",
     "images": [
+      "img/piano/11909d.webp",
       "img/piano/11909.webp"
+
+    ],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+    }
+  },
+
+  {
+    "sku": "80155",
+    "name": {
+      "mk": "PIANO 80155",
+      "sq": "PIANO 80155"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "PIANO",
+      "sq": "PIANO"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/piano/80155p.webp",
+    "images": [
+      "img/piano/80155p.webp",
+      "img/piano/80155d.webp"
+
+    ],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+    }
+  },
+
+  {
+    "sku": "90256",
+    "name": {
+      "mk": "PIANO 90256",
+      "sq": "PIANO 90256"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "PIANO",
+      "sq": "PIANO"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/piano/90256p.webp",
+    "images": [
+      "img/piano/90256p.webp"
+
+    ],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+    }
+  },
+
+  {
+    "sku": "1166",
+    "name": {
+      "mk": "MOZAIK 1166",
+      "sq": "MOZAIK 1166"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "MOZAIK",
+      "sq": "MOZAIK"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/mozaik/mozaik-2-1166.webp",
+    "images": [
+      "img/mozaik/mozaik-2-1166.webp",
+      "img/mozaik/mozaik-1-1166.webp"
+
+    ],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+    }
+  },
+
+  {
+    "sku": "1165",
+    "name": {
+      "mk": "MOZAIK 1165",
+      "sq": "MOZAIK 1165"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "MOZAIK",
+      "sq": "MOZAIK"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/mozaik/mozaik-1-1165.webp",
+    "images": [
+      "img/mozaik/mozaik-1-1165.webp",
+      "img/mozaik/mozaik-2-1165.webp"
+
+    ],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+    }
+  },
+
+  {
+    "sku": "71234",
+    "name": {
+      "mk": "MOZAIK 71234",
+      "sq": "MOZAIK 71234"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "MOZAIK",
+      "sq": "MOZAIK"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/mozaik/mozaik-1-71234.webp",
+    "images": [
+      "img/mozaik/mozaik-1-71234.webp",
+      "img/mozaik/mozaik-2-71234.webp"
+
     ],
     "package": {
       "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
@@ -2773,5 +3017,327 @@
       "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
       "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
     }
+  },
+  {
+    "sku": "100",
+    "name": {
+      "mk": "Лајсне 100",
+      "sq": "Llajsne 100"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/lajsne100.webp",
+    "images": [
+      "img/lajsne/lajsne100.webp"
+    ]
+  },
+
+  {
+    "sku": "650",
+    "name": {
+      "mk": "Лајсне 650",
+      "sq": "Llajsne 650"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/lajsne650.webp",
+    "images": [
+      "img/lajsne/lajsne650.webp"
+    ]
+  },
+
+  {
+    "sku": "600",
+    "name": {
+      "mk": "Лајсне 600",
+      "sq": "Llajsne 600"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/lajsne600.webp",
+    "images": [
+      "img/lajsne/lajsne600.webp"
+    ]
+  },
+
+  {
+    "sku": "910",
+    "name": {
+      "mk": "Лајсне 910",
+      "sq": "Llajsne 910"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/lajsne910.webp",
+    "images": [
+      "img/lajsne/lajsne910.webp"
+    ]
+  },
+
+  {
+    "sku": "150",
+    "name": {
+      "mk": "Лајсне 150",
+      "sq": "Llajsne 150"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/lajsne150.webp",
+    "images": [
+      "img/lajsne/lajsne150.webp"
+    ]
+  },
+
+  {
+    "sku": "175",
+    "name": {
+      "mk": "Лајсне 175",
+      "sq": "Llajsne 175"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/lajsne175.webp",
+    "images": [
+      "img/lajsne/lajsne175.webp"
+    ]
+  },
+
+  {
+    "sku": "antracit",
+    "name": {
+      "mk": "Лајсне Antracit",
+      "sq": "Llajsne Antracit"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/lajsneantracit.webp",
+    "images": [
+      "img/lajsne/lajsneantracit.webp"
+    ]
+  },
+
+  {
+    "sku": "165",
+    "name": {
+      "mk": "Лајсне 165",
+      "sq": "Llajsne 165"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/lajsne165.webp",
+    "images": [
+      "img/lajsne/lajsne165.webp"
+    ]
+  },
+
+  {
+    "sku": "900",
+    "name": {
+      "mk": "Лајсне 900",
+      "sq": "Llajsne 900"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/lajsne900.webp",
+    "images": [
+      "img/lajsne/lajsne900.webp"
+    ]
+  },
+
+  {
+    "sku": "175",
+    "name": {
+      "mk": "Лајсне 175",
+      "sq": "Llajsne 175"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/lajsne175.webp",
+    "images": [
+      "img/lajsne/lajsne175.webp"
+    ]
+  },
+
+  {
+    "sku": "910 ",
+    "name": {
+      "mk": "Лајсне MDF 6cm Quadro",
+      "sq": "Llajsne MDF 6cm Quadro"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/910-lajsne.webp",
+    "images": [
+      "img/lajsne/910-lajsne.webp"
+    ]
+  },
+
+  {
+    "sku": "600 ",
+    "name": {
+      "mk": "Лајсне MDF 6cm Quadro",
+      "sq": "Llajsne MDF 6cm Quadro"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/600-lajsne-mdf-quadro-6cm.webp",
+    "images": [
+      "img/lajsne/600-lajsne-mdf-quadro-6cm.webp"
+    ]
+  },
+
+  {
+    "sku": "175 ",
+    "name": {
+      "mk": "Лајсне MDF 6cm Quadro",
+      "sq": "Llajsne MDF 6cm Quadro"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/175-lajsne-mdf-6cm-quadro.webp",
+    "images": [
+      "img/lajsne/175-lajsne-mdf-6cm-quadro.webp"
+    ]
+  },
+
+  {
+    "sku": "900 ",
+    "name": {
+      "mk": "Лајсне MDF 6cm Quadro",
+      "sq": "Llajsne MDF 6cm Quadro"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/900-lajsne-mdf-quadro.webp",
+    "images": [
+      "img/lajsne/900-lajsne-mdf-quadro.webp"
+    ]
+  },
+
+  {
+    "sku": "100 ",
+    "name": {
+      "mk": "Лајсне MDF 6cm Quadro",
+      "sq": "Llajsne MDF 6cm Quadro"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/100-lajsne-mdf-quadro-6cm.webp",
+    "images": [
+      "img/lajsne/100-lajsne-mdf-quadro-6cm.webp"
+    ]
+  },
+
+  {
+    "sku": "SPR-9028",
+    "name": {
+      "mk": "Лајсне MDF 8cm White",
+      "sq": "Llajsne MDF 8cm White"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/lajsne-mdf-8cm-white.webp",
+    "images": [
+      "img/lajsne/lajsne-mdf-8cm-white.webp"
+    ]
+  },
+
+  {
+    "sku": "SPR-9028 ",
+    "name": {
+      "mk": "Лајсне MDF 8cm Black",
+      "sq": "Llajsne MDF 8cm Black"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/lajsne-mdf-8cm-black.webp",
+    "images": [
+      "img/lajsne/lajsne-mdf-8cm-black.webp"
+    ]
+  },
+
+  {
+    "sku": "PS-05070",
+    "name": {
+      "mk": "Лајсне MDF 10cm White",
+      "sq": "Llajsne MDF 10cm White"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/lajsne-mdf-10cm-white.webp",
+    "images": [
+      "img/lajsne/lajsne-mdf-10cm-white.webp"
+    ]
+  },
+
+  {
+    "sku": "D900",
+    "name": {
+      "mk": "Лајсне MDF 8cm White",
+      "sq": "Llajsne MDF 8cm White"
+    },
+    "type": {
+      "mk": "Лајсни",
+      "sq": "Llajsne"
+    },
+
+    "image": "img/lajsne/lajsne-mdf-8cm-white-d900.webp",
+    "images": [
+      "img/lajsne/lajsne-mdf-8cm-white-d900.webp"
+    ]
   }
 ]
