@@ -607,10 +607,17 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
                         </div>
                         
                         <div class="product-description mt-4">
-                            ${product.dimensions ? `<p><strong>Димензии:</strong> ${product.dimensions.mk}</p>` : ''}
-                            ${product.package ? `<p><strong>Пакет:</strong> ${product.package.mk}</p>` : ''}
-                            ${product.surface_resistance ? `<p><strong>Отпорност на површина:</strong> ${product.surface_resistance.mk}</p>` : ''}
-                        </div>
+    ${product.dimensions ? `<p><strong>Димензии:</strong> ${product.dimensions.mk}</p>` : ''}
+    ${product.package ? `<p><strong>Пакет:</strong> ${product.package.mk}</p>` : ''}
+    ${product.surface_resistance ? `<p><strong>Отпорност на површина:</strong> ${product.surface_resistance.mk}</p>` : ''}
+    ${product.specifications ? `
+    <div class="mt-3">
+        <h4 data-translate="product_page.specifications">\\${translations[lang].product_page.specifications || 'Спецификации'}:</h4>
+        <ul>
+            ${product.specifications.mk.map(spec => `<li>${spec}</li>`).join('')}
+        </ul>
+    </div>` : ''}
+</div>
                         
                         <div class="product-actions mt-4">
                             <a href="../products.html" class="btn-back">
@@ -728,6 +735,14 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
                         \${productData.dimensions ? \`<p><strong>\${translations[lang].product_page.dimensions || 'Димензии'}:</strong> \${productData.dimensions[lang]}</p>\` : ''}
                         \${productData.package ? \`<p><strong>\${translations[lang].product_page.package || 'Пакет'}:</strong> \${productData.package[lang]}</p>\` : ''}
                         \${productData.surface_resistance ? \`<p><strong>\${translations[lang].product_page.surface_resistance || 'Отпорност на површина'}:</strong> \${productData.surface_resistance[lang]}</p>\` : ''}
+                        \${productData.specifications ? \`
+                        <div class="mt-3">
+                        
+                        <h4>\${translations[lang].product_page.specifications || 'Спецификации'}:</h4>
+                        <ul>
+                        \${productData.specifications[lang].map(spec => \`<li>\${spec}</li>\`).join('')}
+                        </ul>
+                    </div>\` : '' }
                     \`;
                     document.querySelectorAll('.category-badge')[0].textContent = productData.type[lang];
                     if (productData.thickness) {
