@@ -45,7 +45,8 @@
       "request_info": "Побарај Инфо",
       "sku": "SKU",
       "thickness": "Дебелина",
-      "collection": "Колекција"
+      "collection": "Колекција",
+      "specifications": "Спецификации"
     },
     "about_us": {
       "title": "За Нас",
@@ -138,7 +139,8 @@
       "request_info": "Kërko Informacion",
       "sku": "SKU",
       "thickness": "Trashësia",
-      "collection": "Koleksioni"
+      "collection": "Koleksioni",
+      "specifications": "Specifikimet"
     },
     "about_us": {
       "title": "Rreth Nesh",
