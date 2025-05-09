@@ -1387,6 +1387,114 @@
     }
   },
 
+  {
+    "sku": "PRK223 ",
+    "name": {
+      "mk": "PRUVA Cenova",
+      "sq": "PRUVA Cenova"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "PRUVA",
+      "sq": "PRUVA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/pruva/cenova1.webp",
+    "images": ["img/pruva/cenova1.webp", "img/pruva/cenova2.jpg"],
+    "package": {
+      "mk": "6 Парчиња / 2,3544 м² / 16,8 кг",
+      "sq": "6 Copë / 2,3544 m² / 16,8 kg"
+    },
+
+    "dimensions": {
+      "mk": "327 mm x 1200 mm",
+      "sq": "327 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+    }
+  },
+
+  {
+    "sku": "PRK223  ",
+    "name": {
+      "mk": "PRUVA Likya",
+      "sq": "PRUVA Likya"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "PRUVA",
+      "sq": "PRUVA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/pruva/likya1.webp",
+    "images": ["img/pruva/likya1.webp", "img/pruva/likya2.jpg"],
+    "package": {
+      "mk": "6 Парчиња / 2,3544 м² / 16,8 кг",
+      "sq": "6 Copë / 2,3544 m² / 16,8 kg"
+    },
+
+    "dimensions": {
+      "mk": "327 mm x 1200 mm",
+      "sq": "327 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+    }
+  },
+
+  {
+    "sku": "PRK223   ",
+    "name": {
+      "mk": "PRUVA Patalya",
+      "sq": "PRUVA Patalya"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "PRUVA",
+      "sq": "PRUVA"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "image": "img/pruva/patalya1.webp",
+    "images": ["img/pruva/patalya1.webp", "img/pruva/patalya2.jpg"],
+    "package": {
+      "mk": "6 Парчиња / 2,3544 м² / 16,8 кг",
+      "sq": "6 Copë / 2,3544 m² / 16,8 kg"
+    },
+
+    "dimensions": {
+      "mk": "327 mm x 1200 mm",
+      "sq": "327 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+    }
+  },
+
 
   {
     "sku": "PRK601",
@@ -2526,6 +2634,45 @@
   },
 
   {
+    "sku": "PRK915 ",
+    "name": {
+      "mk": "MARCO POLO PREMIUM Azor",
+      "sq": "MARCO POLO PREMIUM Azor"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "MARCO POLO PREMIUM",
+      "sq": "MARCO POLO PREMIUM"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/marco-polo-12mm/azor1.jpg",
+    "images": [
+      "img/marco-polo-12mm/azor1.jpg",
+      "img/marco-polo-12mm/azor2.jpg"
+    ],
+    "package": {
+      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
+      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+    },
+
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC4-32: Домашна и канцелариска употреба",
+      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+    }
+  },
+
+  {
     "sku": "1842-4",
     "name": {
       "mk": "PIANO 1842-4",
@@ -3339,5 +3486,250 @@
     "images": [
       "img/lajsne/lajsne-mdf-8cm-white-d900.webp"
     ]
+  },
+
+  {
+    "sku": "F-01",
+    "name": {
+      "mk": "Внатрешна Врата F-01 MADRAN BLACK FUGA",
+      "sq": "Derë e Brendshme F-01 MADRAN BLACK FUGA"
+    },
+    "type": {
+      "mk": "Врати",
+      "sq": "Dyert"
+    },
+    "image": "img/doors/F-01 MADRAN BLACK FUGA.jpg",
+    "images": ["img/doors/F-01 MADRAN BLACK FUGA.jpg", "img/doors/door1.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
+
+    "specifications": {
+      "mk": [
+        "Достапни димензии: 70x200, 80x200 и 90x200",
+        "Каса од полн медијапан 30mm",
+        "Дрвен костур на крило 45mm",
+        "Армирана структура од МДФ 12mm",
+        "Страни од МДФ со дебелина 8mm",
+        "Германска ПВЦ фолија",
+        "Кваки"
+      ],
+      "sq": [
+        "Dimensionet e disponueshme: 70x200, 80x200 dhe 90x200",
+        "Kornizë nga mediuapan i plotë 30mm",
+        "Skelet druri i krahut 45mm",
+        "Strukturë e përforcuar nga MDF 12mm",
+        "Anët nga MDF me trashësi 8mm",
+        "Foli PVC gjermane",
+        "Doreza"
+      ]
+    }
+
+  },
+
+  {
+    "sku": "F-65",
+    "name": {
+      "mk": "Внатрешна Врата F-65 ANTHRACITE",
+      "sq": "Derë e Brendshme F-65 ANTHRACITE"
+    },
+    "type": {
+      "mk": "Врати",
+      "sq": "Dyert"
+    },
+    "image": "img/doors/F-65 ANTHRACITE.jpg",
+    "images": ["img/doors/F-65 ANTHRACITE.jpg", "img/doors/door1.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
+
+    "specifications": {
+      "mk": [
+        "Достапни димензии: 70x200, 80x200 и 90x200",
+        "Каса од полн медијапан 30mm",
+        "Дрвен костур на крило 45mm",
+        "Армирана структура од МДФ 12mm",
+        "Страни од МДФ со дебелина 8mm",
+        "Германска ПВЦ фолија",
+        "Кваки"
+      ],
+      "sq": [
+        "Dimensionet e disponueshme: 70x200, 80x200 dhe 90x200",
+        "Kornizë nga mediuapan i plotë 30mm",
+        "Skelet druri i krahut 45mm",
+        "Strukturë e përforcuar nga MDF 12mm",
+        "Anët nga MDF me trashësi 8mm",
+        "Foli PVC gjermane",
+        "Doreza"
+      ]
+    }
+  },
+
+  {
+    "sku": "F-26",
+    "name": {
+      "mk": "Внатрешна Врата F-26 SOFT WHITE",
+      "sq": "Derë e Brendshme F-26 SOFT WHITE"
+    },
+    "type": {
+      "mk": "Врати",
+      "sq": "Dyert"
+    },
+    "image": "img/doors/F-26 SOFT WHITE.jpg",
+    "images": ["img/doors/F-26 SOFT WHITE.jpg", "img/doors/door1.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
+
+    "specifications": {
+      "mk": [
+        "Достапни димензии: 70x200, 80x200 и 90x200",
+        "Каса од полн медијапан 30mm",
+        "Дрвен костур на крило 45mm",
+        "Армирана структура од МДФ 12mm",
+        "Страни од МДФ со дебелина 8mm",
+        "Германска ПВЦ фолија",
+        "Кваки"
+      ],
+      "sq": [
+        "Dimensionet e disponueshme: 70x200, 80x200 dhe 90x200",
+        "Kornizë nga mediuapan i plotë 30mm",
+        "Skelet druri i krahut 45mm",
+        "Strukturë e përforcuar nga MDF 12mm",
+        "Anët nga MDF me trashësi 8mm",
+        "Foli PVC gjermane",
+        "Doreza"
+      ]
+    }
+  },
+
+  {
+    "sku": "F-04",
+    "name": {
+      "mk": "Внатрешна Врата F-04 AYDOS SIYAH FUGA",
+      "sq": "Derë e Brendshme F-04 AYDOS SIYAH FUGA"
+    },
+    "type": {
+      "mk": "Врати",
+      "sq": "Dyert"
+    },
+    "image": "img/doors/F-04 AYDOS SIYAH FUGA.jpg",
+    "images": ["img/doors/F-04 AYDOS SIYAH FUGA.jpg", "img/doors/door1.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
+
+    "specifications": {
+      "mk": [
+        "Достапни димензии: 70x200, 80x200 и 90x200",
+        "Каса од полн медијапан 30mm",
+        "Дрвен костур на крило 45mm",
+        "Армирана структура од МДФ 12mm",
+        "Страни од МДФ со дебелина 8mm",
+        "Германска ПВЦ фолија",
+        "Кваки"
+      ],
+      "sq": [
+        "Dimensionet e disponueshme: 70x200, 80x200 dhe 90x200",
+        "Kornizë nga mediuapan i plotë 30mm",
+        "Skelet druri i krahut 45mm",
+        "Strukturë e përforcuar nga MDF 12mm",
+        "Anët nga MDF me trashësi 8mm",
+        "Foli PVC gjermane",
+        "Doreza"
+      ]
+    }
+  },
+
+  {
+    "sku": "M-01",
+    "name": {
+        "mk": "Внатрешна Врата M-01 SOFT WHITE",
+      "sq": "Derë e Brendshme M-01 SOFT WHITE"
+    },
+    "type": {
+      "mk": "Врати",
+      "sq": "Dyert"
+    },
+    "image": "img/doors/M-01 SOFT WHITE.jpg",
+    "images": ["img/doors/M-01 SOFT WHITE.jpg", "img/doors/door1.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
+    "specifications": {
+      "mk": [
+        "Достапни димензии: 70x200, 80x200 и 90x200",
+        "Каса од полн медијапан 30mm",
+        "Дрвен костур на крило 45mm",
+        "Армирана структура од МДФ 12mm",
+        "Страни од МДФ со дебелина 8mm",
+        "Германска ПВЦ фолија",
+        "Кваки"
+      ],
+      "sq": [
+        "Dimensionet e disponueshme: 70x200, 80x200 dhe 90x200",
+        "Kornizë nga mediuapan i plotë 30mm",
+        "Skelet druri i krahut 45mm",
+        "Strukturë e përforcuar nga MDF 12mm",
+        "Anët nga MDF me trashësi 8mm",
+        "Foli PVC gjermane",
+        "Doreza"
+      ]
+    }
+  },
+
+  {
+    "sku": "F-66",
+    "name": {
+      "mk": "Внатрешна Врата F-66 GRAY",
+      "sq": "Derë e Brendshme F-66 GRAY"
+    },
+    "type": {
+      "mk": "Врати",
+      "sq": "Dyert"
+    },
+    "image": "img/doors/F-66 GRAY.jpg",
+    "images": ["img/doors/F-66 GRAY.jpg", "img/doors/door1.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
+
+    "specifications": {
+      "mk": [
+        "Достапни димензии: 70x200, 80x200 и 90x200",
+        "Каса од полн медијапан 30mm",
+        "Дрвен костур на крило 45mm",
+        "Армирана структура од МДФ 12mm",
+        "Страни од МДФ со дебелина 8mm",
+        "Германска ПВЦ фолија",
+        "Кваки"
+      ],
+      "sq": [
+        "Dimensionet e disponueshme: 70x200, 80x200 dhe 90x200",
+        "Kornizë nga mediuapan i plotë 30mm",
+        "Skelet druri i krahut 45mm",
+        "Strukturë e përforcuar nga MDF 12mm",
+        "Anët nga MDF me trashësi 8mm",
+        "Foli PVC gjermane",
+        "Doreza"
+      ]
+    }
+  },
+
+  {
+    "sku": "F-12",
+    "name": {
+      "mk": "Внатрешна Врата F-12 ILGAZ BLACK FUGA",
+      "sq": "Derë e Brendshme F-12 ILGAZ BLACK FUGA"
+    },
+    "type": {
+      "mk": "Врати",
+      "sq": "Dyert"
+    },
+    "image": "img/doors/F-12 ILGAZ BLACK FUGA.jpg",
+    "images": ["img/doors/F-12 ILGAZ BLACK FUGA.jpg", "img/doors/door1.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
+
+    "specifications": {
+      "mk": [
+        "Достапни димензии: 70x200, 80x200 и 90x200",
+        "Каса од полн медијапан 30mm",
+        "Дрвен костур на крило 45mm",
+        "Армирана структура од МДФ 12mm",
+        "Страни од МДФ со дебелина 8mm",
+        "Германска ПВЦ фолија",
+        "Кваки"
+      ],
+      "sq": [
+        "Dimensionet e disponueshme: 70x200, 80x200 dhe 90x200",
+        "Kornizë nga mediuapan i plotë 30mm",
+        "Skelet druri i krahut 45mm",
+        "Strukturë e përforcuar nga MDF 12mm",
+        "Anët nga MDF me trashësi 8mm",
+        "Foli PVC gjermane",
+        "Doreza"
+      ]
+    }
   }
 ]
