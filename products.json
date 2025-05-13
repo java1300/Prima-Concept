@@ -3069,17 +3069,10 @@
       "sq": "SPC 1266"
     },
     "type": {
-      "mk": "Ламинати",
-      "sq": "Laminatet"
+      "mk": "Винил подови",
+      "sq": "Dysheme Vinyli"
     },
-    "collection": {
-      "mk": "Винил SPC",
-      "sq": "Vinyl SPC"
-    },
-    "thickness": {
-      "mk": "12mm",
-      "sq": "12mm"
-    },
+
     "image": "img/spc/1266-1.jpg",
     "images": [
       "img/spc/1266-1.jpg",
@@ -3092,13 +3085,13 @@
     },
 
     "dimensions": {
-      "mk": "1220 mm x 180 x 0,3 mm",
-      "sq": "1220 mm x 180 x 0,3 mm"
+      "mk": "1220 mm x 180 x 5mm / 0,3 mm",
+      "sq": "1220 mm x 180 x 5mm / 0,3 mm"
     },
 
     "surface_resistance": {
-      "mk": "AC5-32, 100% waterproof",
-      "sq": "AC5-32, 100% waterproof"
+      "mk": "AC5-33, 100% waterproof",
+      "sq": "AC5-33, 100% waterproof"
     }
   },
 
@@ -3109,16 +3102,8 @@
       "sq": "SPC 1242"
     },
     "type": {
-      "mk": "Ламинати",
-      "sq": "Laminatet"
-    },
-    "collection": {
-      "mk": "Винил SPC",
-      "sq": "Vinyl SPC"
-    },
-    "thickness": {
-      "mk": "12mm",
-      "sq": "12mm"
+      "mk": "Винил подови",
+      "sq": "Dysheme Vinyli"
     },
     "image": "img/spc/1242-1.jpg",
     "images": [
@@ -3132,13 +3117,13 @@
     },
 
     "dimensions": {
-      "mk": "1220 mm x 180 x 0,3 mm",
-      "sq": "1220 mm x 180 x 0,3 mm"
+      "mk": "1220 mm x 180 x 5mm / 0,3 mm",
+      "sq": "1220 mm x 180 x 5mm / 0,3 mm"
     },
 
     "surface_resistance": {
-      "mk": "AC5-32, 100% waterproof",
-      "sq": "AC5-32, 100% waterproof"
+      "mk": "AC5-33, 100% waterproof",
+      "sq": "AC5-33, 100% waterproof"
     }
   },
 
@@ -3149,17 +3134,10 @@
       "sq": "SPC 1256"
     },
     "type": {
-      "mk": "Ламинати",
-      "sq": "Laminatet"
+      "mk": "Винил подови",
+      "sq": "Dysheme Vinyli"
     },
-    "collection": {
-      "mk": "Винил SPC",
-      "sq": "Vinyl SPC"
-    },
-    "thickness": {
-      "mk": "12mm",
-      "sq": "12mm"
-    },
+
     "image": "img/spc/1256-1.jpg",
     "images": [
       "img/spc/1256-1.jpg",
@@ -3172,13 +3150,13 @@
     },
 
     "dimensions": {
-      "mk": "1220 mm x 180 x 0,3 mm",
-      "sq": "1220 mm x 180 x 0,3 mm"
+      "mk": "1220 mm x 180 x 5mm / 0,3 mm",
+      "sq": "1220 mm x 180 x 5mm / 0,3 mm"
     },
 
     "surface_resistance": {
-      "mk": "AC5-32, 100% waterproof",
-      "sq": "AC5-32, 100% waterproof"
+      "mk": "AC5-33, 100% waterproof",
+      "sq": "AC5-33, 100% waterproof"
     }
   },
 
@@ -3189,17 +3167,10 @@
       "sq": "SPC 1260"
     },
     "type": {
-      "mk": "Ламинати",
-      "sq": "Laminatet"
+      "mk": "Винил подови",
+      "sq": "Dysheme Vinyli"
     },
-    "collection": {
-      "mk": "Винил SPC",
-      "sq": "Vinyl SPC"
-    },
-    "thickness": {
-      "mk": "12mm",
-      "sq": "12mm"
-    },
+
     "image": "img/spc/1260-1.jpg",
     "images": [
       "img/spc/1260-1.jpg",
@@ -3212,13 +3183,13 @@
     },
 
     "dimensions": {
-      "mk": "1220 mm x 180 x 0,3 mm",
-      "sq": "1220 mm x 180 x 0,3 mm"
+      "mk": "1220 mm x 180 x 5mm / 0,3 mm",
+      "sq": "1220 mm x 180 x 5mm / 0,3 mm"
     },
 
     "surface_resistance": {
-      "mk": "AC5-32, 100% waterproof",
-      "sq": "AC5-32, 100% waterproof"
+      "mk": "AC5-33, 100% waterproof",
+      "sq": "AC5-33, 100% waterproof"
     }
   },
 
