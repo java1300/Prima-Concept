@@ -110,17 +110,17 @@
         <div class="col-md-6 contact-form-card">
             <h3 class="mb-4 contact-form-title" data-translate="contact.form_title">Испратете Ни Порака</h3>
             <form id="contactForm" action="https://formspree.io/f/mdkgpdjj" method="POST">
-                <div class="mb-3 form-group">
+                <div class="mb-3 form-group form-floating">
+                    <input type="text" class="form-control contact-input" id="name" name="name" placeholder="Име" required>
                     <label for="name" class="form-label" data-translate="contact.form_name">Име</label>
-                    <input type="text" class="form-control contact-input" id="name" name="name" required>
                 </div>
-                <div class="mb-3 form-group">
+                <div class="mb-3 form-group form-floating">
+                    <input type="email" class="form-control contact-input" id="email" name="email" placeholder="Е-пошта" required>
                     <label for="email" class="form-label" data-translate="contact.form_email">Е-пошта</label>
-                    <input type="email" class="form-control contact-input" id="email" name="email" required>
                 </div>
-                <div class="mb-3 form-group">
+                <div class="mb-3 form-group form-floating">
+                    <textarea class="form-control contact-textarea" id="message" name="message" rows="5" placeholder="Порака" required></textarea>
                     <label for="message" class="form-label" data-translate="contact.form_message">Порака</label>
-                    <textarea class="form-control contact-textarea" id="message" name="message" rows="5" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary contact-submit animated-btn" data-translate="contact.form_submit">Испрати</button>
             </form>
