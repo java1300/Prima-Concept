@@ -1,12 +1,12 @@
 // generate.js
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
 // Create products directory if it doesn't exist
-const productsDir = path.join(__dirname, 'products');
+const productsDir = path.join(__dirname, "products");
 if (!fs.existsSync(productsDir)) {
-    fs.mkdirSync(productsDir);
-    console.log('Created products directory');
+  fs.mkdirSync(productsDir);
+  console.log("Created products directory");
 }
 
 // Define zoom script separately to avoid template literal issues
@@ -465,20 +465,20 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 `;
 
-fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
-    if (err) {
-        console.error('Error reading products.json:', err);
-        return;
-    }
+fs.readFile(path.join(__dirname, "products.json"), "utf8", (err, data) => {
+  if (err) {
+    console.error("Error reading products.json:", err);
+    return;
+  }
 
-    try {
-        const products = JSON.parse(data);
+  try {
+    const products = JSON.parse(data);
 
-        products.forEach(product => {
-            const productId = product.sku.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
-            const productPageFilename = `product-${productId}.html`;
+    products.forEach((product) => {
+      const productId = product.sku.replace(/[^a-zA-Z0-9]/g, "-").toLowerCase();
+      const productPageFilename = `product-${productId}.html`;
 
-            const productHTML = `
+      const productHTML = `
 <!DOCTYPE html>
 <html lang="mk">
 <head>
@@ -561,8 +561,12 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="../index.html">Почетна</a></li>
                 <li class="breadcrumb-item"><a href="../products.html">Производи</a></li>
-                <li class="breadcrumb-item"><a href="../products.html?category=${encodeURIComponent(product.type.mk)}">${product.type.mk}</a></li>
-                <li class="breadcrumb-item active" aria-current="page">${product.name.mk}</li>
+                <li class="breadcrumb-item"><a href="../products.html?category=${encodeURIComponent(
+                  product.type.mk
+                )}">${product.type.mk}</a></li>
+                <li class="breadcrumb-item active" aria-current="page">${
+                  product.name.mk
+                }</li>
             </ol>
         </nav>
 
@@ -572,17 +576,33 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
                 <div class="product-images-section">
                     <div class="product-images-container">
                         <div class="main-image-wrapper">
-                            <img src="../${product.image}" class="product-main-image" 
-                                 alt="${product.name.mk}" loading="lazy" onerror="this.src='../img/placeholder.jpg'">
+                            <img src="../${
+                              product.image
+                            }" class="product-main-image" 
+                                 alt="${
+                                   product.name.mk
+                                 }" loading="lazy" onerror="this.src='../img/placeholder.jpg'">
                         </div>
-                        ${product.images && product.images.length > 1 ? `
+                        ${
+                          product.images && product.images.length > 1
+                            ? `
                         <div class="product-thumbnails mt-3">
-                            ${product.images.map((image, index) => `
-                                <img src="../${image}" class="product-thumbnail ${index === 0 ? 'active' : ''}" 
-                                     alt="${product.name.mk} - Image ${index + 1}" data-index="${index}" loading="lazy" 
+                            ${product.images
+                              .map(
+                                (image, index) => `
+                                <img src="../${image}" class="product-thumbnail ${
+                                  index === 0 ? "active" : ""
+                                }" 
+                                     alt="${product.name.mk} - Image ${
+                                  index + 1
+                                }" data-index="${index}" loading="lazy" 
                                      onerror="this.src='../img/placeholder.jpg'">
-                            `).join('')}
-                        </div>` : ''}
+                            `
+                              )
+                              .join("")}
+                        </div>`
+                            : ""
+                        }
                     </div>
                 </div>
                 
@@ -594,29 +614,57 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
                         
                         <div class="product-attributes mt-3">
                             <span class="category-badge">
-                                <i class="bi bi-tag-fill me-2" style="font-size: 0.8rem;"></i>${product.type.mk}
+                                <i class="bi bi-tag-fill me-2" style="font-size: 0.8rem;"></i>${
+                                  product.type.mk
+                                }
                             </span>
-                            ${product.thickness ? `
+                            ${
+                              product.thickness
+                                ? `
                             <span class="category-badge">
                                 <i class="bi bi-rulers me-2" style="font-size: 0.8rem;"></i>Дебелина: ${product.thickness.mk}
-                            </span>` : ''}
-                            ${product.collection ? `
+                            </span>`
+                                : ""
+                            }
+                            ${
+                              product.collection
+                                ? `
                             <span class="category-badge">
                                 <i class="bi bi-collection-fill me-2" style="font-size: 0.8rem;"></i>Колекција: ${product.collection.mk}
-                            </span>` : ''}
+                            </span>`
+                                : ""
+                            }
                         </div>
                         
                         <div class="product-description mt-4">
-    ${product.dimensions ? `<p><strong>Димензии:</strong> ${product.dimensions.mk}</p>` : ''}
-    ${product.package ? `<p><strong>Пакет:</strong> ${product.package.mk}</p>` : ''}
-    ${product.surface_resistance ? `<p><strong>Отпорност на површина:</strong> ${product.surface_resistance.mk}</p>` : ''}
-    ${product.specifications ? `
+    ${
+      product.dimensions
+        ? `<p><strong>Димензии:</strong> ${product.dimensions.mk}</p>`
+        : ""
+    }
+    ${
+      product.package
+        ? `<p><strong>Пакет:</strong> ${product.package.mk}</p>`
+        : ""
+    }
+    ${
+      product.surface_resistance
+        ? `<p><strong>Отпорност на површина:</strong> ${product.surface_resistance.mk}</p>`
+        : ""
+    }
+    ${
+      product.specifications
+        ? `
     <div class="mt-3">
-        <h4 data-translate="product_page.specifications">\\${translations[lang].product_page.specifications || 'Спецификации'}:</h4>
+        <h4>Спецификации:</h4>
         <ul>
-            ${product.specifications.mk.map(spec => `<li>${spec}</li>`).join('')}
+            ${product.specifications.mk
+              .map((spec) => `<li>${spec}</li>`)
+              .join("")}
         </ul>
-    </div>` : ''}
+    </div>`
+        : ""
+    }
 </div>
                         
                         <div class="product-actions mt-4">
@@ -785,104 +833,108 @@ fs.readFile(path.join(__dirname, 'products.json'), 'utf8', (err, data) => {
     </script>
     <!-- Footer -->
 <footer class="footer py-5">
-    <div class="container">
-        <div class="row">
-            <!-- Kumanovo Column -->
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <h5 class="footer-title" data-translate="footer.locations.kumanovo">Куманово</h5>
-                <ul class="footer-contact-list">
-                    <li>
-                        <i class="bi bi-geo-alt-fill"></i>
-                        <span data-translate="footer.locations.kumanovo_address">Ul, Zheleznichka, Kumanovo 1300</span>
-                    </li>
-                    <li>
-                        <i class="bi bi-telephone-fill"></i>
-                        <a href="tel:+38972206659">+389 72 206 659</a>
-                    </li>
-                    <li>
-                        <i class="bi bi-envelope-fill"></i>
-                        <a href="mailto:info@primaconcept.mk">info@primaconcept.mk</a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Tetovo Column -->
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <h5 class="footer-title" data-translate="footer.locations.tetovo">Тетово</h5>
-                <ul class="footer-contact-list">
-                    <li>
-                        <i class="bi bi-geo-alt-fill"></i>
-                        <span data-translate="footer.locations.tetovo_address">Тетово, Uni Decor Ilindenska 180</span>
-                    </li>
-                    <li>
-                        <i class="bi bi-telephone-fill"></i>
-                        <a href="tel:+38978360252">+389 78 360 252</a>
-                    </li>
-                    <li>
-                        <i class="bi bi-envelope-fill"></i>
-                        <a href="mailto:info@primaconcept.mk">info@primaconcept.mk</a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Opaje Column -->
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <h5 class="footer-title" data-translate="footer.locations.opaje">Opaje</h5>
-                <ul class="footer-contact-list">
-                    <li>
-                        <i class="bi bi-geo-alt-fill"></i>
-                        <span data-translate="footer.locations.opaje_address">Opaje</span>
-                    </li>
-                    <li>
-                        <i class="bi bi-telephone-fill"></i>
-                        <a href="tel:+38970565329">+389 70 565 329</a>
-                    </li>
-                    <li>
-                        <i class="bi bi-envelope-fill"></i>
-                        <a href="mailto:info@primaconcept.mk">info@primaconcept.mk</a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Social Media Column -->
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <h5 class="footer-title" data-translate="footer.follow_us.title">Следете Нè</h5>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/primalaminat?mibextid=LQQJ4d&mibextid=LQQJ4d" target="_blank" class="social-icon">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-                    <a href="https://www.instagram.com/prima_laminate?igsh=MWNscjJuMmN4bThueQ==" target="_blank" class="social-icon">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                </div>
-            </div>
+<div class="container">
+    <div class="row">
+        <!-- Kumanovo Column -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h5 class="footer-title" data-translate="footer.locations.kumanovo">Куманово</h5>
+            <ul class="footer-contact-list">
+                <li>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <span data-translate="footer.locations.kumanovo_address">Ul, Zheleznichka, Kumanovo 1300</span>
+                </li>
+                <li>
+                    <i class="bi bi-telephone-fill"></i>
+                    <a href="tel:+38972206659">+389 72 206 659</a>
+                </li>
+                <li>
+                    <i class="bi bi-envelope-fill"></i>
+                    <a href="mailto:concept.prima@yahoo.com">concept.prima@yahoo.com</a>
+                </li>
+            </ul>
         </div>
 
-        <div class="footer-divider"></div>
+        <!-- Tetovo Column -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h5 class="footer-title" data-translate="footer.locations.tetovo">Тетово</h5>
+            <ul class="footer-contact-list">
+                <li>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <span data-translate="footer.locations.tetovo_address">Тетово, Address</span>
+                </li>
+                <li>
+                    <i class="bi bi-telephone-fill"></i>
+                    <a href="tel:+38978360252">+389 78 360 252</a>
+                </li>
+                <li>
+                    <i class="bi bi-envelope-fill"></i>
+                    <a href="mailto:concept.prima@yahoo.com">concept.prima@yahoo.com</a>
+                </li>
+            </ul>
+        </div>
 
-        <!-- Copyright -->
-        <div class="footer-copyright text-center">
-            <p>&copy; 2025 Prima Concept. All Rights Reserved.</p>
-            <p>Developed by <span id="developer"><a href="https://java1300.github.io/Landing-Page/" target="_blank"><b>Xhavid Mamuti</b></a></span></p>
+        <!-- Opaje Column -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h5 class="footer-title" data-translate="footer.locations.opaje">Opaje</h5>
+            <ul class="footer-contact-list">
+                <li>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <span data-translate="footer.locations.opaje_address">Opaje, Address</span>
+                </li>
+                <li>
+                    <i class="bi bi-telephone-fill"></i>
+                    <a href="tel:+38970565329">+389 70 565 329</a>
+                </li>
+                <li>
+                    <i class="bi bi-envelope-fill"></i>
+                    <a href="mailto:concept.prima@yahoo.com">concept.prima@yahoo.com</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Social Media Column -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h5 class="footer-title" data-translate="footer.follow_us.title">Следете Нè</h5>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/primalaminat?mibextid=LQQJ4d&mibextid=LQQJ4d" target="_blank" class="social-icon">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/prima_laminate?igsh=MWNscjJuMmN4bThueQ==" target="_blank" class="social-icon">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
         </div>
     </div>
+
+    <div class="footer-divider"></div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center">
+        <p>&copy; 2025 Prima Concept. All Rights Reserved.</p>
+        <p>Developed by <span id="developer"><a href="https://java1300.github.io/Landing-Page/" target="_blank"><b>Xhavid Mamuti</b></a></span></p>
+    </div>
+</div>
 </footer>
 </body>
 </html>
             `;
 
-            // Write the HTML file to the products folder
-            fs.writeFile(path.join(productsDir, productPageFilename), productHTML, (err) => {
-                if (err) {
-                    console.error(`Error writing ${productPageFilename}:`, err);
-                } else {
-                    console.log(`Created products/${productPageFilename}`);
-                }
-            });
-        });
-    } catch (error) {
-        console.error('Error parsing products.json:', error);
-    }
+      // Write the HTML file to the products folder
+      fs.writeFile(
+        path.join(productsDir, productPageFilename),
+        productHTML,
+        (err) => {
+          if (err) {
+            console.error(`Error writing ${productPageFilename}:`, err);
+          } else {
+            console.log(`Created products/${productPageFilename}`);
+          }
+        }
+      );
+    });
+  } catch (error) {
+    console.error("Error parsing products.json:", error);
+  }
 });
 
-console.log('Starting product page generation...');
+console.log("Starting product page generation...");
