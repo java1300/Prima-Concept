@@ -20,8 +20,13 @@
         "button": "Види ги сите производи"
       },
       "slide3": {
-        "title": "МОДЕРНИ ЛАЈСНИ",
+        "title": "МОДЕРНИ ВРАТИ",
         "subtitle": "Детал што прави разлика",
+        "button": "Види ги сите производи"
+      },
+      "slide4": {
+        "title": "МОДЕРНИ ЅИДНИ ПРОФИЛИ",
+        "subtitle": "Стил што го оживува вашиот дом",
         "button": "Види ги сите производи"
       }
     },
@@ -50,7 +55,7 @@
     },
     "about_us": {
       "title": "За Нас",
-      "description": "Prima Concept е лидер во обезбедувањето на висококвалитетни подни облоги, вклучувајќи ламинати, винил подови и модерни теписи. Со страст за иновации и посветеност на задоволството на клиентите, ние нудиме решенија кои комбинираат стил, издржливост и достапност.",
+      "description": "Prima Concept е лидер во обезбедувањето на висококвалитетни подни облоги, вклучувајќи ламинати, винил подови, исто така внатрешни врати, ѕидни профили и други алтернативи за внатрешен дизајн. Компанијата е основена у 2014 година, која има за цел светски трендови за внатрешен дизајн да ги донесе во Македонија. Компанијата работи на големо и на малу со лагерски производи.",
       "button": "Дознај Повеќе"
     },
     "featured_products": {
@@ -62,6 +67,7 @@
       "laminate": "Ламинати",
       "wall_profile": "Ѕидни Профили",
       "lajsni": "Лајсни",
+      "doors": "Врати",
       "to_category": "Кон Категорија"
     },
     "contact": {
@@ -114,8 +120,13 @@
         "button": "Shiko të gjitha produktet"
       },
       "slide3": {
-        "title": "LLAJSNE MODERNE",
+        "title": "DYER MODERNE",
         "subtitle": "Detaj që bën diferencën",
+        "button": "Shiko të gjitha produktet"
+      },
+      "slide4": {
+        "title": "PROFILE MODERNE MURALE",
+        "subtitle": "Stil që gjallëron hapësirën tuaj",
         "button": "Shiko të gjitha produktet"
       }
     },
@@ -144,7 +155,7 @@
     },
     "about_us": {
       "title": "Rreth Nesh",
-      "description": "Prima Concept është lider në ofrimin e dyshemeve me cilësi të lartë, duke përfshirë laminatet, dyshemetë vinil dhe qilimat modernë. Me pasion për inovacion dhe përkushtim ndaj kënaqësisë së klientëve, ne ofrojmë zgjidhje që kombinojnë stilin, qëndrueshmërinë dhe përballueshmërinë.",
+      "description": "Prima Concept është lider në ofrimin e veshjeve të dyshemesë me cilësi të lartë, duke përfshirë laminatet, dyshemetë vinil, si dhe dyert e brendshme, profilet e murit dhe alternativa të tjera për dizajnin e brendshëm. Kompania është themeluar në vitin 2014, me qëllim sjelljen e tendencave botërore të dizajnit të brendshëm në Maqedoni. Kompania operon me shitje me shumicë dhe pakicë me produkte të magazinuara.",
       "button": "Mëso Më Shumë"
     },
     "featured_products": {
@@ -156,6 +167,7 @@
       "laminate": "Laminatet",
       "wall_profile": "Profile Muri",
       "lajsni": "Llajsne",
+      "doors": "Dyer",
       "to_category": "Drejt Kategorisë"
     },
     "contact": {
