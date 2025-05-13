@@ -32,6 +32,40 @@
       "sq": "AC3-31: Përdorim shtëpiak"
     }
   },
+
+  {
+    "sku": "PRK801",
+    "name": {
+      "mk": "CORVINA Anita",
+      "sq": "CORVINA Anita"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "thickness": {
+      "mk": "8mm",
+      "sq": "8mm"
+    },
+    "collection": {
+      "mk": "CORVINA",
+      "sq": "CORVINA"
+    },
+    "image": "img/corvina-8mm/anita1.webp",
+    "images": ["img/corvina-8mm/anita1.webp", "img/corvina-8mm/anita2.webp"],
+    "dimensions": {
+      "mk": "191 mm x 1200 mm",
+      "sq": "191 mm x 1200 mm"
+    },
+    "package": {
+      "mk": "10 Парчиња / 2.292 м² / 14.038 кг",
+      "sq": "10 Copë / 2,292 m² / 14,038 kg"
+    },
+    "surface_resistance": {
+      "mk": "AC3-31: Домашна употреба",
+      "sq": "AC3-31: Përdorim shtëpiak"
+    }
+  },
   {
     "sku": "PRK808",
     "name": {
@@ -2021,6 +2055,43 @@
       "sq": "AC5-33: Dhomë gjumi, Korridor, Kuzhinë, Dhomë ndenjeje, Zyrë, Dyqan"
     }
   },
+  {
+    "sku": "5536",
+    "name": {
+      "mk": "KRONO ORIGINAL Rushmore Chestnut",
+      "sq": "KRONO ORIGINAL Rushmore Chestnut"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "KRONO ORIGINAL",
+      "sq": "KRONO ORIGINAL"
+    },
+    "thickness": {
+      "mk": "10mm",
+      "sq": "10mm"
+    },
+    "image": "img/krono-original-10mm/5536-1.jpg",
+    "images": ["img/krono-original-10mm/5536-1.jpg",
+      "img/krono-original-10mm/5536-2.jpg"],
+    "package": {
+      "mk": "7 Парчиња",
+      "sq": "7 Copë"
+    },
+
+    "dimensions": {
+      "mk": "195 mm x 1288 mm",
+      "sq": "195 mm x 1288 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-33: Спална соба, Коридор, Кујна, Дневна соба, Канцеларија, Продавница",
+      "sq": "AC5-33: Dhomë gjumi, Korridor, Kuzhinë, Dhomë ndenjeje, Zyrë, Dyqan"
+    }
+  },
+
 
   {
     "sku": "K413",
@@ -2697,18 +2768,18 @@
       "img/piano/1842-4.webp"
     ],
     "package": {
-      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
-      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+      "mk": "10 Парчиња / 2.0412 м²",
+      "sq": "10 Copë / 2.0412 m²"
     },
 
     "dimensions": {
-      "mk": "191 mm x 1200 mm",
-      "sq": "191 mm x 1200 mm"
+      "mk": "1215 mm x 168 x 12 mm",
+      "sq": "1215 mm x 168 x 12 mm"
     },
 
     "surface_resistance": {
-      "mk": "AC4-32: Домашна и канцелариска употреба",
-      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+      "mk": "AC5-32",
+      "sq": "AC5-32"
     }
   },
 
@@ -2737,18 +2808,18 @@
 
     ],
     "package": {
-      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
-      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+      "mk": "10 Парчиња / 2.0412 м²",
+      "sq": "10 Copë / 2.0412 m²"
     },
 
     "dimensions": {
-      "mk": "191 mm x 1200 mm",
-      "sq": "191 mm x 1200 mm"
+      "mk": "1215 mm x 168 x 12 mm",
+      "sq": "1215 mm x 168 x 12 mm"
     },
 
     "surface_resistance": {
-      "mk": "AC4-32: Домашна и канцелариска употреба",
-      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+      "mk": "AC5-32",
+      "sq": "AC5-32"
     }
   },
 
@@ -2777,18 +2848,18 @@
 
     ],
     "package": {
-      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
-      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+      "mk": "10 Парчиња / 2.0412 м²",
+      "sq": "10 Copë / 2.0412 m²"
     },
 
     "dimensions": {
-      "mk": "191 mm x 1200 mm",
-      "sq": "191 mm x 1200 mm"
+      "mk": "1215 mm x 168 x 12 mm",
+      "sq": "1215 mm x 168 x 12 mm"
     },
 
     "surface_resistance": {
-      "mk": "AC4-32: Домашна и канцелариска употреба",
-      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+      "mk": "AC5-32",
+      "sq": "AC5-32"
     }
   },
 
@@ -2817,18 +2888,18 @@
 
     ],
     "package": {
-      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
-      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+      "mk": "10 Парчиња / 2.0412 м²",
+      "sq": "10 Copë / 2.0412 m²"
     },
 
     "dimensions": {
-      "mk": "191 mm x 1200 mm",
-      "sq": "191 mm x 1200 mm"
+      "mk": "1215 mm x 168 x 12 mm",
+      "sq": "1215 mm x 168 x 12 mm"
     },
 
     "surface_resistance": {
-      "mk": "AC4-32: Домашна и канцелариска употреба",
-      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+      "mk": "AC5-32",
+      "sq": "AC5-32"
     }
   },
 
@@ -2856,18 +2927,18 @@
 
     ],
     "package": {
-      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
-      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+      "mk": "10 Парчиња / 2.0412 м²",
+      "sq": "10 Copë / 2.0412 m²"
     },
 
     "dimensions": {
-      "mk": "191 mm x 1200 mm",
-      "sq": "191 mm x 1200 mm"
+      "mk": "1215 mm x 168 x 12 mm",
+      "sq": "1215 mm x 168 x 12 mm"
     },
 
     "surface_resistance": {
-      "mk": "AC4-32: Домашна и канцелариска употреба",
-      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+      "mk": "AC5-32",
+      "sq": "AC5-32"
     }
   },
 
@@ -2896,18 +2967,18 @@
 
     ],
     "package": {
-      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
-      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+      "mk": "5 Парчиња / 2,4321 м²",
+      "sq": "5 Copë / 2,4321 m²"
     },
 
     "dimensions": {
-      "mk": "191 mm x 1200 mm",
-      "sq": "191 mm x 1200 mm"
+      "mk": "1210 mm x 402 x 12 mm",
+      "sq": "1210 mm x 402 x 12 mm"
     },
 
     "surface_resistance": {
-      "mk": "AC4-32: Домашна и канцелариска употреба",
-      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+      "mk": "AC5-32",
+      "sq": "AC5-32"
     }
   },
 
@@ -2936,18 +3007,18 @@
 
     ],
     "package": {
-      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
-      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+      "mk": "5 Парчиња / 2,4321 м²",
+      "sq": "5 Copë / 2,4321 m²"
     },
 
     "dimensions": {
-      "mk": "191 mm x 1200 mm",
-      "sq": "191 mm x 1200 mm"
+      "mk": "1210 mm x 402 x 12 mm",
+      "sq": "1210 mm x 402 x 12 mm"
     },
 
     "surface_resistance": {
-      "mk": "AC4-32: Домашна и канцелариска употреба",
-      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+      "mk": "AC5-32",
+      "sq": "AC5-32"
     }
   },
 
@@ -2976,18 +3047,178 @@
 
     ],
     "package": {
-      "mk": "8 Парчиња / 1,8336 м² / 13,20 кг",
-      "sq": "8 Copë / 1,8336 m² / 13,20 kg"
+      "mk": "6 Парчиња / 2,2016 м²",
+      "sq": "6 Copë / 2,2016 m²"
     },
 
     "dimensions": {
-      "mk": "191 mm x 1200 mm",
-      "sq": "191 mm x 1200 mm"
+      "mk": "1215 mm x 302 x 12 mm",
+      "sq": "1215 mm x 302 x 12 mm"
     },
 
     "surface_resistance": {
-      "mk": "AC4-32: Домашна и канцелариска употреба",
-      "sq": "AC4-32: Përdorim shtëpiak dhe zyror"
+      "mk": "AC5-32",
+      "sq": "AC5-32"
+    }
+  },
+
+  {
+    "sku": "1266",
+    "name": {
+      "mk": "SPC 1266",
+      "sq": "SPC 1266"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "Винил SPC",
+      "sq": "Vinyl SPC"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/spc/1266-1.jpg",
+    "images": [
+      "img/spc/1266-1.jpg",
+      "img/spc/1266-2.jpg"
+
+    ],
+    "package": {
+      "mk": "10 Парчиња / 2,196 м²",
+      "sq": "10 Copë / 2,196 m²"
+    },
+
+    "dimensions": {
+      "mk": "1220 mm x 180 x 0,3 mm",
+      "sq": "1220 mm x 180 x 0,3 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-32, 100% waterproof",
+      "sq": "AC5-32, 100% waterproof"
+    }
+  },
+
+  {
+    "sku": "1242",
+    "name": {
+      "mk": "SPC 1242",
+      "sq": "SPC 1242"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "Винил SPC",
+      "sq": "Vinyl SPC"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/spc/1242-1.jpg",
+    "images": [
+      "img/spc/1242-1.jpg",
+      "img/spc/1242-2.jpg"
+
+    ],
+    "package": {
+      "mk": "10 Парчиња / 2,196 м²",
+      "sq": "10 Copë / 2,196 m²"
+    },
+
+    "dimensions": {
+      "mk": "1220 mm x 180 x 0,3 mm",
+      "sq": "1220 mm x 180 x 0,3 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-32, 100% waterproof",
+      "sq": "AC5-32, 100% waterproof"
+    }
+  },
+
+  {
+    "sku": "1256",
+    "name": {
+      "mk": "SPC 1256",
+      "sq": "SPC 1256"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "Винил SPC",
+      "sq": "Vinyl SPC"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/spc/1256-1.jpg",
+    "images": [
+      "img/spc/1256-1.jpg",
+      "img/spc/1256-2.jpg"
+
+    ],
+    "package": {
+      "mk": "10 Парчиња / 2,196 м²",
+      "sq": "10 Copë / 2,196 m²"
+    },
+
+    "dimensions": {
+      "mk": "1220 mm x 180 x 0,3 mm",
+      "sq": "1220 mm x 180 x 0,3 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-32, 100% waterproof",
+      "sq": "AC5-32, 100% waterproof"
+    }
+  },
+
+  {
+    "sku": "1260",
+    "name": {
+      "mk": "SPC 1260",
+      "sq": "SPC 1260"
+    },
+    "type": {
+      "mk": "Ламинати",
+      "sq": "Laminatet"
+    },
+    "collection": {
+      "mk": "Винил SPC",
+      "sq": "Vinyl SPC"
+    },
+    "thickness": {
+      "mk": "12mm",
+      "sq": "12mm"
+    },
+    "image": "img/spc/1260-1.jpg",
+    "images": [
+      "img/spc/1260-1.jpg",
+      "img/spc/1260-2.jpg"
+
+    ],
+    "package": {
+      "mk": "10 Парчиња / 2,196 м²",
+      "sq": "10 Copë / 2,196 m²"
+    },
+
+    "dimensions": {
+      "mk": "1220 mm x 180 x 0,3 mm",
+      "sq": "1220 mm x 180 x 0,3 mm"
+    },
+
+    "surface_resistance": {
+      "mk": "AC5-32, 100% waterproof",
+      "sq": "AC5-32, 100% waterproof"
     }
   },
 
@@ -3002,13 +3233,20 @@
       "sq": "Profile Muri"
     },
 
-    "image": "img/wall-profile/lb-2250.webp",
+    "image": "img/wall-profile/lb-2250.jpg",
     "images": [
-      "img/wall-profile/lb-2250.webp"
+      "img/wall-profile/lb-2250.jpg"
     ],
-    "description": {
-      "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
-      "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
+    "specifications": {
+      "mk": [
+        "Димензии: 115 x 2800mm",
+        "Боја: Relax Green"
+
+      ],
+      "sq": [
+        "Dimensionet: 115 x 2800mm",
+        "Ngjyra: Relax Green"
+      ]
     }
   },
 
@@ -3023,14 +3261,21 @@
       "sq": "Profile Muri"
     },
 
-    "image": "img/wall-profile/lb-3371-wenge.webp",
+    "image": "img/wall-profile/lb-3371-wenge.jpg",
     "images": [
-      "img/wall-profile/lb-3371-wenge.webp"
+      "img/wall-profile/lb-3371-wenge.jpg"
     ],
 
-    "description": {
-      "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
-      "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
+    "specifications": {
+      "mk": [
+        "Димензии: 115 x 2800mm",
+        "Боја: Wenge"
+
+      ],
+      "sq": [
+        "Dimensionet: 115 x 2800mm",
+        "Ngjyra: Wenge"
+      ]
     }
   },
 
@@ -3045,14 +3290,21 @@
       "sq": "Profile Muri"
     },
 
-    "image": "img/wall-profile/lb-3371-akraoak.webp",
+    "image": "img/wall-profile/lb-3371-akraoak.jpg",
     "images": [
-      "img/wall-profile/lb-3371-akraoak.webp"
+      "img/wall-profile/lb-3371-akraoak.jpg"
     ],
 
-    "description": {
-      "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
-      "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
+    "specifications": {
+      "mk": [
+        "Димензии: 115 x 2800mm",
+        "Боја: Akra Oak"
+
+      ],
+      "sq": [
+        "Dimensionet: 115 x 2800mm",
+        "Ngjyra: Akra Oak"
+      ]
     }
   },
 
@@ -3067,14 +3319,21 @@
       "sq": "Profile Muri"
     },
 
-    "image": "img/wall-profile/lb-3371-teak.webp",
+    "image": "img/wall-profile/lb-3371-teak.jpg",
     "images": [
-      "img/wall-profile/lb-3371-teak.webp"
+      "img/wall-profile/lb-3371-teak.jpg"
     ],
 
-    "description": {
-      "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
-      "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
+    "specifications": {
+      "mk": [
+        "Димензии: 115 x 2800mm",
+        "Боја: Teak"
+
+      ],
+      "sq": [
+        "Dimensionet: 115 x 2800mm",
+        "Ngjyra: Teak"
+      ]
     }
   },
 
@@ -3089,14 +3348,21 @@
       "sq": "Profile Muri"
     },
 
-    "image": "img/wall-profile/lb-3371-stormgrey.webp",
+    "image": "img/wall-profile/lb-3371-stormgrey.jpg",
     "images": [
-      "img/wall-profile/lb-3371-stormgrey.webp"
+      "img/wall-profile/lb-3371-stormgrey.jpg"
     ],
 
-    "description": {
-      "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
-      "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
+    "specifications": {
+      "mk": [
+        "Димензии: 115 x 2800mm",
+        "Боја: Storm Grey"
+
+      ],
+      "sq": [
+        "Dimensionet: 115 x 2800mm",
+        "Ngjyra: Storm Grey"
+      ]
     }
   },
 
@@ -3111,14 +3377,21 @@
       "sq": "Profile Muri"
     },
 
-    "image": "img/wall-profile/lb-2220-lightwalnut.webp",
+    "image": "img/wall-profile/lb-2220-lightwalnut.jpg",
     "images": [
-      "img/wall-profile/lb-2220-lightwalnut.webp"
+      "img/wall-profile/lb-2220-lightwalnut.jpg"
     ],
 
-    "description": {
-      "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
-      "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
+    "specifications": {
+      "mk": [
+        "Димензии: 115 x 2800mm",
+        "Боја: Light Walnut"
+
+      ],
+      "sq": [
+        "Dimensionet: 115 x 2800mm",
+        "Ngjyra: Light Walnut"
+      ]
     }
   },
 
@@ -3133,14 +3406,21 @@
       "sq": "Profile Muri"
     },
 
-    "image": "img/wall-profile/lb-3771-bianco.webp",
+    "image": "img/wall-profile/lb-3771-bianco.jpg",
     "images": [
-      "img/wall-profile/lb-3771-bianco.webp"
+      "img/wall-profile/lb-3771-bianco.jpg"
     ],
 
-    "description": {
-      "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
-      "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
+    "specifications": {
+      "mk": [
+        "Димензии: 115 x 2800mm",
+        "Боја: Bianco"
+
+      ],
+      "sq": [
+        "Dimensionet: 115 x 2800mm",
+        "Ngjyra: Bianco"
+      ]
     }
   },
 
@@ -3155,14 +3435,21 @@
       "sq": "Profile Muri"
     },
 
-    "image": "img/wall-profile/lb-3771-orlando.webp",
+    "image": "img/wall-profile/lb-3771-orlando.jpg",
     "images": [
-      "img/wall-profile/lb-3771-orlando.webp"
+      "img/wall-profile/lb-3771-orlando.jpg"
     ],
 
-    "description": {
-      "mk": "<p>Комбинирајќи квалитет и естетика, Ѕидниот Профил ЛБ-2250 додава уникатен допир на просторите. Елегантен и издржлив, се прилагодува на сите стилови со богати бои и дизајни, нудејќи иновација и функционалност.</p>",
-      "sq": "<p>Duke kombinuar cilësinë dhe estetikën, Profili i Murit LB-2250 shton prekje unike në hapësira. Elegant dhe i qëndrueshëm, përshtatet me çdo stil me ngjyra dhe dizajne të pasura, duke ofruar inovacion dhe funksionalitet.</p>"
+    "specifications": {
+      "mk": [
+        "Димензии: 115 x 2800mm",
+        "Боја: Orlando Oak"
+
+      ],
+      "sq": [
+        "Dimensionet: 115 x 2800mm",
+        "Ngjyra: Orlando Oak"
+      ]
     }
   },
   {
@@ -3349,7 +3636,12 @@
     "image": "img/lajsne/910-lajsne.webp",
     "images": [
       "img/lajsne/910-lajsne.webp"
-    ]
+    ],
+
+    "dimensions": {
+      "mk": "2800 mm x 60 x 16 mm",
+      "sq": "2800 mm x 60 x 16 mm"
+    }
   },
 
   {
@@ -3366,7 +3658,12 @@
     "image": "img/lajsne/600-lajsne-mdf-quadro-6cm.webp",
     "images": [
       "img/lajsne/600-lajsne-mdf-quadro-6cm.webp"
-    ]
+    ],
+
+    "dimensions": {
+      "mk": "2800 mm x 60 x 16 mm",
+      "sq": "2800 mm x 60 x 16 mm"
+    }
   },
 
   {
@@ -3383,7 +3680,12 @@
     "image": "img/lajsne/175-lajsne-mdf-6cm-quadro.webp",
     "images": [
       "img/lajsne/175-lajsne-mdf-6cm-quadro.webp"
-    ]
+    ],
+
+    "dimensions": {
+      "mk": "2800 mm x 60 x 16 mm",
+      "sq": "2800 mm x 60 x 16 mm"
+    }
   },
 
   {
@@ -3400,7 +3702,12 @@
     "image": "img/lajsne/900-lajsne-mdf-quadro.webp",
     "images": [
       "img/lajsne/900-lajsne-mdf-quadro.webp"
-    ]
+    ],
+
+    "dimensions": {
+      "mk": "2800 mm x 60 x 16 mm",
+      "sq": "2800 mm x 60 x 16 mm"
+    }
   },
 
   {
@@ -3417,7 +3724,12 @@
     "image": "img/lajsne/100-lajsne-mdf-quadro-6cm.webp",
     "images": [
       "img/lajsne/100-lajsne-mdf-quadro-6cm.webp"
-    ]
+    ],
+
+    "dimensions": {
+      "mk": "2800 mm x 60 x 16 mm",
+      "sq": "2800 mm x 60 x 16 mm"
+    }
   },
 
   {
@@ -3434,7 +3746,12 @@
     "image": "img/lajsne/lajsne-mdf-8cm-white.webp",
     "images": [
       "img/lajsne/lajsne-mdf-8cm-white.webp"
-    ]
+    ],
+
+    "dimensions": {
+      "mk": "2800 mm x 80 x 16 mm",
+      "sq": "2800 mm x 80 x 16 mm"
+    }
   },
 
   {
@@ -3468,7 +3785,12 @@
     "image": "img/lajsne/lajsne-mdf-10cm-white.webp",
     "images": [
       "img/lajsne/lajsne-mdf-10cm-white.webp"
-    ]
+    ],
+
+    "dimensions": {
+      "mk": "2800 mm x 100 x 16 mm",
+      "sq": "2800 mm x 100 x 16 mm"
+    }
   },
 
   {
@@ -3485,7 +3807,12 @@
     "image": "img/lajsne/lajsne-mdf-8cm-white-d900.webp",
     "images": [
       "img/lajsne/lajsne-mdf-8cm-white-d900.webp"
-    ]
+    ],
+
+    "dimensions": {
+      "mk": "2800 mm x 80 x 16 mm",
+      "sq": "2800 mm x 80 x 16 mm"
+    }
   },
 
   {
@@ -3499,7 +3826,7 @@
       "sq": "Dyert"
     },
     "image": "img/doors/F-01 MADRAN BLACK FUGA.jpg",
-    "images": ["img/doors/F-01 MADRAN BLACK FUGA.jpg", "img/doors/door1.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
+    "images": ["img/doors/F-01 MADRAN BLACK FUGA.jpg","img/doors/door2.jpg", "img/doors/door3.jpg" ],
 
     "specifications": {
       "mk": [
@@ -3535,7 +3862,7 @@
       "sq": "Dyert"
     },
     "image": "img/doors/F-65 ANTHRACITE.jpg",
-    "images": ["img/doors/F-65 ANTHRACITE.jpg", "img/doors/door1.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
+    "images": ["img/doors/F-65 ANTHRACITE.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
 
     "specifications": {
       "mk": [
@@ -3570,7 +3897,7 @@
       "sq": "Dyert"
     },
     "image": "img/doors/F-26 SOFT WHITE.jpg",
-    "images": ["img/doors/F-26 SOFT WHITE.jpg", "img/doors/door1.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
+    "images": ["img/doors/F-26 SOFT WHITE.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
 
     "specifications": {
       "mk": [
@@ -3605,7 +3932,7 @@
       "sq": "Dyert"
     },
     "image": "img/doors/F-04 AYDOS SIYAH FUGA.jpg",
-    "images": ["img/doors/F-04 AYDOS SIYAH FUGA.jpg", "img/doors/door1.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
+    "images": ["img/doors/F-04 AYDOS SIYAH FUGA.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
 
     "specifications": {
       "mk": [
@@ -3640,7 +3967,7 @@
       "sq": "Dyert"
     },
     "image": "img/doors/M-01 SOFT WHITE.jpg",
-    "images": ["img/doors/M-01 SOFT WHITE.jpg", "img/doors/door1.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
+    "images": ["img/doors/M-01 SOFT WHITE.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
     "specifications": {
       "mk": [
         "Достапни димензии: 70x200, 80x200 и 90x200",
@@ -3674,7 +4001,7 @@
       "sq": "Dyert"
     },
     "image": "img/doors/F-66 GRAY.jpg",
-    "images": ["img/doors/F-66 GRAY.jpg", "img/doors/door1.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
+    "images": ["img/doors/F-66 GRAY.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
 
     "specifications": {
       "mk": [
@@ -3709,7 +4036,7 @@
       "sq": "Dyert"
     },
     "image": "img/doors/F-12 ILGAZ BLACK FUGA.jpg",
-    "images": ["img/doors/F-12 ILGAZ BLACK FUGA.jpg", "img/doors/door1.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
+    "images": ["img/doors/F-12 ILGAZ BLACK FUGA.jpg", "img/doors/door2.jpg", "img/doors/door3.jpg" ],
 
     "specifications": {
       "mk": [
@@ -3729,6 +4056,115 @@
         "Anët nga MDF me trashësi 8mm",
         "Foli PVC gjermane",
         "Doreza"
+      ]
+    }
+  },
+
+  {
+    "sku": "izolacija1",
+    "name": {
+      "mk": "Polystyrene Foam Underlay Panels",
+      "sq": "Polystyrene Foam Underlay Panels"
+    },
+    "type": {
+      "mk": "Изолација",
+      "sq": "Izolim"
+    },
+    "image": "img/iso/5mm-polystyrene-underlay-panels.jpg",
+    "images": ["img/iso/5mm-polystyrene-underlay-panels"],
+
+    "specifications": {
+      "mk": [
+        "Димензии: 80 x 125",
+        "Пакет: 40 m2",
+        "Дебелина: 5mm"
+
+      ],
+      "sq": [
+        "Dimensionet: 80 x 125",
+        "Paketimi: 40 m2",
+        "Trashësia: 5mm"
+      ]
+    }
+  },
+  {
+    "sku": "izolacija2",
+    "name": {
+      "mk": "Polystyrene Foam Underlay Rolls",
+      "sq": "Polystyrene Foam Underlay Rolls"
+    },
+    "type": {
+      "mk": "Изолација",
+      "sq": "Izolim"
+    },
+    "image": "img/iso/2mm-polysterene-foam-underlay-rolls.jpg",
+    "images": ["img/iso/2mm-polysterene-foam-underlay-rolls.jpg"],
+
+    "specifications": {
+      "mk": [
+        "Димензии: 80 x 125",
+        "Пакет: 50 m2",
+        "Дебелина: 2mm"
+
+      ],
+      "sq": [
+        "Dimensionet: 80 x 125",
+        "Paketimi: 50 m2",
+        "Trashësia: 2mm"
+      ]
+    }
+  },
+
+  {
+    "sku": "izolacija4",
+    "name": {
+      "mk": "Изолација за подно греење",
+      "sq": "Izolim për ngrohje dyshemeje"
+    },
+    "type": {
+      "mk": "Изолација",
+      "sq": "Izolim"
+    },
+    "image": "img/iso/podno-greenje-3mm.jpg",
+    "images": ["img/iso/podno-greenje-3mm.jpg"],
+
+    "specifications": {
+      "mk": [
+        "Димензии: 80 x 125",
+        "Пакет: 40 m2",
+        "Дебелина: 2mm"
+
+      ],
+      "sq": [
+        "Dimensionet: 80 x 125",
+        "Paketimi: 40 m2",
+        "Trashësia: 2mm"
+      ]
+    }
+  },
+
+  {
+    "sku": "izolacija3",
+    "name": {
+      "mk": "Метална Изолација за подно греење",
+      "sq": "Izolim Metalik për ngrohje dyshemeje"
+    },
+    "type": {
+      "mk": "Изолација",
+      "sq": "Izolim"
+    },
+    "image": "img/iso/podno-greenje-metalized.jpg",
+    "images": ["img/iso/podno-greenje-metalized.jpg"],
+
+    "specifications": {
+      "mk": [
+        "Димензии: 100 x 50",
+        "Пакет: 40 m2"
+
+      ],
+      "sq": [
+        "Dimensionet: 100 x 50",
+        "Paketimi: 40 m2"
       ]
     }
   }
