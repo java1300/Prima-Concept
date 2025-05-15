@@ -491,6 +491,7 @@ fs.readFile(path.join(__dirname, "products.json"), "utf8", (err, data) => {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link href="../style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <style>
         /* Custom CSS for zoom functionality */
         .product-page .product-main-image {
@@ -532,9 +533,12 @@ fs.readFile(path.join(__dirname, "products.json"), "utf8", (err, data) => {
     
 <nav class="navbar navbar-expand-lg">
     <div class="container">
-        <a class="navbar-brand" href="../index.html">
-            <span class="prima">PRIMA</span><span class="concept">CONCEPT</span>
+        <div class="brand-wrapper">
+          <a class="navbar-brand" href="index.html">
+          <span class="prima">PRIMA</span><span class="concept">CONCEPT</span>
         </a>
+        <span class="since-text">Since 2014.</span>
+      </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -558,17 +562,13 @@ fs.readFile(path.join(__dirname, "products.json"), "utf8", (err, data) => {
 
     <div class="container my-5">
         <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="../index.html">Почетна</a></li>
-                <li class="breadcrumb-item"><a href="../products.html">Производи</a></li>
-                <li class="breadcrumb-item"><a href="../products.html?category=${encodeURIComponent(
-                  product.type.mk
-                )}">${product.type.mk}</a></li>
-                <li class="breadcrumb-item active" aria-current="page">${
-                  product.name.mk
-                }</li>
-            </ol>
-        </nav>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html" data-translate="navbar.home">Почетна</a></li>
+        <li class="breadcrumb-item"><a href="../products.html" data-translate="navbar.products">Производи</a></li>
+        <li class="breadcrumb-item"><a href="../products.html?category=${encodeURIComponent(product.type.mk)}">${product.type.mk}</a></li>
+        <li class="breadcrumb-item active" aria-current="page">${product.name.mk}</li>
+    </ol>
+</nav>
 
         <div class="product-page">
             <div class="product-container">
