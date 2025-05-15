@@ -513,26 +513,32 @@
       .then(products => {
         // Define the SKUs for featured products
         const featuredLaminates = ['PRK801', '8156', 'PRK227'];
-        const featuredWallProfiles = ['LB-2250', 'LB-3371', 'LB-3371-'];
+        const featuredWallProfiles = ['LB2250', 'LB3371', 'LB3371 '];
         const featuredDoors = ['F-01', 'F-65', 'F-12'];
+
+        // Helper function to normalize SKU for file names (convert to lowercase and handle spaces)
+        const normalizeSkuForFileName = (sku) => {
+          return sku.trim().toLowerCase().replace(/\s+/g, '-');
+        };
 
         // Populate Laminates
         const laminateRow = document.getElementById('laminate-row');
         featuredLaminates.forEach(sku => {
           const product = products.find(p => p.sku === sku);
           if (product) {
+            const normalizedSku = normalizeSkuForFileName(sku);
             laminateRow.innerHTML += `
               <div class="col-md-4 mb-4">
                 <div class="product-card">
                   <div class="image-container">
                     <img src="${product.image}" alt="${product.name[lang]}" class="img-fluid">
                     <div class="product-icons">
-                      <a href="products/product-${sku}.html" class="product-icon"><i class="bi bi-eye"></i></a>
+                      <a href="products/product-${normalizedSku}.html" class="product-icon"><i class="bi bi-eye"></i></a>
                       <a href="contact.html" class="product-icon"><i class="bi bi-info-circle"></i></a>
                     </div>
                   </div>
                   <div class="card-body">
-                    <a href="products/product-${sku}.html" class="card-title">${product.name[lang]}</a>
+                    <a href="products/product-${normalizedSku}.html" class="card-title">${product.name[lang]}</a>
                   </div>
                 </div>
               </div>
@@ -547,18 +553,19 @@
         featuredWallProfiles.forEach(sku => {
           const product = products.find(p => p.sku === sku);
           if (product) {
+            const normalizedSku = normalizeSkuForFileName(sku);
             wallProfileRow.innerHTML += `
               <div class="col-md-4 mb-4">
                 <div class="product-card">
                   <div class="image-container">
                     <img src="${product.image}" alt="${product.name[lang]}" class="img-fluid">
                     <div class="product-icons">
-                      <a href="products/product-${sku}.html" class="product-icon"><i class="bi bi-eye"></i></a>
+                      <a href="products/product-${normalizedSku}.html" class="product-icon"><i class="bi bi-eye"></i></a>
                       <a href="contact.html" class="product-icon"><i class="bi bi-info-circle"></i></a>
                     </div>
                   </div>
                   <div class="card-body">
-                    <a href="products/product-${sku}.html" class="card-title">${product.name[lang]}</a>
+                    <a href="products/product-${normalizedSku}.html" class="card-title">${product.name[lang]}</a>
                   </div>
                 </div>
               </div>
@@ -573,18 +580,19 @@
         featuredDoors.forEach(sku => {
           const product = products.find(p => p.sku === sku);
           if (product) {
+            const normalizedSku = normalizeSkuForFileName(sku);
             doorRow.innerHTML += `
               <div class="col-md-4 mb-4">
                 <div class="product-card">
                   <div class="image-container">
                     <img src="${product.image}" alt="${product.name[lang]}" class="img-fluid">
                     <div class="product-icons">
-                      <a href="products/product-${sku}.html" class="product-icon"><i class="bi bi-eye"></i></a>
+                      <a href="products/product-${normalizedSku}.html" class="product-icon"><i class="bi bi-eye"></i></a>
                       <a href="contact.html" class="product-icon"><i class="bi bi-info-circle"></i></a>
                     </div>
                   </div>
                   <div class="card-body">
-                    <a href="products/product-${sku}.html" class="card-title">${product.name[lang]}</a>
+                    <a href="products/product-${normalizedSku}.html" class="card-title">${product.name[lang]}</a>
                   </div>
                 </div>
               </div>
@@ -594,10 +602,12 @@
           }
         });
 
-        
+  
       })
       .catch(error => console.error('Error loading products.json:', error));
   }
+
+  
 
   // Initialize with default language (e.g., Macedonian)
   populateFeaturedProducts('mk');
