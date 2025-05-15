@@ -3063,6 +3063,76 @@
   },
 
   {
+    "sku": "Parket1",
+    "name": {
+      "mk": "Bambus Паркет со сјај",
+      "sq": "Bambus Parket me shkëlqim"
+    },
+    "type": {
+      "mk": "Паркет",
+      "sq": "Parket"
+    },
+    
+    "image": "img/parket/parketnji1.jpg",
+    "images": [
+      "img/parket/parketnji1.jpg",
+      "img/parket/parketnji2.jpg"
+
+    ],
+    
+    "specifications": {
+      "mk": [
+        "Димензии: 1020 x 130 x 15mm",
+        "Пакет: 20 Парчиња / 2.656 м²",
+        "Монтажа: Клик Систем"
+
+      ],
+      "sq": [
+        "Dimensionet: 1020 x 130 x 15mm",
+        "Paketimi: 20 Copë / 2.656 m²",
+        "Montimi: Klik Sistemi"
+      ]
+    }
+
+    
+  },
+
+  {
+    "sku": "Parket2",
+    "name": {
+      "mk": "Bambus Паркет мат",
+      "sq": "Bambus Parket matt"
+    },
+    "type": {
+      "mk": "Паркет",
+      "sq": "Parket"
+    },
+    
+    "image": "img/parket/parketdy1.jpg",
+    "images": [
+      "img/parket/parketdy1.jpg",
+      "img/parket/parketdy2.jpg"
+
+    ],
+    
+    "specifications": {
+      "mk": [
+        "Димензии: 1020 x 130 x 15mm",
+        "Пакет: 20 Парчиња / 2.656 м²",
+        "Монтажа: Клик Систем"
+
+      ],
+      "sq": [
+        "Dimensionet: 1020 x 130 x 15mm",
+        "Paketimi: 20 Copë / 2.656 m²",
+        "Montimi: Klik Sistemi"
+      ]
+    }
+
+    
+  },
+
+  {
     "sku": "1266",
     "name": {
       "mk": "SPC 1266",
@@ -3073,10 +3143,10 @@
       "sq": "Dysheme Vinyli"
     },
 
-    "image": "img/spc/1266-1.JPG",
+    "image": "img/spc/1266-1.jpg",
     "images": [
-      "img/spc/1266-1.JPG",
-      "img/spc/1266-2.JPG"
+      "img/spc/1266-1.jpg",
+      "img/spc/1266-2.jpg"
 
     ],
     "package": {
@@ -3138,10 +3208,10 @@
       "sq": "Dysheme Vinyli"
     },
 
-    "image": "img/spc/1256-1.JPG",
+    "image": "img/spc/1256-1.jpg",
     "images": [
-      "img/spc/1256-1.JPG",
-      "img/spc/1256-2.JPG"
+      "img/spc/1256-1.jpg",
+      "img/spc/1256-2.jpg"
 
     ],
     "package": {
@@ -3171,10 +3241,10 @@
       "sq": "Dysheme Vinyli"
     },
 
-    "image": "img/spc/1260-1.JPG",
+    "image": "img/spc/1260-1.jpg",
     "images": [
-      "img/spc/1260-1.JPG",
-      "img/spc/1260-2.JPG"
+      "img/spc/1260-1.jpg",
+      "img/spc/1260-2.jpg"
 
     ],
     "package": {
@@ -3251,7 +3321,7 @@
   },
 
   {
-    "sku": "LB-3371 ",
+    "sku": "LB-3371-",
     "name": {
       "mk": "LB-3371 AKRA OAK",
       "sq": "LB-3371 AKRA OAK"
@@ -3811,7 +3881,7 @@
       ],
       "sq": [
         "Dimensionet e disponueshme: 70x200, 80x200 dhe 90x200",
-        "Kornizë nga mediuapan i plotë 30mm",
+        "Kornizë nga mediapan i plotë 30mm",
         "Skelet druri i krahut 45mm",
         "Strukturë e përforcuar nga MDF 12mm",
         "Anët nga MDF me trashësi 8mm",
@@ -3847,7 +3917,7 @@
       ],
       "sq": [
         "Dimensionet e disponueshme: 70x200, 80x200 dhe 90x200",
-        "Kornizë nga mediuapan i plotë 30mm",
+        "Kornizë nga mediapan i plotë 30mm",
         "Skelet druri i krahut 45mm",
         "Strukturë e përforcuar nga MDF 12mm",
         "Anët nga MDF me trashësi 8mm",
@@ -3882,7 +3952,7 @@
       ],
       "sq": [
         "Dimensionet e disponueshme: 70x200, 80x200 dhe 90x200",
-        "Kornizë nga mediuapan i plotë 30mm",
+        "Kornizë nga mediapan i plotë 30mm",
         "Skelet druri i krahut 45mm",
         "Strukturë e përforcuar nga MDF 12mm",
         "Anët nga MDF me trashësi 8mm",
@@ -3917,7 +3987,7 @@
       ],
       "sq": [
         "Dimensionet e disponueshme: 70x200, 80x200 dhe 90x200",
-        "Kornizë nga mediuapan i plotë 30mm",
+        "Kornizë nga mediapan i plotë 30mm",
         "Skelet druri i krahut 45mm",
         "Strukturë e përforcuar nga MDF 12mm",
         "Anët nga MDF me trashësi 8mm",
@@ -3951,7 +4021,7 @@
       ],
       "sq": [
         "Dimensionet e disponueshme: 70x200, 80x200 dhe 90x200",
-        "Kornizë nga mediuapan i plotë 30mm",
+        "Kornizë nga mediapan i plotë 30mm",
         "Skelet druri i krahut 45mm",
         "Strukturë e përforcuar nga MDF 12mm",
         "Anët nga MDF me trashësi 8mm",
@@ -3986,7 +4056,7 @@
       ],
       "sq": [
         "Dimensionet e disponueshme: 70x200, 80x200 dhe 90x200",
-        "Kornizë nga mediuapan i plotë 30mm",
+        "Kornizë nga mediapan i plotë 30mm",
         "Skelet druri i krahut 45mm",
         "Strukturë e përforcuar nga MDF 12mm",
         "Anët nga MDF me trashësi 8mm",
@@ -4021,7 +4091,7 @@
       ],
       "sq": [
         "Dimensionet e disponueshme: 70x200, 80x200 dhe 90x200",
-        "Kornizë nga mediuapan i plotë 30mm",
+        "Kornizë nga mediapan i plotë 30mm",
         "Skelet druri i krahut 45mm",
         "Strukturë e përforcuar nga MDF 12mm",
         "Anët nga MDF me trashësi 8mm",
