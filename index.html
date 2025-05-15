@@ -513,7 +513,7 @@
       .then(products => {
         // Define the SKUs for featured products
         const featuredLaminates = ['PRK801', '8156', 'PRK227'];
-        const featuredWallProfiles = ['LB2250', 'LB3371', 'LB3371 '];
+        const featuredWallProfiles = ['LB-2250', 'LB-3371', 'LB3371-'];
         const featuredDoors = ['F-01', 'F-65', 'F-12'];
 
         // Helper function to normalize SKU for file names (convert to lowercase and handle spaces)
@@ -527,6 +527,7 @@
           const product = products.find(p => p.sku === sku);
           if (product) {
             const normalizedSku = normalizeSkuForFileName(sku);
+            console.log(`Product SKU: ${sku}, Normalized SKU: ${normalizedSku}`);
             laminateRow.innerHTML += `
               <div class="col-md-4 mb-4">
                 <div class="product-card">
