@@ -2,6 +2,7 @@
   "mk": {
     "navbar": {
       "brand": "PRIMA CONCEPT",
+      "since_text": "Since 2014.",
       "home": "Почетна",
       "products": "Производи",
       "gallery": "Галерија",
@@ -102,6 +103,7 @@
   "sq": {
     "navbar": {
       "brand": "PRIMA CONCEPT",
+      "since_text": "Since 2014.",
       "home": "Ballina",
       "products": "Produktet",
       "gallery": "Galeria",
@@ -151,7 +153,7 @@
       "sku": "SKU",
       "thickness": "Trashësia",
       "collection": "Koleksioni",
-      "specifications": "Specifikimet"
+      "specifications": "Specifikat"
     },
     "about_us": {
       "title": "Rreth Nesh",
