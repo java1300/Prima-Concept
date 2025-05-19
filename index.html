@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/split-type"></script>
     <link href="style.css" rel="stylesheet" />
+    <link rel="preload" href="img/slide1.jpg" as="image">
     <script>
       // This script runs immediately before any content is rendered
       (function () {
@@ -118,7 +119,7 @@
       </div>
       <div class="carousel-inner">
         <div
-          class="carousel-item active"
+          class="carousel-item active" data-bg="img/slide1.jpg"
           style="background-image: url('img/slide1.jpg')"
         >
           <div class="carousel-caption">
