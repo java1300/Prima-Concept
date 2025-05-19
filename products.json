@@ -3143,10 +3143,10 @@
       "sq": "Dysheme Vinyli"
     },
 
-    "image": "img/spc/1266-1.jpg",
+    "image": "img/spc/1266-1.webp",
     "images": [
-      "img/spc/1266-1.jpg",
-      "img/spc/1266-2.jpg"
+      "img/spc/1266-1.webp",
+      "img/spc/1266-2.webp"
 
     ],
     "package": {
@@ -3175,10 +3175,10 @@
       "mk": "Винил подови",
       "sq": "Dysheme Vinyli"
     },
-    "image": "img/spc/1242-1.jpg",
+    "image": "img/spc/1242-1.webp",
     "images": [
-      "img/spc/1242-1.jpg",
-      "img/spc/1242-2.jpg"
+      "img/spc/1242-1.webp",
+      "img/spc/1242-2.webp"
 
     ],
     "package": {
@@ -3208,10 +3208,10 @@
       "sq": "Dysheme Vinyli"
     },
 
-    "image": "img/spc/1256-1.jpg",
+    "image": "img/spc/1256-1.webp",
     "images": [
-      "img/spc/1256-1.jpg",
-      "img/spc/1256-2.jpg"
+      "img/spc/1256-1.webp",
+      "img/spc/1256-2.webp"
 
     ],
     "package": {
@@ -3241,10 +3241,10 @@
       "sq": "Dysheme Vinyli"
     },
 
-    "image": "img/spc/1260-1.jpg",
+    "image": "img/spc/1260-1.webp",
     "images": [
-      "img/spc/1260-1.jpg",
-      "img/spc/1260-2.jpg"
+      "img/spc/1260-1.webp",
+      "img/spc/1260-2.webp"
 
     ],
     "package": {
@@ -3507,7 +3507,19 @@
     "image": "img/lajsne/lajsne100.webp",
     "images": [
       "img/lajsne/lajsne100.webp"
-    ]
+    ],
+
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 12mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 12mm",
+        "Paketimi: 10 copë / 28m"
+      ]
+    }
   },
 
   {
@@ -3524,7 +3536,19 @@
     "image": "img/lajsne/lajsne650.webp",
     "images": [
       "img/lajsne/lajsne650.webp"
-    ]
+    ],
+
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 12mm",
+        "Пакет: 10 copë / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 12mm",
+        "Paketimi: 10 copë / 28m"
+      ]
+    }
   },
 
   {
@@ -3541,7 +3565,19 @@
     "image": "img/lajsne/lajsne600.webp",
     "images": [
       "img/lajsne/lajsne600.webp"
-    ]
+    ],
+
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 12mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 12mm",
+        "Paketimi: 10 copë / 28m"
+      ]
+    }
   },
 
   {
@@ -3558,7 +3594,19 @@
     "image": "img/lajsne/lajsne910.webp",
     "images": [
       "img/lajsne/lajsne910.webp"
-    ]
+    ],
+
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 12mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 12mm",
+        "Paketimi: 10 copë / 28m"
+      ]
+    }
   },
 
   {
@@ -3575,7 +3623,19 @@
     "image": "img/lajsne/lajsne150.webp",
     "images": [
       "img/lajsne/lajsne150.webp"
-    ]
+    ],
+
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 12mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 12mm",
+        "Paketimi: 10 copë / 28m"
+      ]
+    }
   },
 
   {
@@ -3592,7 +3652,19 @@
     "image": "img/lajsne/lajsne175.webp",
     "images": [
       "img/lajsne/lajsne175.webp"
-    ]
+    ],
+
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 12mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 12mm",
+        "Paketimi: 10 copë / 28m"
+      ]
+    }
   },
 
   {
@@ -3609,7 +3681,19 @@
     "image": "img/lajsne/lajsneantracit.webp",
     "images": [
       "img/lajsne/lajsneantracit.webp"
-    ]
+    ],
+
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 12mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 12mm",
+        "Paketimi: 10 copë / 28m"
+      ]
+    }
   },
 
   {
@@ -3626,7 +3710,19 @@
     "image": "img/lajsne/lajsne165.webp",
     "images": [
       "img/lajsne/lajsne165.webp"
-    ]
+    ],
+
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 12mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 12mm",
+        "Paketimi: 10 copë / 28m"
+      ]
+    }
   },
 
   {
@@ -3643,7 +3739,19 @@
     "image": "img/lajsne/lajsne900.webp",
     "images": [
       "img/lajsne/lajsne900.webp"
-    ]
+    ],
+
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 12mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 12mm",
+        "Paketimi: 10 copë / 28m"
+      ]
+    }
   },
 
   {
@@ -3660,7 +3768,19 @@
     "image": "img/lajsne/lajsne175.webp",
     "images": [
       "img/lajsne/lajsne175.webp"
-    ]
+    ],
+
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 12mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 12mm",
+        "Paketimi: 10 copë / 28m"
+      ]
+    }
   },
 
   {
@@ -3679,9 +3799,16 @@
       "img/lajsne/910-lajsne.webp"
     ],
 
-    "dimensions": {
-      "mk": "2800 mm x 60 x 16 mm",
-      "sq": "2800 mm x 60 x 16 mm"
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 16mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 16mm",
+        "Paketimi: 10 copë / 28m"
+      ]
     }
   },
 
@@ -3701,9 +3828,16 @@
       "img/lajsne/600-lajsne-mdf-quadro-6cm.webp"
     ],
 
-    "dimensions": {
-      "mk": "2800 mm x 60 x 16 mm",
-      "sq": "2800 mm x 60 x 16 mm"
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 16mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 16mm",
+        "Paketimi: 10 copë / 28m"
+      ]
     }
   },
 
@@ -3723,9 +3857,16 @@
       "img/lajsne/175-lajsne-mdf-6cm-quadro.webp"
     ],
 
-    "dimensions": {
-      "mk": "2800 mm x 60 x 16 mm",
-      "sq": "2800 mm x 60 x 16 mm"
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 16mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 16mm",
+        "Paketimi: 10 copë / 28m"
+      ]
     }
   },
 
@@ -3745,9 +3886,16 @@
       "img/lajsne/900-lajsne-mdf-quadro.webp"
     ],
 
-    "dimensions": {
-      "mk": "2800 mm x 60 x 16 mm",
-      "sq": "2800 mm x 60 x 16 mm"
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 16mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 16mm",
+        "Paketimi: 10 copë / 28m"
+      ]
     }
   },
 
@@ -3767,9 +3915,16 @@
       "img/lajsne/100-lajsne-mdf-quadro-6cm.webp"
     ],
 
-    "dimensions": {
-      "mk": "2800 mm x 60 x 16 mm",
-      "sq": "2800 mm x 60 x 16 mm"
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 16mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 16mm",
+        "Paketimi: 10 copë / 28m"
+      ]
     }
   },
 
@@ -3789,9 +3944,16 @@
       "img/lajsne/lajsne-mdf-8cm-white.webp"
     ],
 
-    "dimensions": {
-      "mk": "2800 mm x 80 x 16 mm",
-      "sq": "2800 mm x 80 x 16 mm"
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 16mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 16mm",
+        "Paketimi: 10 copë / 28m"
+      ]
     }
   },
 
@@ -3809,7 +3971,19 @@
     "image": "img/lajsne/lajsne-mdf-8cm-black.webp",
     "images": [
       "img/lajsne/lajsne-mdf-8cm-black.webp"
-    ]
+    ],
+
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 16mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 16mm",
+        "Paketimi: 10 copë / 28m"
+      ]
+    }
   },
 
   {
@@ -3828,9 +4002,16 @@
       "img/lajsne/lajsne-mdf-10cm-white.webp"
     ],
 
-    "dimensions": {
-      "mk": "2800 mm x 100 x 16 mm",
-      "sq": "2800 mm x 100 x 16 mm"
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 16mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 16mm",
+        "Paketimi: 10 copë / 28m"
+      ]
     }
   },
 
@@ -3850,9 +4031,16 @@
       "img/lajsne/lajsne-mdf-8cm-white-d900.webp"
     ],
 
-    "dimensions": {
-      "mk": "2800 mm x 80 x 16 mm",
-      "sq": "2800 mm x 80 x 16 mm"
+    "specifications": {
+      "mk": [
+        "Димензии: 2800 x 60 x 16mm",
+        "Пакет: 10 парчиња / 28m"
+
+      ],
+      "sq": [
+        "Dimensionet: 2800 x 60 x 16mm",
+        "Paketimi: 10 copë / 28m"
+      ]
     }
   },
 
