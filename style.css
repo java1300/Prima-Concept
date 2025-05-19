@@ -548,7 +548,21 @@ h6,
   background-size: cover;
   background-position: center;
   position: relative;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
+
+.carousel-item:not(.active) {
+  opacity: 0.5; /* Smooth fade-in for lazy-loaded images */
+}
+
+.carousel-item.active {
+  opacity: 1;
+}
+
+.carousel-inner {
+  touch-action: pan-y pinch-zoom; /* Prevents vertical scrolling issues */
+}
+
 #homeCarousel .carousel-item::before {
   content: "";
   position: absolute;
@@ -570,6 +584,8 @@ h6,
   z-index: 2;
   left: 50%;
   color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
 }
 #homeCarousel .carousel-caption h1 {
   font-family: "Montserrat", sans-serif;
@@ -2236,7 +2252,7 @@ html {
 }
 
 /* Styling for ellipsis in pagination */
-.page-item.disabled
+.page-item.disabled,
   .page-link:not(.page-item:first-child .page-link):not(
     .page-item:last-child .page-link
   ) {
@@ -2463,7 +2479,7 @@ html {
 .brand-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: flex-center;
+    align-items: center;
     text-align: center;
 }
 
