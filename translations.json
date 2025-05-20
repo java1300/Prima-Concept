@@ -82,7 +82,8 @@
       "form_submit": "Испрати",
       "form_note": "(Оваа форма е во изработка. За итни прашања, ве молиме контактирајте нè директно.)",
       "map_title": "Најдете Нè",
-      "map_note": "Мапата е во изработка. Ве молиме користете ги адресите погоре за да нè лоцирате."
+      "map_note": "Мапата е во изработка. Ве молиме користете ги адресите погоре за да нè лоцирате.",
+      "success_title": "Успешно испратено!"
     },
     "footer": {
       "locations": {
@@ -183,7 +184,9 @@
       "form_submit": "Dërgo",
       "form_note": "(Ky formular është në ndërtim. Për pyetje urgjente, ju lutemi na kontaktoni direkt.)",
       "map_title": "Na Gjeni",
-      "map_note": "Harta është në ndërtim. Ju lutemi përdorni adresat e mësipërme për të na lokalizuar."
+      "map_note": "Harta është në ndërtim. Ju lutemi përdorni adresat e mësipërme për të na lokalizuar.",
+      "success_title": "Mesazhi juaj u dërgua me sukses!"
+      
     },
     "footer": {
       "locations": {
