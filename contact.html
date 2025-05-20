@@ -137,9 +137,69 @@
 <script>
     // Basic form submission handling (placeholder)
     document.getElementById('contactForm').addEventListener('submit', function(e) {
-        e.preventDefault();
-        alert('Формата е во изработка. Ве молиме испратете е-пошта на info@primaconcept.mk.');
+    e.preventDefault();
+    
+    const form = this;
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const originalBtnText = submitBtn.innerHTML;
+    const formData = new FormData(form);
+    
+    // Disable button during submission
+    if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = 'Испраќање...';
+    }
+    
+    // Send to Formspree
+    fetch('https://formspree.io/f/mdkgpdjj', {
+        method: 'POST',
+        body: formData,
+        headers: {
+            'Accept': 'application/json'
+        }
+    })
+    .then(response => {
+        if (response.ok) {
+            return response.json();
+        }
+        throw new Error('Network response was not ok.');
+    })
+    .then(data => {
+    // Success - show custom modal instead of alert
+    form.reset();
+    
+    // Show the success modal with animation
+    const successModal = document.getElementById('successModal');
+    successModal.classList.add('show');
+    
+    // Set up the close button
+    document.getElementById('closeSuccessModal').addEventListener('click', function() {
+        successModal.classList.remove('show');
+        // Give time for the fade out animation before hiding completely
+        setTimeout(() => {
+            successModal.style.display = 'none';
+            if (submitBtn) {
+                    submitBtn.innerHTML = originalBtnText;
+                }
+        }, 300);
     });
+})
+    .catch(error => {
+        // Error - show message
+        alert('Настана грешка при испраќање на пораката. Обидете се повторно.');
+        console.error('Error:', error);
+        if (submitBtn) {
+            submitBtn.innerHTML = originalBtnText;
+        }
+    })
+    .finally(() => {
+        // Re-enable button
+        if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = document.querySelector('[data-translate="contact.form_submit"]').textContent || 'Испрати';
+        }
+    });
+})
 
     // Scroll-triggered animations
     document.addEventListener('DOMContentLoaded', () => {
@@ -240,5 +300,74 @@
         </div>
     </div>
 </footer>
+<div id="successModal" class="success-modal">
+  <div class="success-modal-content">
+    <div class="success-icon">
+      <i class="bi bi-check-circle"></i>
+    </div>
+    <h3 data-translate="contact.success_title">Успешно испратено!</h3>
+    <button id="closeSuccessModal" class="btn btn-primary animated-btn">OK</button>
+  </div>
+</div>
 </body>
 </html>
+
+<style>
+  .success-modal {
+    display: none;
+    position: fixed;
+    z-index: 1050;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .success-modal.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+  }
+  
+  .success-modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+  }
+  
+  .success-modal.show .success-modal-content {
+    transform: translateY(0);
+  }
+  
+  .success-icon {
+    font-size: 48px;
+    color: #28a745;
+    margin-bottom: 15px;
+  }
+  
+  .success-modal h3 {
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .success-modal p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  #closeSuccessModal {
+    min-width: 100px;
+  }
+</style>
